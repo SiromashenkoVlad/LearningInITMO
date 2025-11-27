@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <title>Расписание на субботу</title>
+  <format_version>1.0</format_version>
+  <day>
+    <name>Суббота</name>
+    <weekday>6</weekday>
+    <item>(0, {&apos;time_start&apos;: &apos;8:10&apos;, &apos;time_end&apos;: &apos;9:40&apos;, &apos;weeks&apos;: [6, 7, 10, 11, 12, 13, 14, 15], &apos;group&apos;: &apos;PRLCOMP 1&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
+    <item>(1, {&apos;time_start&apos;: &apos;9:50&apos;, &apos;time_end&apos;: &apos;11:20&apos;, &apos;weeks&apos;: [6, 7, 10, 11, 12, 13, 14, 15], &apos;group&apos;: &apos;PRLCOMP 1&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
+    <item>(2, {&apos;time_start&apos;: &apos;11:30&apos;, &apos;time_end&apos;: &apos;13:00&apos;, &apos;weeks&apos;: [2, 4, 6, 8, 10, 12, 14, 16], &apos;group&apos;: &apos;ИНФОРМ (P3106) 1.1&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
+    <item>(3, {&apos;time_start&apos;: &apos;11:30&apos;, &apos;time_end&apos;: &apos;13:00&apos;, &apos;weeks&apos;: [2, 4, 6, 8, 10, 12, 14, 16], &apos;group&apos;: &apos;ИНФОРМ (P3107) 1.2&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
+    <item>(4, {&apos;time_start&apos;: &apos;13:30&apos;, &apos;time_end&apos;: &apos;15:00&apos;, &apos;weeks&apos;: [2, 4, 6, 8, 10, 12, 14, 16], &apos;group&apos;: &apos;ИНФОРМ (P3106) 1.1&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
+    <item>(5, {&apos;time_start&apos;: &apos;13:30&apos;, &apos;time_end&apos;: &apos;15:00&apos;, &apos;weeks&apos;: [2, 4, 6, 8, 10, 12, 14, 16], &apos;group&apos;: &apos;ИНФОРМ (P3107) 1.2&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
+  </day>
+</root>
