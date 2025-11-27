@@ -1,0 +1,63 @@
+script.sh: строка 2: $'\r': команда не найдена
+script.sh: строка 14: cd: $'bagon0\r': Нет такого файла или каталога
+script.sh: строка 21: cd: $'..\r': Нет такого файла или каталога
+script.sh: строка 31: $'\r': команда не найдена
+script.sh: строка 37: $'cd..\r': команда не найдена
+script.sh: строка 38: $'\r': команда не найдена
+script.sh: строка 39: cd: $'krabby9\r': Нет такого файла или каталога
+script.sh: строка 49: cd: $'..\r': Нет такого файла или каталога
+script.sh: строка 50: $'\r': команда не найдена
+script.sh: строка 51: $'\r': команда не найдена
+: No such file or directory
+: No such file or directory
+: No such file or directory
+: No such file or directory
+: No such file or directory
+: No such file or directory
+: No such file or directory
+: No such file or directory
+: No such file or directory
+: No such file or directory
+script.sh: строка 63: cd: $'bagon0\r': Нет такого файла или каталога
+: No such file or directory
+: No such file or directory
+: No such file or directory
+: No such file or directory
+script.sh: строка 68: cd: $'..\r': Нет такого файла или каталога
+: No such file or directory
+script.sh: строка 70: cd: $'blissey1\r': Нет такого файла или каталога
+script.sh: строка 77: cd: $'..\r': Нет такого файла или каталога
+script.sh: строка 78: cd: $'krabby9\r': Нет такого файла или каталога
+script.sh: строка 84: cd: $'..\r': Нет такого файла или каталога
+script.sh: строка 85: $'\r': команда не найдена
+script.sh: строка 87: cd: $'bagon0\r': Нет такого файла или каталога
+: No such file or directory
+script.sh: строка 89: cd: $'..\r': Нет такого файла или каталога
+cat: bagon0/spinarak.txt: No such file or directory
+cat: blissey1/onix.txt: No such file or directory
+script.sh: строка 91: cd: $'bagon0\r': Нет такого файла или каталога
+: No such file or directory
+script.sh: строка 93: cd: $'..\r': Нет такого файла или каталога
+script.sh: строка 94: $'\r': команда не найдена
+: No such file or directory.txt
+ln: seaking1.txt: No such file or directory
+script.sh: строка 97: $'\r': команда не найдена
+: No such file or directory
+: No such file or directory
+script.sh: строка 100: cd: $'blissey1\r': Нет такого файла или каталога
+: File existsum
+script.sh: строка 102: cd: $'..\r': Нет такого файла или каталога
+cp: aipom5.txt: No such file or directory
+: No such file or directory
+: No such file or directory
+script.sh: строка 106: $'\r': команда не найдена
+script.sh: строка 108: $'\r': команда не найдена
+: No such file or directory
+cp: aipom5.txt: No such file or directory
+: No such file or directory
+script.sh: строка 112: $'\r': команда не найдена
+cp: blissey1: No such file or directory
+script.sh: строка 122: $'\r': команда не найдена
+script.sh: строка 123: $'\r': команда не найдена
+: Недостаточно привилегий
+: Недостаточно привилегий

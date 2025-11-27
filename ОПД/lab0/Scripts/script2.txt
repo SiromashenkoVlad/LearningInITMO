@@ -1,0 +1,32 @@
+chmod u-rw aipom5.txt
+chmod g-r aipom5.txt
+chmod 764 bagon0
+chmod 573 blissey1
+chmod 751 krabby9
+chmod u-rw musharna9.txt
+chmod g+w musharna9.txt
+chmod o-r musharna9.txt
+chmod o+w musharna9.txt
+chmod 400 seaking1.txt
+cd bagon0
+chmod u=,g=rw,o= tympole.txt
+chmod u=rwx,g=rx,o=wx deerling
+chmod u=rw,g=w,o= piplup.txt
+chmod u=,g=r,o=r spinarak.txt
+cd ..
+chmod 573 blissey1
+cd blissey1
+chmod 312 pupitar
+chmod 736 smoochum
+chmod 305 meganium
+chmod 600 onix.txt
+chmod 060 salamence.txt
+chmod 550 chingling
+cd ..
+cd krabby9
+chmod 044 anorith.txt
+chmod 620 magnezone.txt
+chmod 400 tangela.txt
+chmod 044 snorunt.txt
+chmod 664 cubchoo.txt
+cd ..

@@ -1,0 +1,35 @@
+rm musharna9.txt
+
+rm krabby9/magnezone.txt
+
+rm krabby9/snoruntmushar
+#rm: krabby9/snoruntmushar: Нет такого файла или каталога
+
+rm krabby9/tangelaseaki
+#rm: krabby9/tangelaseaki: Нет такого файла или каталога
+
+rmdir blissey1/smoochum
+#rmdir: blissey1/smoochum: Permission denied
+chmod u=rwx blissey1/
+rmdir blissey1/smoochum
+chmod 573 blissey1
+
+rm -r blissey1/
+#override r-xrwx-wx s501991/studs uarch for blissey1/? y
+#override ---rw---- s501991/studs uarch for blissey1/salamence.txt? y
+#rm: blissey1/salamence.txt: Недостаточно привилегий
+#override r-xr-x--- s501991/studs uarch for blissey1/chingling? y
+#rm: blissey1/chingling: Недостаточно привилегий
+#rm: blissey1/meganium: Недостаточно привилегий
+#rm: blissey1/pupitar: Недостаточно привилегий
+#rm: blissey1/smoochum: Недостаточно привилегий
+#rm: blissey1/onix.txt: Недостаточно привилегий
+#rm: blissey1/: Каталог не пуст
+chmod 573 blissey1
+chmod -R u+w blissey1
+#chmod: blissey1/meganium: Permission denied
+#chmod: blissey1/pupitar: Permission denied
+chmod u+r blissey1/meganium/
+chmod -R u+w blissey1/meganium/
+chmod u+r blissey1/pupitar
+rm -r blissey1/

@@ -1,0 +1,58 @@
+total 41
+-------r--  1 s501991 studs  27 25 сент. 09:56 aipom5.txt
+drwxrw-r--  3 s501991 studs   6 25 сент. 10:31 bagon0
+dr-xrwx-wx  6 s501991 studs   8 25 сент. 18:30 blissey1
+lrwxr-xr-x  1 s501991 studs   8 25 сент. 18:22 Copy_8.txt -> blissey1
+drwxr-x--x  2 s501991 studs  10 25 сент. 18:25 krabby9
+-rwxrwxrwx  1 s501991 studs 109 25 сент. 10:09 musharna9.txt
+-rw-r--r--  1 s501991 studs  18 25 сент. 21:03 seaking1
+-rw-r--r--  1 s501991 studs 241 25 сент. 17:57 seaking1_76.txt
+-r--------  2 s501991 studs 129 25 сент. 10:13 seaking1.txt
+drwxr-xr-x  2 s501991 studs   2 25 сент. 20:42 tmp
+
+./bagon0:
+total 2
+drwxr-x-wx  2 s501991 studs  2 25 сент. 10:29 deerling
+-rw--w----  1 s501991 studs 20 25 сент. 10:30 piplup.txt
+----r--r--  1 s501991 studs 28 25 сент. 10:32 spinarak.txt
+----rw----  1 s501991 studs 28 25 сент. 10:21 tympole.txt
+
+./bagon0/deerling:
+total 0
+
+./blissey1:
+total 11
+dr-xr-x---  2 s501991 studs   2 25 сент. 10:34 chingling
+d-wx---r-x  3 s501991 studs   4 25 сент. 18:34 meganium
+-rw-------  1 s501991 studs 213 25 сент. 10:39 onix.txt
+d-wx--x-w-  2 s501991 studs   2 25 сент. 10:33 pupitar
+----rw----  1 s501991 studs 260 25 сент. 10:51 salamence.txt
+drwx-wxrw-  2 s501991 studs   2 25 сент. 10:34 smoochum
+
+./blissey1/chingling:
+total 0
+
+./blissey1/meganium:
+total 0
+ls: ./blissey1/meganium: Недостаточно привилегий
+
+./blissey1/pupitar:
+total 0
+ls: ./blissey1/pupitar: Недостаточно привилегий
+
+./blissey1/smoochum:
+total 0
+
+./krabby9:
+total 12
+----r--r--  1 s501991 studs  27 25 сент. 10:56 anorith.txt
+-rwxr-xr-x  1 s501991 studs  27 25 сент. 18:25 anorithaipom.txt
+-rw-rw-r--  1 s501991 studs  33 25 сент. 11:01 cubchoo.txt
+-rw--w----  1 s501991 studs  27 25 сент. 10:56 magnezone.txt
+----r--r--  1 s501991 studs 123 25 сент. 11:00 snorunt.txt
+lrwxr-xr-x  1 s501991 studs  13 25 сент. 18:12 snoruntmusharna.txt -> musharna9.txt
+-r--------  1 s501991 studs  35 25 сент. 10:57 tangela.txt
+-r--------  2 s501991 studs 129 25 сент. 10:13 tangelaseaking.txt
+
+./tmp:
+total 0

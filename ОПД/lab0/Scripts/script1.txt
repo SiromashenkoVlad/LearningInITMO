@@ -1,0 +1,47 @@
+touch aipom5.txt
+echo "Тип диеты Omnivore" > aipom5.txt
+mkdir blissey1
+touch musharna9.txt
+touch seaking1.txt
+echo "Возможности Overland=5 Surface=3 Sky=7 Jump=3" >> musharna9.txt
+echo "Power3=0 Intelligence=6 Dream Smoke=0" >> musharna9.txt
+echo "Telekinetic=0" >> musharna9.txt
+echo "Способности Supersonic Horn Attack Water" >> seaking1.txt
+echo "Pulse Flail Aqua Ring Fury Attack Waterfall Horn Drill Aqility Soak" >> seaking1.txt
+echo "Megahorn" >> seaking1.txt
+cd bagon0
+echo "Тип диеты" >> tympole.txt
+echo "Herbivore" >> tympole.txt
+mkdir deerling
+echo "satk=6 sdef=6 spd=4" >> piplup.txt
+echo "Тип диеты" >> spinarak.txt
+echo "Carnivore" >> spinarak.txt
+cd ..
+cd blissey1
+mkdir pupitar
+mkdir smoochum
+mkdir meganium
+mkdir chingling
+echo "Способности Bind Harden Mud Sport Tackle Curse Rock" >> onix.txt
+echo "Throw Rage Rock Tomb Stealth Rock Rock Polish Smack Down Dragonbreath" >> onix.txt
+echo "Slam Screen Rock Slide Sand Tomb Iron Tail Dig Stone Edge Double-Edge" >> onix.txt
+echo "Sandstorm" >> onix.txt
+
+echo "Ходы Air Cutter Aqua Tail Body Slam Defense Curl" >> salamence.txt
+echo "Defog Draco Meteor Dragon Pulse Fire Fang Fury Cutter Heat Wave Hyper" >> salamence.txt
+echo "Voice Iron Tail Mud-Slap Ominous Wind Outrage Rollout Roost Sleep Talk" >> salamence.txt
+echo "Snore Steel Wing Swift Tailwood Thunder Fang Twister Zen" >> salamence.txt
+echo "Headbutt" >> salamence.txt
+cd..
+
+cd krabby9
+echo "Тип диеты Omnivore" >> anorith.txt
+echo "Тип диеты" >> magnezone.txt
+echo "Ergovore" >> magnezone.txt
+echo "Тип покемона GRASS NONE" >> tangela.txt
+echo "Способности Leer" >> snorunt.txt
+echo "Powder Snow Double Team Bite Icy Wind Headbutt Protect Ice Fang Crunch" >> snorunt.txt
+echo "Ice Shard Hail Blizzard" >> snorunt.txt
+echo "Тип покемона ICE" >> cubchoo.txt
+echo "NONE" >> cubchoo.txt
+cd ..

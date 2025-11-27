@@ -1,0 +1,35 @@
+cd bagon0
+chmod 777 spinarak.txt
+cd ..
+cat bagon0/spinarak.txt blissey1/onix.txt > seaking1_76.txt
+cd bagon0
+chmod u=,g=r,o=r spinarak.txt
+cd ..
+
+ln -s musharna9.txt krabby9/snoruntmusharna.txt
+ln seaking1.txt krabby9/tangelaseaking.txt
+
+chmod 777 aipom5.txt
+chmod 777 blissey1
+cd blissey1
+mkdir meganium
+cd ..
+cp aipom5.txt blissey1/meganium/
+chmod 573 blissey1
+chmod 004 aipom5.txt
+
+ln -s blissey1 Copy_8.txt
+
+chmod 777 aipom5.txt
+cp aipom5.txt krabby9/anorithaipom.txt
+chmod 004 aipom5.txt
+
+# ? как
+# в последнем blissey1 нет файла salamence.txt
+chmod 777 salamence.txt
+chmod 777 meganium
+chmod 777 pupitar
+cp -r blissey1 blissey1/meganium/
+chmod 060 salamence.txt
+chmod 305 meganium
+chmod 312 pupitar

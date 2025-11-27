@@ -1,0 +1,32 @@
+#1-ое задание
+cat $(ls -R | grep 'm$') | wc -m > /tmp/res1.txt
+#ls: ./blissey1/meganium: Недостаточно привилегий
+#ls: ./blissey1/pupitar: Недостаточно привилегий
+#cat: meganium: No such file or directory
+#cat: smoochum: No such file or directory
+
+#2-ое задание
+cd bagon0
+ls | sort
+cd ..
+# ОТВЕТ:
+#deerling
+#piplup.txt
+#spinarak.txt
+#tympole.txt
+
+#3-е задание
+cat -n $(ls -R 2>&1 | grep 'g$') 2>&1 | sort
+#cat: chingling: No such file or directory
+#cat: deerling: No such file or directory
+
+#4
+ls -lR --time=modify 2>/tmp/errors.txt | sort -k6,7 | tail -n 4
+# -bash: /tmp/errors.txt: Недостаточно привилегий
+
+#5
+ wc -m seaking1 2>/dev/null >> seaking1.txt
+# ответ незапишется т.к. нет доступа к записи
+
+#6 
+ls -lR m* 2>/dev/null | sort -k5 -n

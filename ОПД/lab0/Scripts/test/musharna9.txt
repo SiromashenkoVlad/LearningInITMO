@@ -1,0 +1,3 @@
+Возможности Overland=5 Surface=3 Sky=7 Jump=3
+Power3=0 Intelligence=6 Dream Smoke=0
+Telekinetic=0
