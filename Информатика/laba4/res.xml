@@ -5,11 +5,121 @@
   <day>
     <name>Суббота</name>
     <weekday>6</weekday>
-    <item>(0, {&apos;time_start&apos;: &apos;8:10&apos;, &apos;time_end&apos;: &apos;9:40&apos;, &apos;weeks&apos;: [6, 7, 10, 11, 12, 13, 14, 15], &apos;group&apos;: &apos;PRLCOMP 1&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
-    <item>(1, {&apos;time_start&apos;: &apos;9:50&apos;, &apos;time_end&apos;: &apos;11:20&apos;, &apos;weeks&apos;: [6, 7, 10, 11, 12, 13, 14, 15], &apos;group&apos;: &apos;PRLCOMP 1&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
-    <item>(2, {&apos;time_start&apos;: &apos;11:30&apos;, &apos;time_end&apos;: &apos;13:00&apos;, &apos;weeks&apos;: [2, 4, 6, 8, 10, 12, 14, 16], &apos;group&apos;: &apos;ИНФОРМ (P3106) 1.1&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
-    <item>(3, {&apos;time_start&apos;: &apos;11:30&apos;, &apos;time_end&apos;: &apos;13:00&apos;, &apos;weeks&apos;: [2, 4, 6, 8, 10, 12, 14, 16], &apos;group&apos;: &apos;ИНФОРМ (P3107) 1.2&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
-    <item>(4, {&apos;time_start&apos;: &apos;13:30&apos;, &apos;time_end&apos;: &apos;15:00&apos;, &apos;weeks&apos;: [2, 4, 6, 8, 10, 12, 14, 16], &apos;group&apos;: &apos;ИНФОРМ (P3106) 1.1&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
-    <item>(5, {&apos;time_start&apos;: &apos;13:30&apos;, &apos;time_end&apos;: &apos;15:00&apos;, &apos;weeks&apos;: [2, 4, 6, 8, 10, 12, 14, 16], &apos;group&apos;: &apos;ИНФОРМ (P3107) 1.2&apos;, &apos;subject&apos;: &apos;PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)&apos;, &apos;room&apos;: &apos;1333&apos;, &apos;address&apos;: &apos;Кронверкский пр., д.49, лит.А&apos;, &apos;format&apos;: &apos;Очно-дистанционный&apos;})</item>
+    <classes>
+      <item>
+        <time_start>8:10</time_start>
+        <time_end>9:40</time_end>
+        <weeks>
+          <item>6</item>
+          <item>7</item>
+          <item>10</item>
+          <item>11</item>
+          <item>12</item>
+          <item>13</item>
+          <item>14</item>
+          <item>15</item>
+        </weeks>
+        <group>PRLCOMP 1</group>
+        <subject>PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)</subject>
+        <room>1333</room>
+        <address>Кронверкский пр., д.49, лит.А</address>
+        <format>Очно-дистанционный</format>
+      </item>
+      <item>
+        <time_start>9:50</time_start>
+        <time_end>11:20</time_end>
+        <weeks>
+          <item>6</item>
+          <item>7</item>
+          <item>10</item>
+          <item>11</item>
+          <item>12</item>
+          <item>13</item>
+          <item>14</item>
+          <item>15</item>
+        </weeks>
+        <group>PRLCOMP 1</group>
+        <subject>PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)</subject>
+        <room>1333</room>
+        <address>Кронверкский пр., д.49, лит.А</address>
+        <format>Очно-дистанционный</format>
+      </item>
+      <item>
+        <time_start>11:30</time_start>
+        <time_end>13:00</time_end>
+        <weeks>
+          <item>2</item>
+          <item>4</item>
+          <item>6</item>
+          <item>8</item>
+          <item>10</item>
+          <item>12</item>
+          <item>14</item>
+          <item>16</item>
+        </weeks>
+        <group>ИНФОРМ (P3106) 1.1</group>
+        <subject>PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)</subject>
+        <room>1333</room>
+        <address>Кронверкский пр., д.49, лит.А</address>
+        <format>Очно-дистанционный</format>
+      </item>
+      <item>
+        <time_start>11:30</time_start>
+        <time_end>13:00</time_end>
+        <weeks>
+          <item>2</item>
+          <item>4</item>
+          <item>6</item>
+          <item>8</item>
+          <item>10</item>
+          <item>12</item>
+          <item>14</item>
+          <item>16</item>
+        </weeks>
+        <group>ИНФОРМ (P3107) 1.2</group>
+        <subject>PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)</subject>
+        <room>1333</room>
+        <address>Кронверкский пр., д.49, лит.А</address>
+        <format>Очно-дистанционный</format>
+      </item>
+      <item>
+        <time_start>13:30</time_start>
+        <time_end>15:00</time_end>
+        <weeks>
+          <item>2</item>
+          <item>4</item>
+          <item>6</item>
+          <item>8</item>
+          <item>10</item>
+          <item>12</item>
+          <item>14</item>
+          <item>16</item>
+        </weeks>
+        <group>ИНФОРМ (P3106) 1.1</group>
+        <subject>PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)</subject>
+        <room>1333</room>
+        <address>Кронверкский пр., д.49, лит.А</address>
+        <format>Очно-дистанционный</format>
+      </item>
+      <item>
+        <time_start>13:30</time_start>
+        <time_end>15:00</time_end>
+        <weeks>
+          <item>2</item>
+          <item>4</item>
+          <item>6</item>
+          <item>8</item>
+          <item>10</item>
+          <item>12</item>
+          <item>14</item>
+          <item>16</item>
+        </weeks>
+        <group>ИНФОРМ (P3107) 1.2</group>
+        <subject>PARALLEL COMPUTING / ПАРАЛЛЕЛЬНЫЕ ВЫЧИСЛЕНИЯ (ЛЕК)</subject>
+        <room>1333</room>
+        <address>Кронверкский пр., д.49, лит.А</address>
+        <format>Очно-дистанционный</format>
+      </item>
+    </classes>
   </day>
 </root>

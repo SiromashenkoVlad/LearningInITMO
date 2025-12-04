@@ -26,18 +26,16 @@ def change_adjectives(text, number):
             pattern = word_without_end
             replacement = word[0]
             break
-    print(replacement)
     regex = re.compile(rf'\b({pattern}{endings})\b', re.IGNORECASE)
 
     def replace_with_case(match):
         orig = match.group()
-        repl = replacement
         if orig.isupper():
-            return repl.upper()
+            return replacement.upper()
         elif orig[0].isupper():
-            return repl.capitalize()
+            return replacement.capitalize()
         else:
-            return repl.lower()
+            return replacement.lower()
 
     result = regex.sub(replace_with_case, text)
     return result
@@ -48,7 +46,7 @@ test_cases = [
         'Ввод': ['''Футбольный клуб «Реал Мадрид» является 15-кратным обладателем главного
 футбольного европейского трофея – Лиги Чемпионов. Данный турнир организован
 Союзом европейских футбольных ассоциаций (УЕФА). Идея о континентальном
-футбольном турнире пришла к журналисту Габриэлю Ано в 1955 году.''', 2]
+футбольном турнире пришла к журналисту Габриэлю Ано в 1955 году.''', 1]
         ,
         'Вывод': '''Футбольного клуб «Реал Мадрид» является 15-кратным обладателем главного
 футбольного европейского трофея – Лиги Чемпионов. Данный турнир организован
@@ -78,5 +76,4 @@ for test in test_cases:
     result = change_adjectives(*test['Ввод'])
     print(f"Ввод: {test['Ввод'][0]}")
     print(f"Вывод: {repr(result)}")
-    print(f"Вывод: {repr(test['Вывод'])}")
     print(f'Программа отработала корректно: {result == test['Вывод']}\n')

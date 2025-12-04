@@ -6,16 +6,11 @@ import re
 
 
 def word_with_one_vowel(text):
-    vowels = 'аеёиоуыэюя'
-    words = re.findall(r'\b[а-яё]+\b', text.lower())
+    pattern = r"(?i)\b(?![а-яё-]*([аеёиоуыэюя])[а-яё-]*(?:(?!\1)[аеёиоуыэюя]))[а-яё-]*[аеёиоуыэюя][а-яё-]*\b"
+    matches = [m.group(0) for m in re.finditer(pattern, text)]
+    matches.sort(key=lambda w: (len(w), w.lower()))
+    return matches
 
-    result_words = []
-    for word in words:
-        unique_vowels = set(re.findall(rf'[{vowels}]+', word.lower())) # переделать поиск глассных, регулярка должна больше работы выполнять
-        if len(unique_vowels) == 1:
-            result_words.append(word)
-
-    return list(sorted(list(set(result_words)), key=lambda x: (len(x), x)))
 
 
 test_cases = [

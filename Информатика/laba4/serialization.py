@@ -18,20 +18,18 @@ def serialize_to_yaml(data, indent_size=2, current_indent=0):
         return _serialize_string(str(data))
 
 
-# Сериализация строки с экранированием
 def _serialize_string(s):
-    if any(char in s for char in ['\n', '\r', '\t', ':', '#', '[', ']', '{', '}']):
-        return f'"{_escape_string(s)}"'
+    if any(char in s for char in ['\n', '\r', '\t', '\\', '"']):
+        return f"{_escape_string(s)}"
     return s
 
 
-# Экранирование специальных символов
 def _escape_string(s):
     escapes = {
         '\n': '\\n',
         '\r': '\\r',
         '\t': '\\t',
-        '"': '\\"',
+        '"': '\"',
         '\\': '\\\\'
     }
     result = []
@@ -40,7 +38,6 @@ def _escape_string(s):
     return ''.join(result)
 
 
-# Сериализация списка
 def _serialize_list(lst, indent_size, current_indent):
     if not lst:
         return "[]"
@@ -51,11 +48,9 @@ def _serialize_list(lst, indent_size, current_indent):
 
     for item in lst:
         if isinstance(item, (dict, list)) and item:
-            # Сложный элемент
             serialized_item = serialize_to_yaml(item, indent_size, next_indent)
             lines.append(f"{indent}- {serialized_item.strip()}")
         else:
-            # Простой элемент
             serialized_item = serialize_to_yaml(item, indent_size, 0)
             lines.append(f"{indent}- {serialized_item}")
 
@@ -74,12 +69,10 @@ def _serialize_dict(dct, indent_size, current_indent):
         key_str = str(key)
 
         if isinstance(value, (dict, list)) and value:
-            # Сложное значение
             lines.append(f"{indent}{key_str}:")
             serialized_value = serialize_to_yaml(value, indent_size, next_indent)
             lines.append(serialized_value)
         else:
-            # Простое значение
             serialized_value = serialize_to_yaml(value, indent_size, 0)
             lines.append(f"{indent}{key_str}: {serialized_value}")
 
@@ -93,6 +86,6 @@ def save_yaml_to_file(data, filepath, indent_size=2):
     return yaml_content
 
 
-# data = decryptor.deserialization_toml('shedule.toml')
-# yaml_output = serialize_to_yaml(data)
-# save_yaml_to_file(data, 'data.yaml')
+data = decryptor.deserialization_toml('shedule.toml')
+yaml_output = serialize_to_yaml(data)
+save_yaml_to_file(data, 'data.yaml')

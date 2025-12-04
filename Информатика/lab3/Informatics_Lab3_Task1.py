@@ -27,13 +27,13 @@ import re
 #         return "Не хайку."
 
 
-vow = 'аеёиоуыэюяАЕЁИОУЫЭЮЯ'
+vow = 'аеёиоуыэюя'
 
 def check_haiku(text):
     if re.fullmatch(rf"\s*([^/]*)\s*/\s*([^/]*)\s*/\s*([^/]*)\s*", text):
         vow_5 = f"([^/{vow}]*)[{vow}]" * 5 + f"([^/{vow}]*)"
         vow_7 = f"([^/{vow}]*)[{vow}]" * 7 + f"([^/{vow}]*)"
-        if re.fullmatch(rf"{vow_5}/{vow_7}/{vow_5}", text):
+        if re.fullmatch(rf"{vow_5}/{vow_7}/{vow_5}", text, re.IGNORECASE):
             return "Хайку!"
         else:
             return "Не хайку."

@@ -1,0 +1,148 @@
+@startuml
+
+abstract class Character {
+  - name : String
+  - morale : int
+  - location : Location
+  + move(newLocation : Location) : void
+  + act(ctx : Context) : void
+}
+
+interface Shooter {
+  + getAccuracy() : int
+  + shoot(target : Vehicle) : void
+}
+
+class Shorty extends Character {
+  - fearLevel : int
+  + act(ctx : Context) : void
+  + observe(scene : Scene) : void
+}
+
+class PoliceOfficer extends Character implements Shooter {
+  - rank : Rank
+  - loyalty : double
+  + act(ctx : Context) : void
+  + getAccuracy() : int
+  + shoot(target : Vehicle) : void
+  + callBackup() : void
+}
+
+class Bandit extends Character implements Shooter {
+  - cunning : int
+  - hasLoot : boolean
+  + act(ctx : Context) : void
+  + getAccuracy() : int
+  + shoot(target : Vehicle) : void
+  + hideSuitcase(suitcase : Suitcase) : void
+}
+
+class PoliceCommissioner {
+  - name : String
+  + interrogate(b : Bandit) : void
+  + passVerdict() : void
+}
+
+class Suitcase {
+  - serial : String
+  - amount : int
+  - hidden : boolean
+  + hide() : void
+  + reveal() : void
+}
+
+class BanditGang {
+  - members : ArrayList<Bandit>
+  + getSharpshooter() : Bandit
+  + hasActiveMembers() : boolean
+  + pickShooter() : Bandit
+  + pickRandomBandit() : Bandit
+  + isCarryingSuitcase() : boolean
+}
+
+class PoliceConvoy {
+  - vehicles : ArrayList<Vehicle>
+  - leadOfficer : PoliceOfficer
+  + dispatch() : void
+  + takeDamage(vehicleIndex : int, damage : int) : void
+  + hasActiveVehicles() : boolean
+  + pickTarget() : Vehicle
+  + getActiveOfficers() : List<PoliceOfficer>
+}
+
+class Scene {
+  - context : Context
+  - events : ArrayList<String>
+  + logEvent(text : String) : void
+  + getEvents() : List<String>
+}
+
+class Scene::EventFormatter {
+  + format(raw : String) : String
+}
+
+class Context {
+  - weather : Weather
+  - timeOfDay : TimeOfDay
+  - random : Random
+  + reportEvent(text : String) : void
+}
+
+class Location {
+  - name : String
+}
+
+class Vehicle <<record>> {
+  + id : String
+  + vehicleType : VehicleType
+  + armor : int
+  + status : VehicleStatus
+}
+
+enum VehicleType {
+POLICE_CAR; ARMORED_CAR; BANDIT_SEDAN }
+enum VehicleStatus { ACTIVE; DISABLED; DESTROYED }
+enum Weather { SUNNY; RAINY; FOGGY }
+enum TimeOfDay { MORNING; DAY; EVENING; NIGHT }
+enum Rank { OFFICER; SERGEANT; COMMISSIONER }
+
+class MissingSuitcaseException extends Exception {
+  + getMessage() : String
+}
+
+class LoyaltyBetrayalException extends RuntimeException {
+  + getMessage() : String
+}
+
+Character <|-- PoliceOfficer
+Character <|-- Bandit
+Character <|-- Shorty
+
+Shooter <|.. PoliceOfficer
+Shooter <|.. Bandit
+
+BanditGang "1" *-- "1..*" Bandit
+PoliceConvoy "1" *-- "1..*" Vehicle
+
+Scene "1" o-- "1" Context
+Scene "1" o-- "*" Character
+Scene "1" o-- "0..1" Suitcase
+Scene ..> Scene::EventFormatter
+
+PoliceCommissioner "1" o-- "*" Bandit
+PoliceCommissioner "1" o-- "*" PoliceOfficer
+
+Suitcase "1" o-- "0..1" Bandit
+Suitcase "1" o-- "0..1" PoliceOfficer
+
+Context --> Weather
+Context --> TimeOfDay
+
+Vehicle --> VehicleType
+Vehicle --> VehicleStatus
+
+Scene ..> MissingSuitcaseException
+PoliceOfficer ..> LoyaltyBetrayalException
+Bandit ..> MissingSuitcaseException
+
+@enduml

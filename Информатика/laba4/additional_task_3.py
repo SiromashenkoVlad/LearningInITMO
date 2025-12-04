@@ -15,14 +15,16 @@ def to_xml(data, root_tag='root', indent_size=2, current_indent=0):
         if not data:
             return f"{space}<{root_tag}></{root_tag}>"
 
-        lines = []
-        for item in enumerate(data):
-            lines.append(to_xml(item, 'item', indent_size, current_indent))
+        lines = [f"{space}<{root_tag}>"]
+        next_indent = current_indent + indent_size
 
+        for item in data:
+            lines.append(to_xml(item, 'item', indent_size, next_indent))
+
+        lines.append(f"{space}</{root_tag}>")
         return "\n".join(lines)
 
     elif isinstance(data, dict):
-        # Словари - вложенные элементы
         if not data:
             return f"{space}<{root_tag}></{root_tag}>"
 
@@ -30,14 +32,11 @@ def to_xml(data, root_tag='root', indent_size=2, current_indent=0):
         next_indent = current_indent + indent_size
 
         for key, value in data.items():
-            # Обрабатываем ключи для валидных XML имен
             valid_key = _make_valid_xml_name(str(key))
 
             if isinstance(value, (dict, list)) and value:
-                # Сложные значения - рекурсивный вызов
                 lines.append(to_xml(value, valid_key, indent_size, next_indent))
             else:
-                # Простые значения
                 if value is None:
                     lines.append(f"{' ' * next_indent}<{valid_key}></{valid_key}>")
                 else:
@@ -47,14 +46,25 @@ def to_xml(data, root_tag='root', indent_size=2, current_indent=0):
         lines.append(f"{space}</{root_tag}>")
         return "\n".join(lines)
 
+    elif isinstance(data, tuple):
+        if not data:
+            return f"{space}<{root_tag}></{root_tag}>"
+
+        lines = [f"{space}<{root_tag}>"]
+        next_indent = current_indent + indent_size
+
+        for i, item in enumerate(data):
+            lines.append(to_xml(item, f'item_{i}', indent_size, next_indent))
+
+        lines.append(f"{space}</{root_tag}>")
+        return "\n".join(lines)
+
     else:
-        # Другие типы
         escaped_value = _escape_xml(str(data))
         return f"{space}<{root_tag}>{escaped_value}</{root_tag}>"
 
 
 def _escape_xml(text):
-    """Экранирование XML специальных символов"""
     escapes = {
         '&': '&amp;',
         '<': '&lt;',
@@ -73,7 +83,6 @@ def _make_valid_xml_name(name):
     if not name:
         return 'item'
 
-    # Разрешенные символы в XML именах
     valid_chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-.:"
 
     result = []
