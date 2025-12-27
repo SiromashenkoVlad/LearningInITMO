@@ -1,15 +1,75 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import Enums.Clothes;
+import Enums.Locations;
+import Enums.Role;
+import Enums.Status;
+import Groups.BanditGang;
+import Groups.PoliceConvoy;
+import Other.ArmoredCar;
+import Other.Car;
+import Other.Suitcase;
+import Peoples.Bandit;
+import Peoples.Comissar;
+import Peoples.People;
+import Peoples.Policeman;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Suitcase searchChemodan = new Suitcase(100);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        Policeman Rei = new Policeman("Rei", Role.POLICEMAN, 0.2, Clothes.POLICE, Status.ALIVE);
+        Policeman Pars = new Policeman("Pars", Role.POLICEMAN, 0.2, Clothes.POLICE, Status.ALIVE);
+        Policeman Ruta = new Policeman("Ruta", Role.POLICEMAN, 0.2, Clothes.POLICE, Status.ALIVE);
+        List<Policeman> policeGroup = new ArrayList<>();
+        policeGroup.add(Pars);
+        policeGroup.add(Rei);
+        policeGroup.add(Ruta);
+
+        Car<Policeman> policeCar = new Car<>(4, policeGroup);
+        List<Car<? extends People>> policeCars = new ArrayList<>();
+        policeCars.add(policeCar);
+        List<ArmoredCar<? extends People>> policeArmCars = new ArrayList<>();
+        PoliceConvoy policeConvoy = new PoliceConvoy("ФСБ",  policeGroup, policeCars, policeArmCars, Locations.STREET);
+
+        Bandit Serii = new Bandit("Серый", Role.BANDIT, 0.8, 50, Clothes.BANDIT, Status.ALIVE);
+        Bandit Valera = new Bandit("Валерон", Role.BANDIT, 0.4, 60, Clothes.BANDIT, Status.ALIVE);
+        Bandit Fotic = new Bandit("Фотик", Role.BANDIT, 0.6, 35, Clothes.BANDIT, Status.ALIVE);
+
+
+        List<Bandit> banditGroup = new ArrayList<>();
+        banditGroup.add(Serii);
+        banditGroup.add(Valera);
+        banditGroup.add(Fotic);
+
+
+
+        Car<? extends People> banditCar = new Car<>(4, banditGroup);
+        List<Car<? extends People>> banditCars = new ArrayList<>();
+        banditCars.add(banditCar);
+        BanditGang banditGang = new BanditGang("Волки АУФ", banditGroup, banditCars, Locations.STREET);
+
+
+        boolean isSuccessfullChaise = policeConvoy.chasing(banditGang);
+        if (isSuccessfullChaise){
+            if (policeConvoy.checkForSuitcse(banditGang, searchChemodan)){
+                System.out.println("Чемодан найден");
+            }
+            else {
+                System.out.println("При обыске чемодан не найден");
+            }
+
+
+            Comissar comissar = new Comissar("Mr. Success", Role.COMMISSIONER, 1.0, Clothes.POLICE, Status.ALIVE);
+            for (Bandit man: banditGang.getListAliveMembers()){
+                comissar.InterrogationPeople(man);
+            }
+
+        }
+        else{
+            System.out.println("Бандиты оторвались");
         }
     }
 }

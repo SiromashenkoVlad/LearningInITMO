@@ -1,0 +1,45 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[a4paper, left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+
+\usepackage{polyglossia}
+\setmainlanguage{russian}
+\setmainfont{Times New Roman}
+
+\usepackage{microtype} 
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage[nameinlink]{cleveref}
+
+
+\DeclareCaptionLabelFormat{withperiod}{#1 #2.}
+\pagestyle{fancy}
+
+\captionsetup[figure]{
+	labelformat=withperiod,
+	justification=raggedright,
+	singlelinecheck=false
+}
+	
+\captionsetup[table]{
+	position=top,
+	labelformat=withperiod,
+	justification=raggedleft,
+	singlelinecheck=false
+}
+
+
+
+\begin{document}
+	\input{title.tex}
+	\input{page.tex}
+\end{document}
+
+
+
+% страницы 42 и 17, год 1979 издание 7, вариант 97

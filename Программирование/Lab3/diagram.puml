@@ -9,10 +9,20 @@ package "Enum-ы"{
       CITIZEN
     }
 
+    enum Locations {
+        STREET, POLICE_DEPARTMENT
+    }
+
     enum Status{
         Alive
         Died
         Captured
+    }
+
+    enum Clothes{
+        POLICE,
+        BANDIT,
+        NORMAL
     }
 }
 
@@ -33,50 +43,55 @@ package "Работяги"{
             - name : String
             - role : Role
             - accuracy : double
-            - clothes : String
+            - clothes : Clothes
             - heldCase : Case
             - status : Status
-            - currentCar : Car
-            - location : Location
-            + People(name : String, role : Role, accuracy : double, clothes : String, location : Location)
-            + move(newLocation : Location) : void
-            + enterCar(car : Car) : void
-            + leaveCar() : void
-            + hasCase() : boolean
-            + takeCase(c : Case) : void
-            + dropCase() : Case
-            + capture() : void
-            + die() : void
+            - Suitcase : Suitcase
+            + People(name : String, role : Role, accuracy : double, clothes : String, status : Status)
+            + hasSuitcase(suitcase : Suitcase)
+            + takeSuitcase (suitcase : Suitcase): void
+            + dropSuitcase () : void
+            + hasSuitcase() : boolean
             +takeDamage(Shooter : shooter): void
-
-            {abstract} act(ctx : Context) : void
-            {abstract} shootAt(target : People, ctx : Context) : void
-            {abstract} shootAt(target : Car, ctx : Context) : void
-            {abstract} shootAt(target : ArmoredCar, ctx : Context) : void
+            shootAt(target : People, ctx : Context) : void
+            shootAt(target : Car, ctx : Context) : void
+            shootAt(target : ArmoredCar, ctx : Context) : void
 
             + getName() : String
             + getRole() : Role
             + getAccuracy() : double
             + getClothes() : String
+            + setClothes(clothes : Clothes) : void
             + getStatus() : Status
-            + getLocation() : Location
-            + getCurrentCar() : Car
+            + setStatus(status : Status) : Status
             + getHeldCase() : Case
-            + changeClothes(newClothes : String) : void
+            + toString(): String
+            + equals(o: Object): boolean
+            + hashCode() : int
         }
 
         class Bandit extends People implements Shooter{
+            - int brave;
+            BANDIT(name : String, role : Role, accuracy : double, brave, Integer, clothes : String, status : Status)
             +denyCrime(): String
             +explainMistake(): String
             +admitCrime(): String
+            +beenOnInterrogation(): String
+            +changeStatus(status : Status) : void
+            +shootAt(target : People, ctx : Context) : void
+            +shootAt(target : Car, ctx : Context) : void
+            +shootAt(target : ArmoredCar, ctx : Context) : void
+            + toString(): String
+            + hashCode() : int
         }
 
         class Policeman extends People implements Shooter{
-            +callForBackup(): String
-            +performASearch(target: Car): boolean
+        Policeman(name : String, role : Role, accuracy : double, clothes : String, status : Status)
             +performASearch(target: People): boolean
+            +toString
         }
         class Comissar extends Policeman{
+        Comissar(name : String, role : Role, accuracy : double, clothes : String, status : Status)
             +interrogationPeople(target: People): String
         }
 
@@ -177,8 +192,8 @@ Scene ..> InterrogationFailedException
 
 
 # могут уйти от преследования если их больше(чек на количество)
-#Водитель маштны
-#Уюирать сцену,
+#Водитель машины
+#Убирать сцену,
 #chaising в конвой, банду в качестве параметров
 # Searchsuitcase передавать в параметрах определенный чемодан
 # interrogateGang также
