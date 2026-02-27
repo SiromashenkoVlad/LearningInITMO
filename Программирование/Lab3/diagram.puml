@@ -26,14 +26,25 @@ package "Enum-ы"{
     }
 }
 
+package "Exceptions"{
+    exception GetAwayFromPersecution(){
+        getMessage()
+    }
+    exception OverflowMachine(){
+        getMessage()
+    }
+}
+
 package "Enterface-ы"{
     interface Shootable{
-        +takeDamage(Shooter : shooter): void
-        +die(): String
+        takeDamage(Shooter : shooter): void
+        die(): String
     }
 
     interface Shooter{
-        shootAt(Shootable: target): void
+        shootAt(target : People, ctx : Context) : void
+        shootAt(target : Car, ctx : Context) : void
+        shootAt(target : ArmoredCar, ctx : Context) : void
     }
 }
 
@@ -98,7 +109,9 @@ package "Работяги"{
         abstract class Crowd{
             - members : ArrayList<Bandit>
             - vehicles : ArrayList<Car>
+            - location: Location
             +Crowd(members: ArrayList<Bandit>, vehicles: ArrayList<Car>)
+            + attack(target : Crowd): void
             + pickRandomMember() : People
             + hasActiveMembers() : boolean
         }
@@ -117,6 +130,7 @@ package "Работяги"{
           +PoliceConvoy(members: ArrayList<Bandit>, vehicles: ArrayList<Car>)
           + takeDamage(target: Shootable) : void
           + getActiveOfficers() : List<PoliceOfficer>
+          +chaising(target: BanditGang)
         }
     }
     package "Машины" {
@@ -143,29 +157,8 @@ package "Работяги"{
     }
 }
 
-class Scene{
-    +bandits: BanditGang
-    +police: PoliceConvoy
-    +maincharacters: ArrayList<People>
-    +location: Location
-    +story: String
-    +Scene(crws: ArrayList<Crowd>, location: Location)
-    +chaising(): void
-    +fight(fightedCrowds: ArrayList<Crowd>): void
-    + searchSuitcase(): void
-    + interrogateGang(): void
-    +currentStory(): String
-}
 
-class Location {
-    +name: String
-}
 
-class SuitcaseNotFoundException <<exception>> {
-}
-
-class InterrogationFailedException <<exception>> {
-}
 
 
 People --> Role
@@ -175,18 +168,18 @@ People --> Case
 People --> Car
 Bandit ..|> Shooter
 
+Crowd --> Locations
+
 BanditGang "1" *-- "1..*" Bandit
 BanditGang "1" *-- "1..*" Car
 
 PoliceConvoy "1" *-- "1..*" Car
 PoliceConvoy "1" *-- "1..*" Policeman
 PoliceConvoy "1" *-- "1..*" Comissar
+PoliceConvoy --> BanditGang
 
-Scene "1" *-- "1..*" PoliceConvoy
-Scene "1" *-- "1..*" BanditGang
 
-Scene ..> SuitcaseNotFoundException
-Scene ..> InterrogationFailedException
+
 
 @enduml
 

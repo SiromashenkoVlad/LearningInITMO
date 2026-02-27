@@ -30,7 +30,7 @@ public class PoliceConvoy  extends Crowd{
         return randomArmoredCar;
     }
 
-    public boolean chasing(BanditGang target){
+    public boolean chasing(BanditGang target) throws GetAwayFromPersecution {
         System.out.println("Группа " + this.getName() + " ведёт преследование подозреваемых: " + target.getName());
 
         boolean isfight = target.beenСhasing(this);

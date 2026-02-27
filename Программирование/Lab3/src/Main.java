@@ -73,3 +73,17 @@ public class Main {
         }
     }
 }
+
+
+class Constant{
+    static final double P = 3.14;
+    Constant single;
+    private Constant(){
+    };
+    public Constant get(){
+        if (this == null){
+            single = new Constant();
+        }
+        return single;
+    }
+}

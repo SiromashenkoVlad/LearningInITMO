@@ -5,11 +5,12 @@ import Other.Car;
 import Peoples.People;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 abstract class Group <T extends People>{
-    private ArrayList<T> members = new ArrayList<>();
-    private ArrayList<Car> vehicles = new ArrayList<>();
+    private List<T> members = new ArrayList<>();
+    private List<Car> vehicles = new ArrayList<>();
 
     abstract boolean hasActiveMembers();
 
