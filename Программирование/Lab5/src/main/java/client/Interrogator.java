@@ -1,5 +1,13 @@
 package client;
 
+import common.Intefaces.OnesStringArgumentable;
+import common.Intefaces.Personable;
+import common.Mainpart.Person;
+import common.Model.Location;
+import common.requests.Request;
+import server.comands.Command;
+
+import java.util.Map;
 import java.util.Scanner;
 
 public class Interrogator {

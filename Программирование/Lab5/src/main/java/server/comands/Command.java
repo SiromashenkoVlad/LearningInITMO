@@ -1,5 +1,8 @@
 package server.comands;
 
+import common.requests.Request;
+import common.requests.Responce;
+
 import java.util.Objects;
 
 public abstract class Command {
@@ -12,6 +15,8 @@ public abstract class Command {
         this.description = description;
         this.usage = usage;
     }
+
+    public abstract Responce execute(Request r);
 
     public String getName() {
         return name;

@@ -1,19 +1,44 @@
 package common.requests;
 
-import common.Enums.Commands;
+import common.Mainpart.Person;
+import common.Model.Location;
 
 import java.io.Serializable;
 import java.util.Objects;
 
 public class Request implements Serializable {
-    private Commands name;
+    private final String name;
+    private final int id;
+    private final Person person;
+    private final Location location;
+    private final String fileName;
 
-    public Request(Commands name){
+    public Request(String name, int id, Person p, Location location, String fileName){
         this.name = name;
+        this.id = id;
+        this.person = p;
+        this.location = location;
+        this.fileName = fileName;
     }
 
-    public Commands getName() {
+    public String getName() {
         return name;
+    }
+
+    public Person getPerson() {
+        return person;
+    }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public int getId() {
+        return id;
     }
 
     @Override

@@ -1,0 +1,412 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.10)  2 MAR 2026 14:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./title.tex
+(title.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{
+                                                  geometry}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+(C:\Users\Владислав\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-xetex.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count271
+\g__pdfannot_backend_int=\count272
+\g__pdfannot_backend_link_int=\count273
+) (title.aux)
+\openout1 = `title.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \begin{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no Ф in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no д in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ь in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no г in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no у in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no д in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no м in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no б in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no з in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ь in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no у in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ч in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ж in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no д in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ы in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ш in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no г in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no б in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no з in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no я in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no Н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ц in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ь in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ы in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no й in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no И in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no д in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ь in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no к in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no й in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no У in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no И in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no Т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no М in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no О in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no Ф in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no к in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no у in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ь in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no П in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no г in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no м in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no м in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no й in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no И in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ж in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no К in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no м in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no п in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ь in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ю in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no й in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no х in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no к in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+! Undefined control sequence.
+l.15 ^^I^^I{\Large
+                   Базы данных}\\[1em]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Б in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no з in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ы in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no д in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ы in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no х in font [lmroman10-regular]:mapping=tex-text;!
+! Undefined control sequence.
+l.16 ^^I^^I{\Large
+                   Лабораторная работа \textnumero 1}\\[1em]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no б in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no я in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no б in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no В in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no В in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ы in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no п in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no у in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no д in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no г in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no С in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no м in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ш in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no к in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no В in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no д in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no Р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no м in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ч in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no П in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no Е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no м in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no к in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no М in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no х in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no К in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ч in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no С in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no к in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no П in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no е in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no б in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no у in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no р in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no г in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no г in font [lmroman10-regular]:mapping=tex-text;!
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1] (title.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 223 strings out of 402987
+ 6015 string characters out of 5447695
+ 428388 words of memory out of 5000000
+ 29007 multiletter control sequences out of 15000+600000
+ 627737 words of font info for 42 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 29i,5n,34p,170b,126s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on title.pdf (1 page).

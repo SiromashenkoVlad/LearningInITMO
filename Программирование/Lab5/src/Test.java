@@ -1,7 +1,6 @@
-import java.io.BufferedReader;
 import java.io.Serializable;
-import java.util.HashMap;
-import java.util.Stack;
+import java.util.Scanner;
 
 public class Test implements Serializable {
+    Scanner
 }

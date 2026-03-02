@@ -1,13 +1,13 @@
 package server.comands;
 
-import common.Enums.Commands;
-import common.Mainpart.Person;
-import common.Model.Location;
+import common.Intefaces.Locationable;
+import common.requests.Request;
+import common.requests.Responce;
 import server.managers.CollectionManager;
 
 import java.util.Objects;
 
-public class CountByLocationCommand extends Command{
+public class CountByLocationCommand extends Command implements Locationable {
     CollectionManager collectionManager;
 
     public CountByLocationCommand(CollectionManager collectionManager){
@@ -16,12 +16,17 @@ public class CountByLocationCommand extends Command{
         this.collectionManager = collectionManager;
     }
 
-    public String execute(Location location) {
-        long count = collectionManager.getCollection()
-                .stream()
-                .filter(p -> Objects.equals(p.getLocation(), location))
-                .count();
+    @Override
+    public Responce execute(Request r) {
+        try{
+            long count = collectionManager.getCollection()
+                    .stream()
+                    .filter(p -> Objects.equals(p.getLocation(), r.getLocation()))
+                    .count();
 
-        return String.valueOf(count);
+            return new Responce(true, String.valueOf(count));
+        } catch (Exception e){
+            return new Responce(false, "Ошибка выполнения команды count_by_location");
+        }
     }
 }

@@ -1,9 +1,12 @@
 package server.comands;
 
 import common.Enums.Commands;
+import common.Intefaces.WithoutArguments;
+import common.requests.Request;
+import common.requests.Responce;
 import server.managers.CollectionManager;
 
-public class ShowCommand extends Command {
+public class ShowCommand extends Command implements WithoutArguments {
     CollectionManager collectionManager;
     public ShowCommand(CollectionManager collectionManager){
         super("show", "выводит в стандартный поток вывода" +
@@ -11,7 +14,12 @@ public class ShowCommand extends Command {
         this.collectionManager = collectionManager;
     }
 
-    public String execute(){
-        return collectionManager.toString();
+    @Override
+    public Responce execute(Request r){
+        try{
+            return new Responce(true, collectionManager.toString());
+        } catch (Exception e){
+            return new Responce(false, "Ошибка выполнения команды show");
+        }
     }
 }

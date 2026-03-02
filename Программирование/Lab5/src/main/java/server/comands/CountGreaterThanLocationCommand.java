@@ -1,10 +1,11 @@
 package server.comands;
 
-import common.Enums.Commands;
-import common.Model.Location;
+import common.Intefaces.Locationable;
+import common.requests.Request;
+import common.requests.Responce;
 import server.managers.CollectionManager;
 
-public class CountGreaterThanLocationCommand extends Command{
+public class CountGreaterThanLocationCommand extends Command implements Locationable {
     CollectionManager collectionManager;
 
     public CountGreaterThanLocationCommand(CollectionManager collectionManager){
@@ -13,9 +14,14 @@ public class CountGreaterThanLocationCommand extends Command{
         this.collectionManager = collectionManager;
     }
 
-    public String execute(Location l){
-        long count = collectionManager.getCollection().stream().filter(p -> p.getLocation() != null)
-                .filter(p -> p.getLocation().compareTo(l) > 0).count();
-        return String.valueOf(count);
+    @Override
+    public Responce execute(Request r) {
+        try{
+            long count = collectionManager.getCollection().stream().filter(p -> p.getLocation() != null)
+                    .filter(p -> p.getLocation().compareTo(r.getLocation()) > 0).count();
+            return new Responce(true, String.valueOf(count));
+        } catch (Exception e){
+            return new Responce(false, "Ошибка выполнения команды count_by_location");
+        }
     }
 }
