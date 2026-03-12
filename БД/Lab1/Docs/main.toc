@@ -1,6 +1,8 @@
 \xpg@aux {}{russian}
-\contentsline {section}{\numberline {1}Текст задания}{3}{}%
-\contentsline {section}{\numberline {2}Описание предметной области}{3}{}%
-\contentsline {section}{\numberline {3}Список сущностей и их классификация}{3}{}%
-\contentsline {section}{\numberline {4}Инфологическая модель}{4}{}%
-\contentsline {section}{\numberline {5}Даталогическая модель}{4}{}%
+\contentsline {section}{\numberline {1}Текст задания}{3}{section.1}%
+\contentsline {section}{\numberline {2}Описание предметной области}{3}{section.2}%
+\contentsline {section}{\numberline {3}Список сущностей и их классификация}{3}{section.3}%
+\contentsline {section}{\numberline {4}Инфологическая модель}{4}{section.4}%
+\contentsline {section}{\numberline {5}Даталогическая модель}{4}{section.5}%
+\contentsline {section}{\numberline {6}Реализация даталогической модели на SQL}{4}{section.6}%
+\contentsline {section}{\numberline {7}Выводы по работе}{4}{section.7}%

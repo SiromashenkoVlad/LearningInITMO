@@ -25,6 +25,7 @@ psql -h pg -d studs
 	\item Machines - стержневая сущность, ассоциирует City, Location, Operations 
 	\item Operations - стержневая сущность, ассоциирует с Location
 	\item Powers - стержневая сущность, ассоциирует с Location
+	\item Powers-Location - ассоциативная сущность
 \end{itemize}
 
 \section {Инфологическая модель}
@@ -32,3 +33,9 @@ psql -h pg -d studs
 
 \section {Даталогическая модель}
 \includegraphics[scale=0.2]{images/datalogicalShema.png}
+
+\section {Реализация даталогической модели на SQL}
+\href[]{https://github.com/SiromashenkoVlad/LearningInITMO/blob/25280c3a9562e04fcce6e74232a1b6063ef366bf/%D0%91%D0%94/Lab1/Scripts/ScriptBD.sql}{Ссылка на гит}
+
+\section {Выводы по работе}
+Была изучена структура инфологических и даталогических моделей, которые помогают разработке БД. Повторил синтаксис языка SQL. Изучил принцип работы объектно-реляционных СУБД на примере PostgreSQL.
