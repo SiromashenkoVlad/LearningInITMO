@@ -1,4 +1,19 @@
 package client.readArguments;
 
-public class LocationRead {
+import client.Console.Console;
+import client.Interrogator;
+import common.Model.Location;
+
+
+public class LocationRead extends ValueReader implements Reader{
+    public Location read(Console console, Interrogator interrogator){
+        console.println("Начался ввод локации. Поочередно внести координаты x, y, z:");
+        int x = this.read(console, interrogator, ()-> interrogator.getUserScanner().nextInt(),
+                null, "Введите целочисленную координату x", "Ошибка ввода числа");
+        Integer y = this.read(console, interrogator, ()->interrogator.getUserScanner().nextInt(),
+                value -> value != null, "Введите целочисленную координату y", "Поле должно быть не null");
+        int z = this.read(console, interrogator, ()-> interrogator.getUserScanner().nextInt(),
+                null, "Введите целочисленную координату z", "Ошибка ввода числа");
+        return new Location(x, y, z);
+    }
 }

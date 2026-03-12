@@ -1,21 +1,19 @@
 package server.comands;
 
-import common.Intefaces.WithoutArguments;
+import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
 import server.managers.CollectionManager;
 
-public class SaveCommand extends Command implements WithoutArguments {
-    CollectionManager collectionManager;
+public class SaveCommand extends CommandCollection {
     public SaveCommand(CollectionManager collectionManager){
-        super("save", "сохранит коллекцию в файл", "");
-        this.collectionManager = collectionManager;
+        super(collectionManager, "save", "сохранит коллекцию в файл", new Argument[0]);
     }
 
     @Override
     public Responce execute(Request r){
         try {
-            collectionManager.save();
+            this.getCollectionManager().save();
             return new Responce(true, "");
         } catch (Exception e){
             return new Responce(false, "Ошибка выполнения команды save");

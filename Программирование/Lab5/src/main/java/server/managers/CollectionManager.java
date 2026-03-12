@@ -13,8 +13,13 @@ public class CollectionManager {
     private LocalDateTime lastInitTime;
     private LocalDateTime lastSaveTime;
 
+    public CollectionManager(String filename){
+        collection = DumpManager.read(filename);
+        lastInitTime = LocalDateTime.now();
+        lastSaveTime = LocalDateTime.now();
+    }
+
     public CollectionManager(){
-        collection = DumpManager.read("data.csv");
         lastInitTime = LocalDateTime.now();
         lastSaveTime = LocalDateTime.now();
     }
@@ -102,10 +107,10 @@ public class CollectionManager {
 
     @Override
     public String toString() {
-        String answer = "";
+        StringBuilder answer = new StringBuilder();
         for (Person p : collection){
-            answer += p.toString() + '\n';
+            answer.append(p.toString()).append('\n');
         }
-        return answer;
+        return answer.toString();
     }
 }

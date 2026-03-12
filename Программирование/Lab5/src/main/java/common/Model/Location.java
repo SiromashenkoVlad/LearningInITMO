@@ -18,7 +18,7 @@ public class Location implements Comparable<Location>{
         z = zcoord;
     }
 
-    public float getX() {
+    public int getX() {
         return x;
     }
 

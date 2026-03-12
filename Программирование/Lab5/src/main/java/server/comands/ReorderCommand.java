@@ -1,23 +1,20 @@
 package server.comands;
 
-import common.Enums.Commands;
-import common.Intefaces.WithoutArguments;
+import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
 import server.managers.CollectionManager;
 
-public class ReorderCommand extends Command implements WithoutArguments {
-    CollectionManager collectionManager;
-
+public class ReorderCommand extends CommandCollection {
     public ReorderCommand(CollectionManager collectionManager){
-        super("reorder", "отсортировать коллекцию в порядке, обратном нынешнему", "");
-        this.collectionManager = collectionManager;
+        super(collectionManager, "reorder", "отсортировать коллекцию в порядке, обратном нынешнему",
+                new Argument[0]);
     }
 
     @Override
     public Responce execute(Request r){
         try {
-            collectionManager.reorder();
+            this.getCollectionManager().reorder();
             return new Responce(true, "");
         } catch (Exception e){
             return new Responce(false, "Ошибка выполнения команды reorder");

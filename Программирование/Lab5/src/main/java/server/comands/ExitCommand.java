@@ -1,12 +1,14 @@
 package server.comands;
 
-import common.Intefaces.WithoutArguments;
+import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
+import server.managers.CollectionManager;
 
-public class ExitCommand extends Command implements WithoutArguments {
-    public ExitCommand(){
-        super("exit", "завершить программу (без сохранения в файл)", "");
+public class ExitCommand extends CommandCollection {
+    public ExitCommand(CollectionManager collectionManager){
+        super(collectionManager, "exit", "завершить программу (без сохранения в файл)",
+                new Argument[0]);
     }
 
     @Override

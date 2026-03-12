@@ -1,44 +1,26 @@
 package common.requests;
 
-import common.Mainpart.Person;
-import common.Model.Location;
 
 import java.io.Serializable;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 public class Request implements Serializable {
     private final String name;
-    private final int id;
-    private final Person person;
-    private final Location location;
-    private final String fileName;
+    private final Map<String, Object> args;
 
-    public Request(String name, int id, Person p, Location location, String fileName){
+    public Request(String name, Map<String, Object> args){
         this.name = name;
-        this.id = id;
-        this.person = p;
-        this.location = location;
-        this.fileName = fileName;
+        this.args = args;
     }
 
     public String getName() {
         return name;
     }
 
-    public Person getPerson() {
-        return person;
-    }
-
-    public Location getLocation() {
-        return location;
-    }
-
-    public String getFileName() {
-        return fileName;
-    }
-
-    public int getId() {
-        return id;
+    public Map<String, Object> getArgs() {
+        return args;
     }
 
     @Override

@@ -1,23 +1,22 @@
 package server.comands;
 
-import common.Intefaces.OnesStringArgumentable;
-import common.Intefaces.Personable;
+import common.Mainpart.Person;
+import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
 import server.managers.CollectionManager;
 
-public class UpdateByIdCommand extends Command implements OnesStringArgumentable, Personable {
-    CollectionManager collectionManager;
+public class UpdateByIdCommand extends CommandCollection {
     public UpdateByIdCommand(CollectionManager collectionManager){
-        super("update id", "обновит значение элемента коллекции, id которого равен заданному",
-                "{element}");
-        this.collectionManager = collectionManager;
+        super(collectionManager, "update", "обновит значение элемента коллекции, id которого равен заданному",
+                new Argument[]{new Argument("{id}", Integer.class), new Argument("{element}", Person.class)});
     }
 
     @Override
     public Responce execute(Request r){
         try{
-            collectionManager.updateById(r.getId(), r.getPerson());
+            getCollectionManager().updateById((int)r.getArgs().get(this.getUsage()[0].getName()),
+                    (Person) r.getArgs().get(this.getUsage()[1].getName()));
             return new Responce(true, "");
         } catch (Exception e){
             return new Responce(false, "Ошибка выполнения команды update id");

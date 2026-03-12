@@ -1,24 +1,19 @@
 package server.comands;
 
-import common.Enums.Commands;
-import common.Intefaces.WithoutArguments;
+import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
 import server.managers.CollectionManager;
 
-import java.lang.reflect.WildcardType;
-
-public class ClearCommand extends Command implements WithoutArguments {
-    CollectionManager collectionManager;
+public class ClearCommand extends CommandCollection {
     public ClearCommand(CollectionManager collectionManager){
-        super("clear", "очистит коллекцию", "");
-        this.collectionManager = collectionManager;
+        super(collectionManager, "clear", "очистит коллекцию", new Argument[0]);
     }
 
     @Override
     public Responce execute(Request r){
         try{
-            collectionManager.clear();
+            this.getCollectionManager().clear();
             return new Responce(true, "");
         } catch (Exception e){
             return new Responce(false, "Ошибка выполнения команды clear");
