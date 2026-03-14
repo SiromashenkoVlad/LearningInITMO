@@ -1,6 +1,7 @@
 import client.Console.StandartConsole;
 import client.Interrogator;
 import client.Runner;
+import common.Enums.WorkMode;
 import server.managers.Communicator;
 
 import java.util.Scanner;
@@ -15,6 +16,6 @@ public class Main {
         String fileName = args[0] + ".csv";
         Runner runner = new Runner(new StandartConsole(), new Interrogator(new Scanner(System.in)),
                 new Communicator(fileName));
-        runner.interactiveMode();
+        runner.interactiveMode(WorkMode.Interactive);
     }
 }

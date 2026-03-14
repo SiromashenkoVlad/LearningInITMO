@@ -1,5 +1,6 @@
 package server.managers;
 
+import common.Mainpart.Person;
 import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
@@ -18,6 +19,7 @@ public class WorkManager {
         this.collectionManager = collectionManager;
 
         this.addCommand("info", new InfoCommand(collectionManager));
+        this.addCommand("exit", new ExitCommand(collectionManager));
         this.addCommand("show", new ShowCommand(collectionManager));
         this.addCommand("add", new AddCommand(collectionManager));
         this.addCommand("update", new UpdateByIdCommand(collectionManager));
@@ -30,7 +32,9 @@ public class WorkManager {
         this.addCommand("count_by_location", new CountByLocationCommand(collectionManager));
         this.addCommand("count_greater_than_location", new CountGreaterThanLocationCommand(collectionManager));
         this.addCommand("print_field_descending_eye_color", new FieldDescendingEyeColorCommand(collectionManager));
+        this.addCommand("execute_script", new ExecuteScriptCommand());
         this.addCommand("help", new HelpCommand(commands));
+
     }
 
     private void addCommand(String name, Command command){

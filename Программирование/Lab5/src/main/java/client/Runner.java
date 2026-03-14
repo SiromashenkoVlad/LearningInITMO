@@ -2,24 +2,27 @@ package client;
 
 import client.Console.Console;
 import client.readArguments.ValueFactory;
+import common.Enums.WorkMode;
 import common.requests.Argument;
 import common.requests.Request;
-import server.comands.CommandCollection;
 import server.managers.Communicator;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Runner {
     public enum ExitCode {
         OK,
         EXIT,
+        ERROR
     }
 
     private final Console console;
-    private final Interrogator interrogator;
+    private Interrogator interrogator;
     private final Communicator communicator;
     private Map<String, Argument[]> usageCommands;
-    private Stack<CommandCollection> stack = new Stack<CommandCollection>(); // развлечения под скрипт
+    private Set<String> setFiles = new HashSet<>();
 
     public Runner(Console console, Interrogator interrogator, Communicator communicator){
         this.console = console;
@@ -28,54 +31,58 @@ public class Runner {
         this.usageCommands = communicator.getUsagesCommands();
     }
 
-    public void interactiveMode(){
-        console.println("Начало работы в интерактивном режиме. Добро пожаловать");
+    public void interactiveMode(WorkMode workMode){
+        console.println("Начало работы в режиме " + workMode.name() + ". Добро пожаловать");
         ExitCode commandStatus = null;
         do {
             console.ps1();
+            if (!interrogator.getUserScanner().hasNext()){ return; }
             String userCommand = interrogator.getUserScanner().next().trim();
             commandStatus = launchCommand(userCommand);
         } while (commandStatus != ExitCode.EXIT);
+    }
+
+    public void scriptMode(String fileName){
+        try {
+            Interrogator newInterrogator = new Interrogator(new Scanner(new File(fileName)));
+            Interrogator oldInterrogator = interrogator;
+            interrogator = newInterrogator;
+            interactiveMode(WorkMode.File);
+            interrogator = oldInterrogator;
+        } catch (FileNotFoundException e){
+            console.println("Такого файла или нет или доступ к нему закрыт");
+        }
     }
 
     private ExitCode launchCommand(String userCommand){
         if (userCommand.isEmpty()){
             return ExitCode.OK;
         }
-        if (userCommand.equals("exit")){
-            return ExitCode.EXIT;
-        }
-        if (!usageCommands.containsKey(userCommand)){
-            console.println("Команды " + userCommand + " не существует. Вызовите команду help для" +
-                    " просмотра доступных команд");
-            return ExitCode.OK;
-        }
 
-//        switch (userCommand) {
-//            case "exit" -> {
-//                if (!communicator.call(new Request(userCommand, null))
-//                        .isSuccess()) return ExitCode.ERROR;
-//                else return ExitCode.EXIT;
-//                break;
-//            }
-//            case "execute_script" -> {
-//                if (чек на рекурсию) return ExitCode.ERROR;
-//                else return scriptMode(userCommand);
-//                break;
-//            }
-//            default -> {
-//                Map<String,Object> args = new HashMap<>();
-//                ValueFactory valueFactory = new ValueFactory();
-//                for (Argument arg : usageCommands.get(userCommand)) {
-//                    Object value = valueFactory.getReader(arg.getType()).read(console, interrogator);
-//                    args.put(arg.getName(), value);
-//                }
-//
-//                communicator.call(new Request(userCommand, args));
-//            }
-//        };
-        else {
-            Map<String,Object> args = new HashMap<>();
+        switch (userCommand) {
+            case "exit" -> {
+                console.println(communicator.call(new Request(userCommand, new HashMap<>())).getAnswer());
+                return ExitCode.EXIT;
+            }
+            case "execute_script" -> {
+                ValueFactory valueFactory = new ValueFactory();
+                String file = (String) valueFactory.getReader(String.class).read(console, interrogator);
+                if (setFiles.contains(file)) return ExitCode.ERROR;
+                else {
+                    setFiles.add(file);
+                    scriptMode(file);
+                    return ExitCode.OK;
+                }
+            }
+            default -> {
+                if (!usageCommands.containsKey(userCommand)){
+
+                    console.println("Команды " + userCommand + " не существует. Вызовите команду help для" +
+                            " просмотра доступных команд");
+                    return ExitCode.OK;
+                }
+
+                Map<String,Object> args = new HashMap<>();
                 ValueFactory valueFactory = new ValueFactory();
                 for (Argument arg : usageCommands.get(userCommand)) {
                     Object value = valueFactory.getReader(arg.getType()).read(console, interrogator);
@@ -83,7 +90,21 @@ public class Runner {
                 }
 
                 console.println(communicator.call(new Request(userCommand, args)).getAnswer());
-        }
+            }
+        };
+//        else if (userCommand.equals("exit")) {
+//            console.println(communicator.call(new Request(userCommand, new HashMap<>())).getAnswer());
+//            return ExitCode.EXIT;
+//        } else {
+//            Map<String,Object> args = new HashMap<>();
+//                ValueFactory valueFactory = new ValueFactory();
+//                for (Argument arg : usageCommands.get(userCommand)) {
+//                    Object value = valueFactory.getReader(arg.getType()).read(console, interrogator);
+//                    args.put(arg.getName(), value);
+//                }
+//
+//                console.println(communicator.call(new Request(userCommand, args)).getAnswer());
+//        }
         return ExitCode.OK;
     }
 }

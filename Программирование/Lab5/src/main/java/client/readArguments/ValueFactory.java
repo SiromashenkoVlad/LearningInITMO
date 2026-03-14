@@ -14,8 +14,8 @@ public class ValueFactory {
     private final Map<Class<?>, Reader> readers = new HashMap<>();
 
     public ValueFactory(){
-        readers.put(String.class, new StringReader());
-        readers.put(Integer.class, new IdReader());
+        readers.put(String.class, new StringRead());
+        readers.put(Integer.class, new IdRead());
         readers.put(Person.class, new PersonRead());
         readers.put(Color.class, new ColorRead());
         readers.put(Coordinates.class, new CoordinateRead());

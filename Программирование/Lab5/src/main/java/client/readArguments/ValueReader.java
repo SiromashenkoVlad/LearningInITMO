@@ -7,8 +7,8 @@ import common.Exceptions.IncorrectDataInput;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-public class ValueReader{
-    public <T> T read(Console console, Interrogator interrogator,
+class ValueReader{
+    <T> T read(Console console, Interrogator interrogator,
             Supplier<T> supplier, Predicate<T> condition, String whatNeed, String errorMessage) {
         for (int i = 0; i < 10; i++) {
             try {
