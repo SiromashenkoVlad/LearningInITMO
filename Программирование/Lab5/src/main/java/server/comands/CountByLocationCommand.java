@@ -1,6 +1,6 @@
 package server.comands;
 
-import common.Model.Location;
+import common.model.Location;
 import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;

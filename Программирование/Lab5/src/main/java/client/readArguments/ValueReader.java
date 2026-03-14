@@ -1,8 +1,8 @@
 package client.readArguments;
 
-import client.Console.Console;
+import client.console.Console;
 import client.Interrogator;
-import common.Exceptions.IncorrectDataInput;
+import common.exceptions.IncorrectDataInput;
 
 import java.util.function.Predicate;
 import java.util.function.Supplier;

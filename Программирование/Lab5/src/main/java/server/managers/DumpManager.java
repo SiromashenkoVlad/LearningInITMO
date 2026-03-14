@@ -1,10 +1,10 @@
 package server.managers;
 
-import common.Enums.Color;
-import common.Enums.Country;
-import common.Mainpart.Person;
-import common.Model.Coordinates;
-import common.Model.Location;
+import common.enums.Color;
+import common.enums.Country;
+import common.mainpart.Person;
+import common.model.Coordinates;
+import common.model.Location;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVPrinter;

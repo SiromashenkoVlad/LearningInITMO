@@ -1,4 +1,4 @@
-package common.Enums;
+package common.enums;
 
 public enum Country {
     RUSSIA,

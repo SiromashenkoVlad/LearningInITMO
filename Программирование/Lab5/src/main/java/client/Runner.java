@@ -1,8 +1,8 @@
 package client;
 
-import client.Console.Console;
+import client.console.Console;
 import client.readArguments.ValueFactory;
-import common.Enums.WorkMode;
+import common.enums.WorkMode;
 import common.requests.Argument;
 import common.requests.Request;
 import server.managers.Communicator;
@@ -91,20 +91,7 @@ public class Runner {
 
                 console.println(communicator.call(new Request(userCommand, args)).getAnswer());
             }
-        };
-//        else if (userCommand.equals("exit")) {
-//            console.println(communicator.call(new Request(userCommand, new HashMap<>())).getAnswer());
-//            return ExitCode.EXIT;
-//        } else {
-//            Map<String,Object> args = new HashMap<>();
-//                ValueFactory valueFactory = new ValueFactory();
-//                for (Argument arg : usageCommands.get(userCommand)) {
-//                    Object value = valueFactory.getReader(arg.getType()).read(console, interrogator);
-//                    args.put(arg.getName(), value);
-//                }
-//
-//                console.println(communicator.call(new Request(userCommand, args)).getAnswer());
-//        }
+        }
         return ExitCode.OK;
     }
 }

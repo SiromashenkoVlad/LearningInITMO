@@ -1,6 +1,6 @@
 package server.comands;
 
-import common.Mainpart.Person;
+import common.mainpart.Person;
 import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
@@ -15,7 +15,7 @@ public class AddIfMaxCommand extends CommandCollection {
 
     public Responce execute(Request r){
         try {
-            Person p = (Person) r.getArgs().get(this.getUsage()[0]);
+            Person p = (Person) r.getArgs().get(this.getUsage()[0].getName());
             Person mxpers = this.getCollectionManager().getMax();
             if (mxpers.getId() < p.getId()){
                 this.getCollectionManager().add(p);

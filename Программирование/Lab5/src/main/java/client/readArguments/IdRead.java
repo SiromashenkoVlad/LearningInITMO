@@ -1,6 +1,6 @@
 package client.readArguments;
 
-import client.Console.Console;
+import client.console.Console;
 import client.Interrogator;
 
 public class IdRead extends ValueReader implements Reader{

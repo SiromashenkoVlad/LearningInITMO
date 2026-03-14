@@ -1,13 +1,11 @@
-package common.Model;
-
-import common.Mainpart.Person;
+package common.model;
 
 import java.util.Objects;
 
 public class Location implements Comparable<Location>{
-    private int x;
-    private Integer y; //Поле не может быть null
-    private int z;
+    private final int x;
+    private final Integer y; //Поле не может быть null
+    private final int z;
 
     public Location(int xcoord, Integer ycoord, int zcoord){
         if (ycoord == null) {

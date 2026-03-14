@@ -1,4 +1,4 @@
-package common.Model;
+package common.model;
 
 import java.util.Objects;
 
@@ -30,8 +30,8 @@ public class Coordinates {
         if (this == o){ return true; }
         if (o == null || getClass() != o.getClass()) return false;
         Coordinates coord = (Coordinates) o;
-        return Float.compare(this.x, x) == 0 &&
-                Float.compare(this.y, y) == 0;
+        return Float.compare(this.x, coord.getX()) == 0 &&
+                Float.compare(this.y, coord.getY()) == 0;
     }
 
     @Override

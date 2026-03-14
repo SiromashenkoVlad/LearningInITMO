@@ -1,6 +1,6 @@
 package server.managers;
 
-import common.Mainpart.Person;
+import common.mainpart.Person;
 
 import java.time.LocalDateTime;
 import java.util.Collections;
@@ -9,7 +9,7 @@ import java.util.Objects;
 import java.util.Stack;
 
 public class CollectionManager {
-    private List<Person> collection = new Stack<Person>();
+    private List<Person> collection = new Stack<>();
     private LocalDateTime lastInitTime;
     private LocalDateTime lastSaveTime;
 

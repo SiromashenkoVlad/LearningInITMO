@@ -1,8 +1,10 @@
 package client.readArguments;
 
-import client.Console.Console;
+import client.console.Console;
 import client.Interrogator;
-import common.Model.Location;
+import common.model.Location;
+
+import java.util.Objects;
 
 
 public class LocationRead extends ValueReader implements Reader{
@@ -11,7 +13,7 @@ public class LocationRead extends ValueReader implements Reader{
         int x = this.read(console, interrogator, ()-> interrogator.getUserScanner().nextInt(),
                 null, "Введите целочисленную координату x", "Ошибка ввода числа");
         Integer y = this.read(console, interrogator, ()->interrogator.getUserScanner().nextInt(),
-                value -> value != null, "Введите целочисленную координату y", "Поле должно быть не null");
+                Objects::nonNull, "Введите целочисленную координату y", "Поле должно быть не null");
         int z = this.read(console, interrogator, ()-> interrogator.getUserScanner().nextInt(),
                 null, "Введите целочисленную координату z", "Ошибка ввода числа");
         return new Location(x, y, z);

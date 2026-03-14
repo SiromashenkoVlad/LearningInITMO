@@ -1,7 +1,7 @@
-import client.Console.StandartConsole;
+import client.console.StandartConsole;
 import client.Interrogator;
 import client.Runner;
-import common.Enums.WorkMode;
+import common.enums.WorkMode;
 import server.managers.Communicator;
 
 import java.util.Scanner;

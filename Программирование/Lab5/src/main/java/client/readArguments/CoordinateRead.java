@@ -1,8 +1,8 @@
 package client.readArguments;
 
-import client.Console.Console;
+import client.console.Console;
 import client.Interrogator;
-import common.Model.Coordinates;
+import common.model.Coordinates;
 
 
 public class CoordinateRead extends ValueReader implements Reader{

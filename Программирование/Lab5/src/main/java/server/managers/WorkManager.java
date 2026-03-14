@@ -1,13 +1,11 @@
 package server.managers;
 
-import common.Mainpart.Person;
 import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
 import server.comands.*;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class WorkManager {

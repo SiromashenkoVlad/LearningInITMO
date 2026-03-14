@@ -1,9 +1,9 @@
-package common.Mainpart;
+package common.mainpart;
 
-import common.Enums.Color;
-import common.Enums.Country;
-import common.Model.Coordinates;
-import common.Model.Location;
+import common.enums.Color;
+import common.enums.Country;
+import common.model.Coordinates;
+import common.model.Location;
 import server.managers.CollectionManager;
 
 import java.time.LocalDateTime;
@@ -14,7 +14,7 @@ import java.util.Objects;
 public class Person implements Comparable<Person>{
     private static int nextId = 1;
 
-    private int id; //Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
+    private final int id; //Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
     private String name; //Поле не может быть null, Строка не может быть пустой
     private Coordinates coordinates; //Поле не может быть null
     private java.time.ZonedDateTime creationDate; //Поле не может быть null, Значение этого поля должно генерироваться автоматически
@@ -101,11 +101,6 @@ public class Person implements Comparable<Person>{
         this.eyeColor = p.eyeColor;
         this.nationality = p.nationality;
         this.location = p.location;
-    }
-
-
-    public static void updateNextId(CollectionManager collectionManager) { //проработать логику с взаимодействием в коллекции
-        nextId = collectionManager.getMax().getId() + 1;
     }
 
     public int getId() {
