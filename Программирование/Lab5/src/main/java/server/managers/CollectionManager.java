@@ -57,6 +57,7 @@ public class CollectionManager {
         for (Person person : collection) {
             if (person.getId() == id){
                 collection.remove(person);
+                return;
             }
         }
     }

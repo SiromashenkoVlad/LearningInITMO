@@ -32,7 +32,7 @@ public class Runner {
     }
 
     public void interactiveMode(WorkMode workMode){
-        console.println("Начало работы в режиме " + workMode.name() + ". Добро пожаловать");
+        console.println("Work mode: " + workMode.name() + ". Welcome");
         ExitCode commandStatus = null;
         do {
             console.ps1();
