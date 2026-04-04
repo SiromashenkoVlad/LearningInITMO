@@ -13,3 +13,23 @@ Builder - исправь второй конструктор у Person
 У каждой команды поправить usage: Вместо String[] храни Argument[] с именем аргумента и типом, который подразумевается. Поправь CollectionManager в каждой команде: закинь его в родителя Command и исправь все конструкторы. После этого попробуй всю эту вакханалию, потесть все команды, сохранение/выгрузку из файла. После этого разберись script mode и можешь развлечься с тестами: поломай свою программу: вводи некорректные команды/данные, сломай свой файл загрузки, измени права доступа к файлу; проверь, что ты загружаешь имя файла, а не константно пользуешься одним.
 
 Зачем мне команда exit? Её класс можно удалить на сервере, в данной интерпретации это команда для клиента
+
+
+------------------------------------------------------
+Доп
+------------------------------------------------------
+Классы сериализации/десериализации json, создание/обработка запросов, класс-команды перехода в ИИ режим 
+API-код Deepseek sk-a3b7554aadc14c59965d971da890acc3
+
+OPENROUTER:
+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
+
+Open API полезные заголовки:
+input: optional string or array of EasyInputMessage or object or ResponseOutputMessage or 25 more
+Text, image, or file inputs to the model, used to generate a response.
+
+
+instructions: optional string
+A system (or developer) message inserted into the model's context.
+
+When using along with previous_response_id, the instructions from a previous response will not be carried over to the next response. This makes it simple to swap out system (or developer) messages in new responses.

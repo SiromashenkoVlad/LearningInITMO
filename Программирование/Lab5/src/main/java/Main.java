@@ -12,7 +12,6 @@ public class Main {
             System.out.println("Не указано имя файла");
             return;
         }
-
         String fileName = args[0] + ".csv";
         Runner runner = new Runner(new StandartConsole(), new Interrogator(new Scanner(System.in)),
                 new Communicator(fileName));

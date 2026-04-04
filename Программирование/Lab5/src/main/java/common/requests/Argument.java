@@ -16,4 +16,9 @@ public class Argument {
     public Class<?> getType() {
         return type;
     }
+
+    @Override
+    public String toString() {
+        return name + " " + type.toString();
+    }
 }

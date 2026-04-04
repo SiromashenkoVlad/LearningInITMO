@@ -7,12 +7,22 @@ import java.util.Map;
 import java.util.Objects;
 
 public class Request implements Serializable {
-    private final String name;
-    private final Map<String, Object> args;
+    private String name;
+    private Map<String, Object> args;
 
     public Request(String name, Map<String, Object> args){
         this.name = name;
         this.args = args;
+    }
+
+    public Request(){}
+
+    public void setArgs(Map<String, Object> args) {
+        this.args = args;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getName() {

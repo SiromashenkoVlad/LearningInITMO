@@ -2,5 +2,6 @@ package common.enums;
 
 public enum WorkMode{
     Interactive,
-    File
+    File,
+    Ai
 }
