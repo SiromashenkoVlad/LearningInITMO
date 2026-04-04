@@ -30,7 +30,6 @@ public class WorkManager {
         this.addCommand("count_by_location", new CountByLocationCommand(collectionManager));
         this.addCommand("count_greater_than_location", new CountGreaterThanLocationCommand(collectionManager));
         this.addCommand("print_field_descending_eye_color", new FieldDescendingEyeColorCommand(collectionManager));
-        this.addCommand("execute_script", new ExecuteScriptCommand());
         this.addCommand("help", new HelpCommand(commands));
 
     }
