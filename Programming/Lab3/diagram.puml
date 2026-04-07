@@ -1,0 +1,204 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+package "Enum-ы"{
+    enum Role {
+      BANDIT
+      POLICEMAN
+      COMMISSIONER
+      CITIZEN
+    }
+
+    enum Locations {
+        STREET, POLICE_DEPARTMENT
+    }
+
+    enum Status{
+        Alive
+        Died
+        Captured
+    }
+
+    enum Clothes{
+        POLICE,
+        BANDIT,
+        NORMAL
+    }
+}
+
+package "Exceptions"{
+    exception GetAwayFromPersecution(){
+        getMessage()
+    }
+    exception OverflowMachine(){
+        getMessage()
+    }
+}
+
+package "Enterface-ы"{
+    interface Shootable{
+        takeDamage(Shooter : shooter): void
+        die(): String
+    }
+
+    interface Shooter{
+        shootAt(target : People, ctx : Context) : void
+        shootAt(target : Car, ctx : Context) : void
+        shootAt(target : ArmoredCar, ctx : Context) : void
+    }
+}
+
+package "Работяги"{
+    package "Люди"{
+        abstract class People implements Shootable{
+            - name : String
+            - role : Role
+            - accuracy : double
+            - clothes : Clothes
+            - heldCase : Case
+            - status : Status
+            - Suitcase : Suitcase
+            + People(name : String, role : Role, accuracy : double, clothes : String, status : Status)
+            + hasSuitcase(suitcase : Suitcase)
+            + takeSuitcase (suitcase : Suitcase): void
+            + dropSuitcase () : void
+            + hasSuitcase() : boolean
+            +takeDamage(Shooter : shooter): void
+            shootAt(target : People, ctx : Context) : void
+            shootAt(target : Car, ctx : Context) : void
+            shootAt(target : ArmoredCar, ctx : Context) : void
+
+            + getName() : String
+            + getRole() : Role
+            + getAccuracy() : double
+            + getClothes() : String
+            + setClothes(clothes : Clothes) : void
+            + getStatus() : Status
+            + setStatus(status : Status) : Status
+            + getHeldCase() : Case
+            + toString(): String
+            + equals(o: Object): boolean
+            + hashCode() : int
+        }
+
+        class Bandit extends People implements Shooter{
+            - int brave;
+            BANDIT(name : String, role : Role, accuracy : double, brave, Integer, clothes : String, status : Status)
+            +denyCrime(): String
+            +explainMistake(): String
+            +admitCrime(): String
+            +beenOnInterrogation(): String
+            +changeStatus(status : Status) : void
+            +shootAt(target : People, ctx : Context) : void
+            +shootAt(target : Car, ctx : Context) : void
+            +shootAt(target : ArmoredCar, ctx : Context) : void
+            + toString(): String
+            + hashCode() : int
+        }
+
+        class Policeman extends People implements Shooter{
+        Policeman(name : String, role : Role, accuracy : double, clothes : String, status : Status)
+            +performASearch(target: People): boolean
+            +toString
+        }
+        class Comissar extends Policeman{
+        Comissar(name : String, role : Role, accuracy : double, clothes : String, status : Status)
+            +interrogationPeople(target: People): String
+        }
+
+        abstract class Crowd{
+            - members : ArrayList<Bandit>
+            - vehicles : ArrayList<Car>
+            - location: Location
+            +Crowd(members: ArrayList<Bandit>, vehicles: ArrayList<Car>)
+            + attack(target : Crowd): void
+            + pickRandomMember() : People
+            + hasActiveMembers() : boolean
+        }
+
+        class BanditGang extends Crowd{
+          - members : ArrayList<Bandit>
+          - vehicles : ArrayList<Car>
+          +BanditGang(members: ArrayList<Bandit>, vehicles: ArrayList<Car>)
+          + pickShooter() : Bandit
+          + isCarryingSuitcase() : boolean
+        }
+
+        class PoliceConvoy extends Crowd{
+          - members : ArrayList<Policeman>
+          - vehicles : ArrayList<Car>
+          +PoliceConvoy(members: ArrayList<Bandit>, vehicles: ArrayList<Car>)
+          + takeDamage(target: Shootable) : void
+          + getActiveOfficers() : List<PoliceOfficer>
+          +chaising(target: BanditGang)
+        }
+    }
+    package "Машины" {
+        class Car implements Shootable{
+            -maxCountPassengers: Integer
+            -passengers: List<People>
+            -iswork: boolean
+            +Car(cnt: Integer, lstPassengers: List<People>): void
+            +getmaxCountPassengers(): Integer
+            +addPassenger(passenger: People): void
+            +removePassenger(namePassenger: String): void
+            +getIsWork(): boolean
+            +setIsWork(work: boolean): void
+        }
+        class ArmoredCar extends Car implements Shooter{
+            +shootAt(target: Shootable): String
+        }
+    }
+    class Case{
+        -cash: Integer
+        +Case(cntcash: Integer): void
+        +getCash(): Integer
+        +addCash(cntcash: Integer): void
+    }
+}
+
+
+
+
+
+People --> Role
+People --> Status
+People --> Location
+People --> Case
+People --> Car
+Bandit ..|> Shooter
+
+Crowd --> Locations
+
+BanditGang "1" *-- "1..*" Bandit
+BanditGang "1" *-- "1..*" Car
+
+PoliceConvoy "1" *-- "1..*" Car
+PoliceConvoy "1" *-- "1..*" Policeman
+PoliceConvoy "1" *-- "1..*" Comissar
+PoliceConvoy --> BanditGang
+
+
+
+
+@enduml
+
+
+# могут уйти от преследования если их больше(чек на количество)
+#Водитель машины
+#Убирать сцену,
+#chaising в конвой, банду в качестве параметров
+# Searchsuitcase передавать в параметрах определенный чемодан
+# interrogateGang также
+
+локация к группам напрямую
+crowd перенести файт : +attack(otherCrowd: Crowd), битва в мейне
+в интерфейсах параметры поправить
+
+people act выкинуть
+capture убрать
+
+по желанию:
+рандомная проверка для бесчестного полицецейского(добавить честь) смены одежды(будет работать и на бандитов)
+try change role(добавить fake role)
+

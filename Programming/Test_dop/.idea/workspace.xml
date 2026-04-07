@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6a110cb-af39-4138-85e9-205b7172695c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/ExecuteScriptCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/client/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/client/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/common/enums/WorkMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/common/enums/WorkMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/common/requests/Argument.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/common/requests/Argument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Заметки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Заметки.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SiromashenkoVlad&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SiromashenkoVlad/LearningInITMO.git&quot;,
+    &quot;accountId&quot;: &quot;5feb2d3a-398e-4417-a52d-86ea14dae544&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3BRBeNrWNLRqKPRE09I6gtItl4q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.With_API_KEY.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "AI-input",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/my data/Learning/ИТМО/Программирование/Test_dop",
+    "onboarding.tips.debug.path": "C:/my data/Learning/ИТМО/Программирование/Test_dop/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="With_API_KEY" type="Application" factoryName="Application">
+      <envs>
+        <env name="OPENROUTER_API_KEY" value="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" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Test_dop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6a110cb-af39-4138-85e9-205b7172695c" name="Changes" comment="" />
+      <created>1774442099173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774442099173</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

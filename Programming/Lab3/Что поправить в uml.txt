@@ -1,0 +1,17 @@
+Что поправить в uml:
+1.Добавить exception для Case
+2. Убрать currentCar в полях People и все соответствующие методы.
+3. Добавить все Enum-s
+4. Переименовать методы с чемоданом в People.
+5. Методы capture и die в people и shootable заменить на один: changeStatus
+6. Где методы возвращют String для того, чтобы показать, что происходит в сцене, заменить возвращаемый тип на void
+7. void changeStatus(Status status) поменять в People и Shootable
+8. В Car заменить iswork на статус
+9. Добавить в Car clear
+10. Полиморфизм по стрельбе(ShootAt) добавит Shooter и добавить реализации в ArmoredCar
+11. Добавить к бандитам метод +beenOnInterrogation(): String
+12. Policeman callforBackUp -> PoliceConvoy
+13. Добавить name к Crowd и метод attack
+14. добавить beenChaising banditGang
+15. Убрать location из people и добавить в crowd
+16. + abstract class Group

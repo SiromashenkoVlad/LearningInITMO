@@ -1,0 +1,30 @@
+ org 0xCD;
+ ADR: word 0x0554;
+
+ START: CLA;
+ST (ADR);
+
+ S1: IN 5;
+ AND #0x40;
+ BEQ S1;
+ IN 4;
+ CMP #0x0A;
+ ST (ADR);
+ BEQ DONE;
+
+ 
+ S2: IN 5;
+ AND #0x40;
+ BEQ S2;
+ IN 4;
+
+ SWAB;
+ ADD (ADR);
+ ST (ADR)+;
+SWAB;
+SXTB;
+ CMP #0x0A;
+ BEQ DONE;
+
+ JUMP START;
+ DONE: HLT;
