@@ -82,6 +82,7 @@ public class Runner {
                     return ExitCode.OK;
                 }
             }
+
             default -> {
                 if (!usageCommands.containsKey(userCommand)){
 
