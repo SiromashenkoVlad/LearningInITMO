@@ -5,10 +5,11 @@ import client.readArguments.ValueFactory;
 import common.enums.WorkMode;
 import common.requests.Argument;
 import common.requests.Request;
-import server.managers.Communicator;
+import common.requests.Responce;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 
 public class Runner {
@@ -20,15 +21,16 @@ public class Runner {
 
     private final Console console;
     private Interrogator interrogator;
-    private final Communicator communicator;
     private Map<String, Argument[]> usageCommands;
+    private ConnectionManager connectionManager;
     private Set<String> setFiles = new HashSet<>();
 
-    public Runner(Console console, Interrogator interrogator, Communicator communicator){
+    public Runner(Console console, Interrogator interrogator, Map<String, Argument[]> usages,
+                  ConnectionManager connectionManager){
         this.console = console;
         this.interrogator = interrogator;
-        this.communicator = communicator;
-        this.usageCommands = communicator.getUsagesCommands();
+        this.usageCommands = usages;
+        this.connectionManager = connectionManager;
     }
 
     public void interactiveMode(WorkMode workMode){
@@ -61,8 +63,14 @@ public class Runner {
 
         switch (userCommand) {
             case "exit" -> {
-                console.println(communicator.call(new Request(userCommand, new HashMap<>())).getAnswer());
-                return ExitCode.EXIT;
+                try{
+                    connectionManager.sendingRequest(new Request(userCommand, new HashMap<>()));
+                    Responce r = (Responce) connectionManager.gettingResponse();
+                    System.out.println(r.getAnswer());
+                    return ExitCode.EXIT;
+                } catch (IOException | ClassNotFoundException e) {
+                    System.err.println("Запрос не отправлен");
+                }
             }
             case "execute_script" -> {
                 ValueFactory valueFactory = new ValueFactory();
@@ -89,7 +97,15 @@ public class Runner {
                     args.put(arg.getName(), value);
                 }
 
-                console.println(communicator.call(new Request(userCommand, args)).getAnswer());
+                try{
+                    connectionManager.sendingRequest(new Request(userCommand, args));
+                    Responce r = (Responce) connectionManager.gettingResponse();
+                    System.out.println(r.getAnswer());
+                    return ExitCode.OK;
+                } catch (IOException | ClassNotFoundException e) {
+                    System.err.println("Запрос не отправлен" + e.getMessage());
+                    return ExitCode.ERROR;
+                }
             }
         }
         return ExitCode.OK;
