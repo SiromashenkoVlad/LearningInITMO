@@ -1,25 +1,33 @@
 import java.io.*;
 import java.net.InetAddress;
+import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.Selector;
+import java.nio.channels.ServerSocketChannel;
+import java.util.Set;
 
 public class server {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        Socket sock; ServerSocket serv;
-        OutputStream os; InputStream is;
-        InetAddress host = InetAddress.getLocalHost(); int port = 3418;
-        serv = new ServerSocket(port);
-        sock = serv.accept();
+        Selector selector = Selector.open();
 
-        is = sock.getInputStream();
-        ObjectInputStream objectInputStream = new ObjectInputStream(is);
-        Request r = (Request) objectInputStream.readObject();
+        ServerSocketChannel server = ServerSocketChannel.open();
+        server.bind(new InetSocketAddress(3418));
+        server.configureBlocking(false);
 
-        r.getArgs().put("{element}", new Person("Dmitriy", "Gridasov"));
+        server.register(selector, SelectionKey.OP_ACCEPT);
 
-        os = sock.getOutputStream();
-        ObjectOutputStream outputStream = new ObjectOutputStream(os);
-        outputStream.writeObject(r);
-        outputStream.flush();
+        while(true){
+            selector.select();
+            Set<SelectionKey> keys = selector.selectedKeys();
+            for (SelectionKey key : keys){
+                if (key.isValid()){
+                    if (key.isAcceptable()){
+
+                    }
+                }
+            }
+        }
     }
 }
