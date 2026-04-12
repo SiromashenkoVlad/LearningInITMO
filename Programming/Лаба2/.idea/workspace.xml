@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43eec433-1ec5-48db-8687-2b8e3e2e65cd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Информатика/lab3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/lab3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/lab3/Informatics_Lab3_Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/lab3/Informatics_Lab3_Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/lab3/Informatics_Lab3_Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/lab3/Informatics_Lab3_Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/lab3/Informatics_Lab3_Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/lab3/Informatics_Lab3_Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/lab3/script.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/laba4/.~lock.Отчет_ЛР4.odt#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/laba4/additional_task_2/serialization_with_library.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/laba4/additional_task_2/serialization_with_library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/laba4/additional_task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/laba4/additional_task_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/laba4/additional_task_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/laba4/additional_task_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/laba4/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/laba4/data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/laba4/decryptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/laba4/decryptor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/laba4/res.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/laba4/res.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/laba4/serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/laba4/serialization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/laba4/shedule.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/laba4/shedule.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Информатика/laba4/Отчет_ЛР4.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Информатика/laba4/Отчет_ЛР4.odt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PokemonsClasses" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="36CihjmbWfuvNXhU4n23mesZmIA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/my data/Learning/ИТМО/Программирование/Лаба2"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43eec433-1ec5-48db-8687-2b8e3e2e65cd" name="Changes" comment="" />
+      <created>1764517074206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764517074206</updated>
+    </task>
+    <servers />
+  </component>
+</project>
