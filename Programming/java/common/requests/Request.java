@@ -17,6 +17,16 @@ public class Request implements Serializable {
         this.args = args;
     }
 
+    public Request(){}
+
+    public void setArgs(Map<String, Object> args) {
+        this.args = args;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }

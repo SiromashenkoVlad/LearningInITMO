@@ -20,4 +20,9 @@ public class Argument implements Serializable {
     public Class<?> getType() {
         return type;
     }
+
+    @Override
+    public String toString() {
+        return name + " " + type.toString();
+    }
 }
