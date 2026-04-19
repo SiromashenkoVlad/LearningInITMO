@@ -1,0 +1,26 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ФАМИЛИЯ\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИМЯ\PYGZdq{}}\PYG{p}{,}
+\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ОТЧЕСТВО\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{AVG}\PYG{p}{(}\PYG{k}{CAST}\PYG{p}{(}\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ОЦЕНКА\PYGZdq{}}\PYG{+w}{ }\PYG{k}{AS}\PYG{+w}{ }\PYG{n+nb}{INTEGER}\PYG{p}{))}
+\PYG{k}{AS}\PYG{+w}{ }\PYG{n}{avg\PYGZus{}grade}
+\PYG{k}{FROM}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}
+\PYG{k}{WHERE}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ГРУППА\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}4100\PYGZsq{}}
+\PYG{k}{AND}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ОЦЕНКА\PYGZdq{}}\PYG{+w}{ }\PYG{o}{\PYGZti{}}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}\PYGZca{}[0\PYGZhy{}9]+\PYGZdl{}\PYGZsq{}}
+\PYG{k}{GROUP}\PYG{+w}{ }\PYG{k}{BY}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ФАМИЛИЯ\PYGZdq{}}\PYG{p}{,}
+\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИМЯ\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ОТЧЕСТВО\PYGZdq{}}
+\PYG{k}{HAVING}\PYG{+w}{ }\PYG{k}{AVG}\PYG{p}{(}\PYG{k}{CAST}\PYG{p}{(}\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ОЦЕНКА\PYGZdq{}}\PYG{+w}{ }\PYG{k}{AS}\PYG{+w}{ }\PYG{n+nb}{INTEGER}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{k}{MIN}\PYG{p}{(}\PYG{n}{avg\PYGZus{}grade}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{FROM}\PYG{+w}{ }\PYG{p}{(}
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{k}{AVG}\PYG{p}{(}\PYG{k}{CAST}\PYG{p}{(}\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ОЦЕНКА\PYGZdq{}}\PYG{+w}{ }\PYG{k}{AS}\PYG{+w}{ }\PYG{n+nb}{INTEGER}\PYG{p}{))}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n}{avg\PYGZus{}grade}
+\PYG{k}{FROM}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}
+\PYG{k}{WHERE}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ГРУППА\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}1100\PYGZsq{}}
+\PYG{k}{AND}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ОЦЕНКА\PYGZdq{}}\PYG{+w}{ }\PYG{o}{\PYGZti{}}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}\PYGZca{}[0\PYGZhy{}9]+\PYGZdl{}\PYGZsq{}}
+\PYG{k}{GROUP}\PYG{+w}{ }\PYG{k}{BY}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}
+\PYG{p}{));}
+\end{MintedVerbatim}

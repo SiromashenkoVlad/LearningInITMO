@@ -1,14 +1,16 @@
 \documentclass[a4paper, 12pt]{article}
-\usepackage[a4paper, left=1.5cm, right=2cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage[a4paper, left=1.3cm, right=2cm, top=1.5cm, bottom=1.5cm]{geometry}
 \usepackage{blindtext}
 \usepackage{titlesec}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{minted}
 
-% Сначала подключаем polyglossia и настраиваем шрифты
+
 \usepackage{polyglossia}
 \setmainlanguage{russian}
 \setmainfont{Times New Roman}
+\setmonofont{DejaVu Sans Mono}
 
 
 \thispagestyle{empty}
@@ -19,5 +21,7 @@
 	\tableofcontents
 	\newpage
 	\input{task.tex}
-	\input{work.tex}
+	\newpage
+	\input{dwork.tex}
+	\input{result.tex}
 \end{document}

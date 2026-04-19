@@ -1,6 +1,6 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.10)  5 APR 2026 11:45
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.10)  18 APR 2026 20:36
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **./main.tex
 (main.tex
@@ -359,43 +359,42 @@ File: images/Карта_Балкан_по_Сан-Стефанскому_миру
  [2]
 File: images/Balkans_1878.png Graphic file (type bmp)
 <images/Balkans_1878.png>
-) (greatGame.tex
+ [3])
+(greatGame.tex
 File: images/Turkestan_1900-en.png Graphic file (type bmp)
 <images/Turkestan_1900-en.png>
-[3]
+ [4]
 File: images/Политическая_карта_Азии_начало_XX_века.jpg Graphic file (type bmp)
 
 <images/Политическая_карта_Азии_начало_XX_века.jpg>
-) (chinese.tex
+ [5]) (chinese.tex
 File: images/Spheres-Influence-Chinese.jpeg Graphic file (type bmp)
 <images/Spheres-Influence-Chinese.jpeg>
- [4] [5]) (farEast.tex) [6] (formAlliance.tex
-Overfull \hbox (1.63748pt too wide) in paragraph at lines 9--11
-\TU/TimesNewRoman(1)/m/n/12 чия между странами в Средней Азии: север Персии ото
-шел России, юг - Британии, центр-нейтральная
+ [6]
+Overfull \hbox (7.38943pt too wide) in paragraph at lines 25--26
+[]\TU/TimesNewRoman(1)/m/it/12 Вставка видеохроник с кадрами Китая, кораблей Ев
+ропейских держав, и Европейскими/Японскими
  []
 
-) [7] (fightTogether.tex
-File: images/imgpreview.jpg Graphic file (type bmp)
-<images/imgpreview.jpg>
-) (economic.tex [8]
-File: images/Общие_объёмы-инвестиций.png Graphic file (type bmp)
-<images/Общие_объёмы-инвестиций.png>
-File: images/куда-шли-инвестиции.png Graphic file (type bmp)
-<images/куда-шли-инвестиции.png>
- [9]) (result.tex) [10] (main.aux)
+) (farEast.tex
+File: images/aliance.jpg Graphic file (type bmp)
+<images/aliance.jpg>
+ [7]
+File: images/ships.png Graphic file (type bmp)
+<images/ships.png>
+ [8]) [9] (result.tex) [10] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5314 strings out of 402987
- 140930 string characters out of 5447695
- 597920 words of memory out of 5000000
- 33933 multiletter control sequences out of 15000+600000
- 630705 words of font info for 80 fonts, out of 8000000 for 9000
+ 5289 strings out of 402987
+ 140193 string characters out of 5447695
+ 592920 words of memory out of 5000000
+ 33917 multiletter control sequences out of 15000+600000
+ 630713 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,6n,93p,1061b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,6n,93p,775b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (11 pages).

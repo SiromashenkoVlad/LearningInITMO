@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИМЯ\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}СЕССИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}УЧГОД\PYGZdq{}}\PYG{+w}{ }\PYG{k}{FROM}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}
+\PYG{k}{RIGHT}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}СЕССИЯ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}
+\PYG{k}{WHERE}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ФАМИЛИЯ\PYGZdq{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Ёлкин\PYGZsq{}}\PYG{+w}{ }\PYG{k}{AND}
+\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}СЕССИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m+mi}{14}\PYG{+w}{ }\PYG{k}{AND}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}СЕССИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{32199}\PYG{p}{;}
+\end{MintedVerbatim}

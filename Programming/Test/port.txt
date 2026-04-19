@@ -15,3 +15,20 @@ for (int j = 0; j < len; j++) {
 }
 os = sock.getOutputStream();
 os.write(arr);
+
+
+// клиент
+byte arr[] = {0,1,2,3,4,5,6,7,8,9};
+int len = arr.length;
+Socket sock;
+OutputStream os; InputStream is;
+InetAddress host; int port;
+port = 3418;
+sock = new Socket(host,port);
+os = sock.getOutputStream();
+os.write(arr);
+is = sock.getInputStream();
+is.read(arr);
+for (byte j : arr) {
+    System.out.println(j);
+}

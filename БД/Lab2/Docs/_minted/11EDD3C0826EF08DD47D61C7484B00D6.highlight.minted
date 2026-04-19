@@ -1,0 +1,11 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ГРУППЫ\PYGZus{}ПЛАНОВ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ПЛАН\PYGZus{}ИД\PYGZdq{}}\PYG{p}{,}
+\PYG{k}{COUNT}\PYG{p}{(}\PYG{k}{distinct}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ГРУППЫ\PYGZus{}ПЛАНОВ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ГРУППА\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{AS}\PYG{+w}{ }\PYG{n}{cnt}
+\PYG{k}{FROM}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ГРУППЫ\PYGZus{}ПЛАНОВ\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ПЛАН\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}
+\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ГРУППЫ\PYGZus{}ПЛАНОВ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ПЛАН\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОТДЕЛЫ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОТДЕЛЫ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ОТД\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{WHERE}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОТДЕЛЫ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}КОРОТКОЕ\PYGZus{}ИМЯ\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}ВТ\PYGZsq{}}
+\PYG{k}{GROUP}\PYG{+w}{ }\PYG{k}{BY}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ГРУППЫ\PYGZus{}ПЛАНОВ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ПЛАН\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{HAVING}\PYG{+w}{ }\PYG{k}{COUNT}\PYG{p}{(}\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ГРУППЫ\PYGZus{}ПЛАНОВ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ГРУППА\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{;}
+\end{MintedVerbatim}

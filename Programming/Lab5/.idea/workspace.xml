@@ -9,7 +9,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6185bfa3-3d37-4c95-bb8f-0b547f7aace0" name="Changes" comment="comm" />
+    <list default="true" id="6185bfa3-3d37-4c95-bb8f-0b547f7aace0" name="Changes" comment="comm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/port.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/port.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/_FDC3BDEFB79CEC8EB8211D2499E04704.data.minted" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/dwork.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/dwork.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/task.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/task.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/title.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/title.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/work.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/work.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/balkans.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/balkans.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/chinese.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/chinese.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/farEast.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/farEast.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/greatGame.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/greatGame.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/preambula.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/preambula.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/result.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/result.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/title.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/title.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОПД/lab6/Отчет_ЛР6_опд.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ОПД/lab6/Отчет_ЛР6_опд.odt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,22 +75,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "AI-input",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.12300122",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test-with-merge&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.12300122&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="server.Main" />
@@ -74,6 +104,15 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -91,6 +130,8 @@
       <updated>1775657291444</updated>
       <workItem from="1775657293967" duration="7783000" />
       <workItem from="1775749182893" duration="954000" />
+      <workItem from="1776591227074" duration="2552000" />
+      <workItem from="1776617131496" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="TCP work">
       <option name="closed" value="true" />

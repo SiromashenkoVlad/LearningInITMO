@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{k}{COUNT}\PYG{p}{(}\PYG{o}{*}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{FROM}\PYG{+w}{ }\PYG{p}{(}
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{k}{FROM}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{WHERE}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ВЕДОМОСТИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ОЦЕНКА\PYGZdq{}}\PYG{+w}{ }\PYG{k}{in}\PYG{+w}{ }\PYG{p}{(}\PYG{l+s+ss}{\PYGZdq{}5\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Зачёт\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{GROUP}\PYG{+w}{ }\PYG{k}{BY}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}\PYG{p}{);}
+\end{MintedVerbatim}

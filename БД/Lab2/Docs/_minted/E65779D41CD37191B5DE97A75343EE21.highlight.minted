@@ -1,0 +1,21 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ГРУППА\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}\PYG{p}{,}
+\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ФАМИЛИЯ\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИМЯ\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ОТЧЕСТВО\PYGZdq{}}\PYG{p}{,}
+\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}П\PYGZus{}ПРКОК\PYGZus{}ИД\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}СОСТОЯНИЕ\PYGZdq{}}
+\PYG{k}{FROM}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ПЛАН\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ФОРМЫ\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}
+\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ФОРМЫ\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ФО\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{WHERE}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}НАЧАЛО\PYGZdq{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}2012\PYGZhy{}09\PYGZhy{}01\PYGZsq{}}
+\PYG{k}{AND}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ФОРМЫ\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}НАИМЕНОВАНИЕ\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Заочная\PYGZsq{}}
+\PYG{k}{AND}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}КУРС\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}
+\PYG{k}{AND}\PYG{+w}{ }\PYG{k}{EXISTS}\PYG{+w}{ }\PYG{p}{(}
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{l+m+mi}{1}
+\PYG{k}{FROM}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}НАПРАВЛЕНИЯ\PYGZus{}СПЕЦИАЛ\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}НАПР\PYGZus{}СПЕЦ\PYGZdq{}}
+\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}НАПР\PYGZus{}СПЕЦ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}НАПРАВЛЕНИЯ\PYGZus{}СПЕЦИАЛ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}НАПС\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{WHERE}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}НАПРАВЛЕНИЯ\PYGZus{}СПЕЦИАЛ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}НАПС\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{AND}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}НАПР\PYGZus{}СПЕЦ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}НАИМЕНОВАНИЕ\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Программная инженерия\PYGZsq{}}
+\PYG{p}{);}
+\end{MintedVerbatim}

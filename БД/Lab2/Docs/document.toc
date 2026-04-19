@@ -1,3 +1,4 @@
 \xpg@aux {}{russian}
 \contentsline {section}{\numberline {1}Текст задания}{3}{section.1}%
-\contentsline {section}{\numberline {2}Ход работы}{4}{section.2}%
+\contentsline {section}{\numberline {2}Ход работы}{5}{section.2}%
+\contentsline {section}{\numberline {3}Вывод}{6}{section.3}%

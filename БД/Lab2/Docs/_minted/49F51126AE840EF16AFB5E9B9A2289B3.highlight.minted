@@ -1,0 +1,11 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{k}{COUNT}\PYG{p}{(}\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{AS}\PYG{+w}{ }\PYG{k}{count}\PYG{+w}{ }\PYG{k}{FROM}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ЧЛВК\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}УЧЕНИКИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ПЛАН\PYGZus{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}
+\PYG{k}{INNER}\PYG{+w}{ }\PYG{k}{JOIN}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ФОРМЫ\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ФОРМЫ\PYGZus{}ОБУЧЕНИЯ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ИД\PYGZdq{}}\PYG{+w}{ }\PYG{o}{=}
+\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ПЛАНЫ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ФО\PYGZus{}ИД\PYGZdq{}}
+\PYG{k}{WHERE}\PYG{+w}{ }\PYG{l+s+ss}{\PYGZdq{}Н\PYGZus{}ЛЮДИ\PYGZdq{}}\PYG{p}{.}\PYG{l+s+ss}{\PYGZdq{}ДАТА\PYGZus{}РОЖДЕНИЯ\PYGZdq{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}2026\PYGZhy{}03\PYGZhy{}15\PYGZsq{}}\PYG{p}{::}\PYG{n+nb}{DATE}
+\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nb}{INTERVAL}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}20 years\PYGZsq{}}\PYG{p}{;}
+\end{MintedVerbatim}
