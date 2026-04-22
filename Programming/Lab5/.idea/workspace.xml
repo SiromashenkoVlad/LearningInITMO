@@ -9,36 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6185bfa3-3d37-4c95-bb8f-0b547f7aace0" name="Changes" comment="comm">
+    <list default="true" id="6185bfa3-3d37-4c95-bb8f-0b547f7aace0" name="Changes" comment="19-04-2026">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/port.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/port.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/_FDC3BDEFB79CEC8EB8211D2499E04704.data.minted" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/document.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/dwork.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/dwork.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/task.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/task.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/title.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/title.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../БД/Lab2/Docs/work.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../БД/Lab2/Docs/work.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/balkans.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/balkans.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/chinese.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/chinese.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/farEast.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/farEast.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/greatGame.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/greatGame.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/main.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/preambula.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/preambula.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/result.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/result.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/title.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../История/2_semestr/Проект/Сценарий/title.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ОПД/lab6/Отчет_ЛР6_опд.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ОПД/lab6/Отчет_ЛР6_опд.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +104,8 @@
       <workItem from="1775657293967" duration="7783000" />
       <workItem from="1775749182893" duration="954000" />
       <workItem from="1776591227074" duration="2552000" />
-      <workItem from="1776617131496" duration="311000" />
+      <workItem from="1776617131496" duration="1936000" />
+      <workItem from="1776843411673" duration="1170000" />
     </task>
     <task id="LOCAL-00001" summary="TCP work">
       <option name="closed" value="true" />
@@ -165,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775747545208</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="19-04-2026">
+      <option name="closed" value="true" />
+      <created>1776617565680</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776617565680</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +169,7 @@
     <MESSAGE value="TCP work 2" />
     <MESSAGE value="TCP work 3" />
     <MESSAGE value="comm" />
-    <option name="LAST_COMMIT_MESSAGE" value="comm" />
+    <MESSAGE value="19-04-2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="19-04-2026" />
   </component>
 </project>

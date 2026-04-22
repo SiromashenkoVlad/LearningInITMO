@@ -65,49 +65,6 @@ public class Runner {
         }
     }
 
-    public void AiMod(){
-        console.println("Work mode: " + WorkMode.Ai + ". Welcome");
-        AiStatus status = null;
-        MakeRequestToModel makeRequest = new MakeRequestToModel();
-        try{
-            ResponseFromModel responseFromModel = makeRequest.execute("Расскажи о себе");
-            console.println(responseFromModel.answer());
-            while (status != AiStatus.FINISH) {
-                String answerUser = "";
-                switch (responseFromModel.status()){
-                    case EXECUTE:
-                        Request request = responseFromModel.request();
-                        if (!usageCommands.containsKey(request.getName())){
-                            responseFromModel = makeRequest.execute("Сервер не нашел имя той команды, что ты дал" +
-                                    " на исполнение. Переделай ответ");
-                        }
-                        else {
-
-                            console.println(communicator.call(request).getAnswer());
-                            status = AiStatus.FINISH;
-                        }
-                        break;
-                    case ERROR:
-                        responseFromModel = makeRequest.execute("Сервер не смог распарсить твой ответ. Предыдущий" +
-                                " ответ пользователся(если запрос был): " + answerUser);
-                        status = responseFromModel.status();
-                        break;
-                    default:
-                        answerUser = readFromConsole();
-                        System.out.println(answerUser);
-                        responseFromModel = makeRequest.execute(answerUser);
-                        status = responseFromModel.status();
-                        break;
-                }
-                console.println(responseFromModel.answer());
-            }
-        } catch (JsonProcessingException e){
-            System.out.println("проблемы с json в MakeRequestToModel");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-    }
 
     private ExitCode launchCommand(String userCommand){
         if (userCommand.isEmpty()){
