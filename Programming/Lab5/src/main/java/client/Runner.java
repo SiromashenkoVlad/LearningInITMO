@@ -1,11 +1,7 @@
 package client;
 
-import client.aiMod.AiStatus;
-import client.aiMod.MakeRequestToModel;
-import client.aiMod.communicateWithModel.ResponseFromModel;
 import client.console.Console;
 import client.readArguments.ValueFactory;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import common.enums.WorkMode;
 import common.requests.Argument;
 import common.requests.Request;
@@ -25,21 +21,16 @@ public class Runner {
 
     private final Console console;
     private Interrogator interrogator;
-    private final Communicator communicator;
     private Map<String, Argument[]> usageCommands;
+    private ConnectionManager connectionManager;
     private Set<String> setFiles = new HashSet<>();
 
-    public Runner(Console console, Interrogator interrogator, Communicator communicator){
+    public Runner(Console console, Interrogator interrogator, Map<String, Argument[]> usages,
+                  ConnectionManager connectionManager){
         this.console = console;
         this.interrogator = interrogator;
-        this.communicator = communicator;
-        this.usageCommands = communicator.getUsagesCommands();
-    }
-
-    public String readFromConsole(){
-        console.ps1();
-        if (!interrogator.getUserScanner().hasNext()){ return ""; }
-        return interrogator.getUserScanner().nextLine().trim();
+        this.usageCommands = usages;
+        this.connectionManager = connectionManager;
     }
 
     public void interactiveMode(WorkMode workMode){
@@ -64,7 +55,6 @@ public class Runner {
             console.println("Такого файла или нет или доступ к нему закрыт");
         }
     }
-
 
     private ExitCode launchCommand(String userCommand){
         if (userCommand.isEmpty()){
@@ -92,16 +82,13 @@ public class Runner {
                     return ExitCode.OK;
                 }
             }
-            case "AiMod" -> {
-                AiMod();
-                return ExitCode.OK;
-            }
+
             default -> {
                 if (!usageCommands.containsKey(userCommand)){
 
                     console.println("Команды " + userCommand + " не существует. Вызовите команду help для" +
                             " просмотра доступных команд");
-                    return ExitCode.ERROR;
+                    return ExitCode.OK;
                 }
 
                 Map<String,Object> args = new HashMap<>();

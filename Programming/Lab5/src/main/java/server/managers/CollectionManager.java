@@ -12,8 +12,10 @@ public class CollectionManager {
     private List<Person> collection = new Stack<>();
     private LocalDateTime lastInitTime;
     private LocalDateTime lastSaveTime;
+    private String filename;
 
     public CollectionManager(String filename){
+        this.filename = filename;
         collection = DumpManager.read(filename);
         lastInitTime = LocalDateTime.now();
         lastSaveTime = LocalDateTime.now();
@@ -34,6 +36,10 @@ public class CollectionManager {
 
     public LocalDateTime getLastSaveTime() {
         return lastSaveTime;
+    }
+
+    public String getFilename() {
+        return filename;
     }
 
     public int size(){
@@ -67,7 +73,7 @@ public class CollectionManager {
     }
 
     public void save(){
-        DumpManager.write("data.csv", collection);
+        DumpManager.write(filename, collection);
     }
 
     public Person getMax(){

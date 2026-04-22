@@ -23,7 +23,7 @@ public class WorkManager {
         this.addCommand("update", new UpdateByIdCommand(collectionManager));
         this.addCommand("remove_by_id", new RemoveByIdCommand(collectionManager));
         this.addCommand("clear", new ClearCommand(collectionManager));
-        this.addCommand("save", new SaveCommand(collectionManager));
+
         this.addCommand("add_if_max", new AddIfMaxCommand(collectionManager));
         this.addCommand("shuffle", new ShuffleCommand(collectionManager));
         this.addCommand("reorder", new ReorderCommand(collectionManager));
