@@ -51,41 +51,70 @@ public class ConnectionManager implements Closeable {
         ServerSocketChannel ssc = (ServerSocketChannel) key.channel();
         SocketChannel sc = ssc.accept();
         System.out.println("Клиент подключился: " + sc.getLocalAddress());
-
-        ByteBuffer byteBufferWithFilename = ByteBuffer.allocate(10000);
-        sc.read(byteBufferWithFilename);
-        String filename = new String(byteBufferWithFilename.array());
-
-        key.attach(new Communicator(filename));
-
-        Communicator comm = (Communicator) key.attachment();
-        sendingResponse((Serializable) comm.getUsagesCommands(), key);
         sc.configureBlocking(false);
-        sc.register(key.selector(), OP_READ);
+        sc.register(key.selector(), OP_READ, new Attach(10000));
     }
 
     public void doRead(SelectionKey key) throws IOException {
         SocketChannel sc = (SocketChannel) key.channel();
-        Request req = gettingData(sc);
-        Communicator comm = (Communicator) key.attachment();
-        Responce resp = comm.call(req);
-        sendingResponse(resp, key);
-    }
+        Attach attach = (Attach) key.attachment();
+        ByteBuffer bf = attach.getBf();
+        int byteread = sc.read(bf);
+        if (byteread == -1){
+            sc.close();
+            return;
+        }
 
-    public <T> T ByteBufferToObject(ByteBuffer bf) throws IOException{
-        try{
-            ByteArrayInputStream bais = new ByteArrayInputStream(bf.array());
-            ObjectInputStream ois = new ObjectInputStream(bais);
-            return (T) ois.readObject();
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e.getMessage());
+
+        if (attach.getLength() == 0){
+            if (bf.position() >= 4){
+                bf.flip();
+                int length = bf.getInt();
+                System.out.println("Дошел размер " + length);
+                bf.compact();
+                attach.setLength(length);
+            } else {
+                return;
+            }
+        }
+
+        if (attach.getLength() <= bf.position()){
+            bf.flip();
+            System.out.println(attach.getBf().capacity());
+            byte[] bytesFilename = new byte[attach.getLength()];
+            bf.get(bytesFilename);
+            if (attach.isFirstTime()){
+                String filename = byteBufferToObject(ByteBuffer.wrap(bytesFilename));
+                filename = filename.trim();
+                System.out.println("Имя файла получено: [" + filename + "]");
+
+                Communicator comm = new Communicator(filename);
+                attach.setCommunicator(comm);
+                sendingResponse((Serializable) attach.getCommunicator().getUsagesCommands(), key);
+                attach.setFirstTime();
+                System.out.println("Отправил usages");
+            } else {
+                Request req = byteBufferToObject(ByteBuffer.wrap(bytesFilename));
+                System.out.println("req получен");
+                Responce rep = attach.getCommunicator().call(req);
+                System.out.println("rep получен");
+                sendingResponse(rep, key);
+            }
+            bf.clear();
+            attach.setLength(0);
         }
     }
 
-    public <T> T gettingData(SocketChannel sc) throws IOException {
-        ByteBuffer bf = ByteBuffer.allocate(10000);
-        sc.read(bf);
-        return ByteBufferToObject(bf);
+    public <T> T byteBufferToObject(ByteBuffer bf) throws IOException{
+        byte[] objBytes = new byte[bf.remaining()];
+        bf.get(objBytes);
+
+        try (ByteArrayInputStream bais = new ByteArrayInputStream(objBytes);
+             ObjectInputStream ois = new ObjectInputStream(bais)) {
+            return (T) ois.readObject();
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException("Класс не найден при десериализации", e);
+        }
     }
 
     public byte[] objectToByteArray(Serializable data) throws IOException {

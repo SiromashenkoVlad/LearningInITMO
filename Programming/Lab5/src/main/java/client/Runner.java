@@ -100,11 +100,12 @@ public class Runner {
 
                 try{
                     connectionManager.sendingRequest(new Request(userCommand, args));
+                    System.out.println("Request отправлен");
                     Responce r = (Responce) connectionManager.gettingResponse();
                     System.out.println(r.getAnswer());
                     return ExitCode.OK;
                 } catch (IOException | ClassNotFoundException e) {
-                    System.err.println("Запрос не отправлен" + e.getMessage());
+                    System.err.println("Запрос не отправлен " + e.getMessage());
                     return ExitCode.ERROR;
                 }
             }

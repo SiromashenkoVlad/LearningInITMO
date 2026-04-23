@@ -5,14 +5,17 @@ import server.managers.Communicator;
 import java.nio.ByteBuffer;
 
 public class Attach {
-    private final Communicator communicator;
+    private Communicator communicator;
     private ByteBuffer bf;
     private int length;
     private boolean firstTime = true;
 
-    public Attach(String filename, int size){
-        communicator = new Communicator(filename);
+    public Attach(int size){
         bf = ByteBuffer.allocate(size + 4);
+    }
+
+    public void setCommunicator(Communicator communicator) {
+        this.communicator = communicator;
     }
 
     public void setFirstTime() {

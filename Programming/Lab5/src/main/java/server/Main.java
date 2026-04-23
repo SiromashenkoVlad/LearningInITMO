@@ -7,11 +7,9 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) throws IOException{
         try(ConnectionManager connectionManager = new ConnectionManager(3418)){
-
+            connectionManager.execute();
         } catch (IOException e) {
             System.err.println("Не удалось запустить сервер на порту " + e.getMessage());
-        } catch (ClassNotFoundException e){
-            System.err.println("Ошибка чтения запроса" + e.getMessage());
         }
 
     }

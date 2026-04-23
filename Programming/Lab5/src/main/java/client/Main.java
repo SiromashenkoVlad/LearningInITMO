@@ -20,8 +20,10 @@ public class Main {
         try(ConnectionManager connectionManager = new ConnectionManager(InetAddress.getLocalHost(), 3418)) {
             connectionManager.sendingRequest(fileName);
             Map<String, Argument[]> usages = (Map<String, Argument[]>) connectionManager.gettingResponse();
+            System.out.println("Типо принял usage");
             Runner runner = new Runner(new StandartConsole(), new Interrogator(new Scanner(System.in)),
                     usages, connectionManager);
+
             runner.interactiveMode(WorkMode.Interactive);
         } catch (IOException e){
             System.err.println("Ошибка создания подключения");
