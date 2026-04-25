@@ -1,5 +1,7 @@
 package client;
 
+import common.exceptions.DisconnectFromServer;
+
 import java.io.*;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
@@ -34,7 +36,7 @@ public class ConnectionManager implements Closeable {
         ByteBuffer readBuffer = ByteBuffer.allocate(MAX_BUFFER_SIZE);
         int bytesRead = clientChannel.read(readBuffer);
 
-        if (bytesRead == -1) throw new IOException("Сервер закрыл соединение");
+        if (bytesRead == -1) throw new DisconnectFromServer("Сервер закрыл соединение");
 
         readBuffer.flip();
         return bufferToObject(readBuffer);

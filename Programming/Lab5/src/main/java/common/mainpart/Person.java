@@ -6,6 +6,9 @@ import common.model.Coordinates;
 import common.model.Location;
 import server.managers.CollectionManager;
 
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
@@ -13,6 +16,7 @@ import java.util.Objects;
 
 
 public class Person implements Comparable<Person>, Serializable {
+    private static final long serialVersionUID = 3L;
     private static int nextId = 1;
 
     private final int id; //Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
@@ -42,8 +46,7 @@ public class Person implements Comparable<Person>, Serializable {
         if (eyeColor == null) {
             throw new IllegalArgumentException("Поле eyecolor не может быть равно null");
         }
-
-        id = nextId++;
+        this.id = nextId++;
         this.name = name;
         this.coordinates = coordinates;
         this.creationDate = ZonedDateTime.now();
@@ -56,9 +59,6 @@ public class Person implements Comparable<Person>, Serializable {
 
     public Person(int id, String name, Coordinates coordinates, ZonedDateTime creationDate,
                   long height, LocalDateTime birthday, Color eyeColor, Country nationality, Location location) {
-        if (id < nextId) {
-            throw new IllegalArgumentException("id загружаемого объекта Person должен быть больше или равно nextId");
-        }
         if (name == null || name.isEmpty()) {
             throw new IllegalArgumentException("Поле name не может быть равно null или быть пустым");
         }
@@ -91,6 +91,14 @@ public class Person implements Comparable<Person>, Serializable {
         if (id >= nextId) {
             nextId = id + 1;
         }
+    }
+
+    public static void setNextId(int nextId) {
+        Person.nextId = nextId;
+    }
+
+    public static int getNextId() {
+        return nextId;
     }
 
     public void update(Person p){
@@ -142,7 +150,19 @@ public class Person implements Comparable<Person>, Serializable {
 
     @Override
     public int compareTo(Person p){
-        return (this.id - p.id);
+        try{
+            return objectToByteArray(this).length - objectToByteArray(p).length;
+        } catch (IOException e) {
+            return 0;
+        }
+    }
+
+    public byte[] objectToByteArray(Serializable data) throws IOException {
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        ObjectOutputStream oos = new ObjectOutputStream(baos);
+        oos.writeObject(data);
+        oos.flush();
+        return baos.toByteArray();
     }
 
     @Override

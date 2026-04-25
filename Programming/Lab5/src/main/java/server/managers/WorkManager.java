@@ -3,6 +3,8 @@ package server.managers;
 import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import server.comands.*;
 
 import java.util.HashMap;
@@ -12,6 +14,7 @@ public class WorkManager {
     private final Map<String, Command> commands = new HashMap<>();
     private final Map<String, Argument[]> usagesCommands = new HashMap<>();
     private final CollectionManager collectionManager;
+    private final static Logger LOGGER = LogManager.getLogger(WorkManager.class);
 
     public WorkManager(CollectionManager collectionManager){
         this.collectionManager = collectionManager;
@@ -31,7 +34,7 @@ public class WorkManager {
         this.addCommand("count_greater_than_location", new CountGreaterThanLocationCommand(collectionManager));
         this.addCommand("print_field_descending_eye_color", new FieldDescendingEyeColorCommand(collectionManager));
         this.addCommand("help", new HelpCommand(commands));
-
+        LOGGER.info("Создали WorkManager");
     }
 
     private void addCommand(String name, Command command){

@@ -9,6 +9,8 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVPrinter;
 import org.apache.commons.csv.CSVRecord;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 import java.io.*;
@@ -19,12 +21,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DumpManager {
+    private static final Logger LOGGER = LogManager.getLogger(DumpManager.class);
+
     public static List<Person> read(String fileName) {
         List<Person> persons = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(fileName),
                 StandardCharsets.UTF_8));
-             CSVParser parser = new CSVParser(reader, CSVFormat.DEFAULT.builder().setTrim(true).build())) {
+             CSVParser parser = new CSVParser(reader, CSVFormat.DEFAULT.builder()
+                     .setTrim(true)
+                     .build())) {
+            LOGGER.info("Началось считывание данных из файла");
             for (CSVRecord record : parser) {
                 try{
                     int id = Integer.parseInt(record.get(0));
@@ -44,12 +51,13 @@ public class DumpManager {
                             birthday, color, nationality, location);
                     persons.add(person);
                 } catch (Exception e) {
-                    System.out.println("Ошибка чтения строки: " + record.toString());
+                    LOGGER.error("Ошибка чтения строки: {}", record.toString());
+                    LOGGER.error(e.getMessage());
                 }
             }
 
         } catch (IOException e) {
-            System.out.println("Ошибка чтения файла: " + e.getMessage());
+            LOGGER.info("Ошибка чтения файла: {}", e.getMessage());
         }
 
         return persons;
@@ -60,6 +68,7 @@ public class DumpManager {
         try (OutputStreamWriter writer = new OutputStreamWriter(
                 new FileOutputStream(fileName), StandardCharsets.UTF_8);
              CSVPrinter printer = new CSVPrinter(writer, CSVFormat.DEFAULT)) {
+            LOGGER.info("Началась запись в файл {}", fileName);
             for (Person person : persons) {
                 printer.printRecord(
                         person.getId(),
@@ -79,7 +88,7 @@ public class DumpManager {
             printer.flush();
 
         } catch (IOException e) {
-            System.out.println("Ошибка записи файла: " + e.getMessage());
+            LOGGER.error("Ошибка записи файла: " + e.getMessage());
         }
     }
 }

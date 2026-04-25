@@ -114,8 +114,12 @@ public class CollectionManager {
 
     @Override
     public String toString() {
+        List<Person> tmp = new Stack<>();
+        tmp.addAll(collection);
+        Collections.sort(tmp);
         StringBuilder answer = new StringBuilder();
-        for (Person p : collection){
+
+        for (Person p : tmp){
             answer.append(p.toString()).append('\n');
         }
         return answer.toString();

@@ -3,6 +3,7 @@ package client;
 import client.console.Console;
 import client.readArguments.ValueFactory;
 import common.enums.WorkMode;
+import common.exceptions.DisconnectFromServer;
 import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
@@ -56,7 +57,7 @@ public class Runner {
         }
     }
 
-    private ExitCode launchCommand(String userCommand){
+    private ExitCode launchCommand(String userCommand) throws DisconnectFromServer {
         if (userCommand.isEmpty()){
             return ExitCode.OK;
         }
@@ -75,7 +76,9 @@ public class Runner {
             case "execute_script" -> {
                 ValueFactory valueFactory = new ValueFactory();
                 String file = (String) valueFactory.getReader(String.class).read(console, interrogator);
-                if (setFiles.contains(file)) return ExitCode.ERROR;
+                if (setFiles.contains(file)){
+                    return ExitCode.ERROR;
+                }
                 else {
                     setFiles.add(file);
                     scriptMode(file);
@@ -85,7 +88,6 @@ public class Runner {
 
             default -> {
                 if (!usageCommands.containsKey(userCommand)){
-
                     console.println("Команды " + userCommand + " не существует. Вызовите команду help для" +
                             " просмотра доступных команд");
                     return ExitCode.OK;
@@ -100,7 +102,6 @@ public class Runner {
 
                 try{
                     connectionManager.sendingRequest(new Request(userCommand, args));
-                    System.out.println("Request отправлен");
                     Responce r = (Responce) connectionManager.gettingResponse();
                     System.out.println(r.getAnswer());
                     return ExitCode.OK;
