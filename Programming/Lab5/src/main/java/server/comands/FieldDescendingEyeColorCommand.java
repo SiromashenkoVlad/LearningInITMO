@@ -1,6 +1,6 @@
 package server.comands;
 
-import common.mainpart.Person;
+import common.Mainpart.Person;
 import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;

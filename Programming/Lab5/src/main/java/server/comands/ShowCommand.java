@@ -14,7 +14,7 @@ public class ShowCommand extends CommandCollection {
     @Override
     public Responce execute(Request r){
         try{
-            return new Responce(true, this.getCollectionManager().toString());
+            return new Responce(true, "Коллекция:\n", this.getCollectionManager().getCollection());
         } catch (Exception e){
             return new Responce(false, "Ошибка выполнения команды show");
         }

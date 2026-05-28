@@ -1,6 +1,6 @@
 package server.Connection;
 
-import common.mainpart.Person;
+import common.Mainpart.Person;
 import common.requests.Request;
 import common.requests.Responce;
 import org.apache.logging.log4j.LogManager;
@@ -54,11 +54,12 @@ public class ConnectionManager implements Closeable {
                             doRead(key);
                         } catch (IOException e) {
                             LOGGER.info("Клиент отключился: {}", e.getMessage());
+                            LOGGER.info(e.getStackTrace());
                             handleClientDisconnect(key);
                         }
                     }
                 }
-            }catch (ClosedSelectorException e) {
+            } catch (ClosedSelectorException e) {
                 LOGGER.info("Селектор закрыт, завершаем работу сервера");
                 break;
             } catch (IOException e) {
@@ -74,7 +75,7 @@ public class ConnectionManager implements Closeable {
         System.out.println("Клиент подключился: " + sc.getLocalAddress());
         LOGGER.info("Новое подключение клиента: {}", sc.getRemoteAddress());
         sc.configureBlocking(false);
-        sc.register(key.selector(), OP_READ, new Attach(10000));
+        sc.register(key.selector(), OP_READ, new Attach(0));
     }
 
     public void doRead(SelectionKey key) throws IOException {
@@ -88,14 +89,14 @@ public class ConnectionManager implements Closeable {
         }
 
 
-        if (attach.getLength() == 0){
+
+        if (!attach.isHaveLength()){
             if (bf.position() >= 4){
                 bf.flip();
                 int length = bf.getInt();
-                System.out.println("Дошел размер " + length);
-                LOGGER.info("Пришел файл размера {}", length);
                 bf.compact();
-                attach.setLength(length);
+                LOGGER.info("Пришел файл размера {}", length);
+                attach.setSizeBf(length);
             } else {
                 return;
             }
@@ -106,31 +107,29 @@ public class ConnectionManager implements Closeable {
             System.out.println(attach.getBf().capacity());
             byte[] bytesFilename = new byte[attach.getLength()];
             bf.get(bytesFilename);
+            bf.compact();
+
             if (attach.isFirstTime()){
                 String filename = byteBufferToObject(ByteBuffer.wrap(bytesFilename));
                 filename = filename.trim();
-                System.out.println("Имя файла получено: [" + filename + "]");
                 LOGGER.info("Имя файла: {}", filename);
-
 
                 Communicator comm = new Communicator(filename);
                 attach.setCommunicator(comm);
                 sendingResponse(Person.getNextId(), key);
                 LOGGER.debug("Отправил ID Person на сервере: {}", Person.getNextId());
+
                 sendingResponse((Serializable) attach.getCommunicator().getUsagesCommands(), key);
                 attach.setFirstTime();
-                System.out.println("Отправил usages");
                 LOGGER.info("Usage отправил");
             } else {
                 Request req = byteBufferToObject(ByteBuffer.wrap(bytesFilename));
-                System.out.println("req получен");
                 LOGGER.info("получил request {}", req);
                 Responce rep = attach.getCommunicator().call(req);
                 sendingResponse(rep, key);
                 LOGGER.info("отправил response {}", rep);
             }
-            bf.clear();
-            attach.setLength(0);
+            attach.close();
         }
     }
 
@@ -172,7 +171,11 @@ public class ConnectionManager implements Closeable {
     public void sendingResponse(Serializable data, SelectionKey key) throws IOException {
         SocketChannel sc = (SocketChannel) key.channel();
         byte[] bt = objectToByteArray(data);
-        sc.write(ByteBuffer.wrap(bt));
+        ByteBuffer bf = ByteBuffer.allocate(4 + bt.length);
+        bf.putInt(bt.length);
+        bf.put(bt);
+        bf.flip();
+        sc.write(bf);
     }
 
     @Override

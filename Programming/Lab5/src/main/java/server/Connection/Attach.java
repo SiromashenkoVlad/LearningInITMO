@@ -8,6 +8,7 @@ public class Attach {
     private Communicator communicator;
     private ByteBuffer bf;
     private int length;
+    private boolean haveLength = false;
     private boolean firstTime = true;
 
     public Attach(int size){
@@ -22,8 +23,20 @@ public class Attach {
         this.firstTime = false;
     }
 
-    public void setLength(int length) {
-        this.length = length;
+    public boolean isHaveLength() {
+        return haveLength;
+    }
+
+    public void setSizeBf(int size) {
+        haveLength = true;
+        length = size;
+        if (bf.capacity() >= size) return;
+
+
+        ByteBuffer tmp = ByteBuffer.allocate(size * 2);
+        bf.flip();
+        tmp.put(bf);
+        bf = tmp;
     }
 
     public ByteBuffer getBf() {
@@ -40,5 +53,10 @@ public class Attach {
 
     public boolean isFirstTime() {
         return firstTime;
+    }
+
+    public void close(){
+        length = 0;
+        haveLength = false;
     }
 }

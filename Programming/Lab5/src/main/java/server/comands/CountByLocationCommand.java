@@ -8,6 +8,7 @@ import server.managers.CollectionManager;
 
 import java.util.Objects;
 
+
 public class CountByLocationCommand extends CommandCollection {
     public CountByLocationCommand(CollectionManager collectionManager){
         super(collectionManager, "count_by_location", "вывести количество элементов," +

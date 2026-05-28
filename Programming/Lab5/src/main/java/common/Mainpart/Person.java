@@ -1,10 +1,9 @@
-package common.mainpart;
+package common.Mainpart;
 
 import common.enums.Color;
 import common.enums.Country;
 import common.model.Coordinates;
 import common.model.Location;
-import server.managers.CollectionManager;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

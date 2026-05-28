@@ -34,7 +34,6 @@
             <version>2.19.2</version>
         </dependency>
 
-        <!-- Log4j2 без версий - берём из BOM -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
@@ -43,6 +42,14 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.11</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -79,13 +86,11 @@
                 </configuration>
             </plugin>
 
-            <!-- Shade Plugin с поддержкой Log4j2 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.5.0</version>
                 <dependencies>
-                    <!-- Официальный трансформер для Log4j2 [[8]] -->
                     <dependency>
                         <groupId>org.apache.logging.log4j</groupId>
                         <artifactId>log4j-transform-maven-shade-plugin-extensions</artifactId>
@@ -101,13 +106,10 @@
                         <configuration>
                             <finalName>server</finalName>
                             <transformers>
-                                <!-- 1. Объединяет Log4j2Plugins.dat из всех зависимостей [[3]][[8]] -->
                                 <transformer implementation="org.apache.logging.log4j.maven.plugins.shade.transformer.Log4j2PluginCacheFileTransformer"/>
 
-                                <!-- 2. Объединяет META-INF/services/* файлы -->
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
 
-                                <!-- 3. Указывает MainClass и Multi-Release для совместимости с JDK 11+ -->
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>server.Main</mainClass>
                                     <manifestEntries>
@@ -115,8 +117,6 @@
                                     </manifestEntries>
                                 </transformer>
                             </transformers>
-
-                            <!-- Исключаем подписи, которые могут сломать запуск -->
                             <filters>
                                 <filter>
                                     <artifact>*:*</artifact>

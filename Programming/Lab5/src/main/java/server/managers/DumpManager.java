@@ -2,7 +2,7 @@ package server.managers;
 
 import common.enums.Color;
 import common.enums.Country;
-import common.mainpart.Person;
+import common.Mainpart.Person;
 import common.model.Coordinates;
 import common.model.Location;
 import org.apache.commons.csv.CSVFormat;

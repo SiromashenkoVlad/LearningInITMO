@@ -30,8 +30,8 @@ client\console\Console.class
 client\readArguments\ValueReader.class
 client\readArguments\StringRead.class
 common\exceptions\IncorrectDataInput.class
+common\Mainpart\Person.class
 client\readArguments\Reader.class
-common\mainpart\Person.class
 server\Connection\ConnectionManager.class
 server\comands\AddIfMaxCommand.class
 client\readArguments\LocationRead.class

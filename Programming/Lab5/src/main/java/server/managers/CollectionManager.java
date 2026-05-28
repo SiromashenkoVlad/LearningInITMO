@@ -1,6 +1,6 @@
 package server.managers;
 
-import common.mainpart.Person;
+import common.Mainpart.Person;
 
 import java.time.LocalDateTime;
 import java.util.Collections;

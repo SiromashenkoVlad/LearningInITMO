@@ -2141,3 +2141,1249 @@
     <Message>Старт основного цикла выполнения</Message>
   </Event>
 </Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485013436" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485013" nanoOfSecond="436709400"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485013561" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485013" nanoOfSecond="561050300"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485244919" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485244" nanoOfSecond="919079600"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485245043" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485245" nanoOfSecond="43536200"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252742" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="742844800"/>
+    <Message>Новое подключение клиента: /127.0.0.1:65326</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252753" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="753874600"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252762" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="762435500"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252764" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="764436500"/>
+    <Message>[Ljava.lang.StackTraceElement;@4612b856</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252769" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="769241800"/>
+    <Message>Новое подключение клиента: /127.0.0.1:65328</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252771" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="771245400"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252772" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="772241400"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252773" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="773241600"/>
+    <Message>[Ljava.lang.StackTraceElement;@2a898881</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252775" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="775750300"/>
+    <Message>Новое подключение клиента: /127.0.0.1:65329</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252776" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="776760000"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252778" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="778247400"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252779" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="779278100"/>
+    <Message>[Ljava.lang.StackTraceElement;@35229f85</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252782" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="782278100"/>
+    <Message>Новое подключение клиента: /127.0.0.1:65330</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252783" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="783279600"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252784" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="784278400"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252785" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="785788700"/>
+    <Message>[Ljava.lang.StackTraceElement;@b1712f3</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252788" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="788297300"/>
+    <Message>Новое подключение клиента: /127.0.0.1:65331</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252789" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="789295100"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252791" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="791300400"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252792" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="792297300"/>
+    <Message>[Ljava.lang.StackTraceElement;@4879dfad</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252794" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="794297100"/>
+    <Message>Новое подключение клиента: /127.0.0.1:65332</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252795" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="795805800"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252797" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="797323600"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252798" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="798266100"/>
+    <Message>[Ljava.lang.StackTraceElement;@74eb909f</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252800" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="800742200"/>
+    <Message>Новое подключение клиента: /127.0.0.1:65333</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252801" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="801744800"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252802" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="802741300"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485252803" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485252" nanoOfSecond="803745100"/>
+    <Message>[Ljava.lang.StackTraceElement;@2eee3069</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485378819" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485378" nanoOfSecond="819644700"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485378945" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485378" nanoOfSecond="945944800"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485383610" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485383" nanoOfSecond="610282500"/>
+    <Message>Новое подключение клиента: /127.0.0.1:65295</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485383622" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485383" nanoOfSecond="622021200"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485383629" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485383" nanoOfSecond="629626300"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485383641" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485383" nanoOfSecond="641772700"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485383660" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485383" nanoOfSecond="660552500"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485383674" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485383" nanoOfSecond="674619700"/>
+    <Message>Отправил ID Person на сервере: 4</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485383686" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485383" nanoOfSecond="686188800"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485387152" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485387" nanoOfSecond="152603700"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485421896" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485421" nanoOfSecond="896773200"/>
+    <Message>Клиент отключился: Connection reset</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485421901" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485421" nanoOfSecond="901953800"/>
+    <Message>[Ljava.lang.StackTraceElement;@71cf1b07</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485811540" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485811" nanoOfSecond="540228000"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485811662" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485811" nanoOfSecond="662389300"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815489" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="489066200"/>
+    <Message>Новое подключение клиента: /127.0.0.1:52152</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815499" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="499613300"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815506" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="506643100"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815508" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="508394700"/>
+    <Message>[Ljava.lang.StackTraceElement;@4612b856</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815512" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="512403500"/>
+    <Message>Новое подключение клиента: /127.0.0.1:52154</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815514" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="514402200"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815514" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="514402200"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815515" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="515907700"/>
+    <Message>[Ljava.lang.StackTraceElement;@2a898881</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815518" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="518436400"/>
+    <Message>Новое подключение клиента: /127.0.0.1:52155</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815519" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="519436100"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815521" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="521433800"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815521" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="521433800"/>
+    <Message>[Ljava.lang.StackTraceElement;@35229f85</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815524" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="524438000"/>
+    <Message>Новое подключение клиента: /127.0.0.1:52156</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815524" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="524438000"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815526" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="526961000"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815528" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="528157400"/>
+    <Message>[Ljava.lang.StackTraceElement;@b1712f3</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815530" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="530484300"/>
+    <Message>Новое подключение клиента: /127.0.0.1:52157</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815531" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="531485300"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815532" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="532480700"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815533" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="533484800"/>
+    <Message>[Ljava.lang.StackTraceElement;@4879dfad</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815534" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="534483000"/>
+    <Message>Новое подключение клиента: /127.0.0.1:52158</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815536" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="536525200"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815537" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="537535400"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815538" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="538535200"/>
+    <Message>[Ljava.lang.StackTraceElement;@74eb909f</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815540" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="540537300"/>
+    <Message>Новое подключение клиента: /127.0.0.1:52159</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815540" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="540537300"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815542" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="542536800"/>
+    <Message>Клиент отключился: invalid stream header: 0000000F</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485815543" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485815" nanoOfSecond="543541400"/>
+    <Message>[Ljava.lang.StackTraceElement;@2eee3069</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485989941" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485989" nanoOfSecond="941506800"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485990081" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485990" nanoOfSecond="81867300"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485993602" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485993" nanoOfSecond="602960300"/>
+    <Message>Новое подключение клиента: /127.0.0.1:63571</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485993615" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485993" nanoOfSecond="615115200"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485993622" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485993" nanoOfSecond="622634000"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485993634" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485993" nanoOfSecond="634674000"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485993652" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485993" nanoOfSecond="652676500"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485993664" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485993" nanoOfSecond="664455500"/>
+    <Message>Отправил ID Person на сервере: 4</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485993674" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485993" nanoOfSecond="674577700"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485997154" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485997" nanoOfSecond="154130300"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485997160" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485997" nanoOfSecond="160252400"/>
+    <Message>получил request common.requests.Request@30cf60</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777485997165" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777485997" nanoOfSecond="165762900"/>
+    <Message>отправил response common.requests.Responce@ebb6851</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777486000626" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777486000" nanoOfSecond="626018400"/>
+    <Message>Пришел файл размера 185</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777486000627" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777486000" nanoOfSecond="627573000"/>
+    <Message>Клиент отключился: null</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777486000630" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777486000" nanoOfSecond="630573200"/>
+    <Message>[Ljava.lang.StackTraceElement;@7cbc3762</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777486000634" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777486000" nanoOfSecond="634573000"/>
+    <Message>Новое подключение клиента: /127.0.0.1:63579</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777486000636" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777486000" nanoOfSecond="636081000"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777486000636" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777486000" nanoOfSecond="636599200"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777486000638" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777486000" nanoOfSecond="638377900"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777486000639" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777486000" nanoOfSecond="639387600"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777486000641" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777486000" nanoOfSecond="641386800"/>
+    <Message>Отправил ID Person на сервере: 4</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777486000642" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777486000" nanoOfSecond="642390200"/>
+    <Message>Usage отправил</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621354704" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621354" nanoOfSecond="704908100"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621354840" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621354" nanoOfSecond="840112500"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621361106" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621361" nanoOfSecond="106548900"/>
+    <Message>Новое подключение клиента: /127.0.0.1:63383</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621361125" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621361" nanoOfSecond="125547700"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621361134" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621361" nanoOfSecond="134547700"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621361150" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621361" nanoOfSecond="150555500"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621361167" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621361" nanoOfSecond="167080700"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621361181" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621361" nanoOfSecond="181084400"/>
+    <Message>Отправил ID Person на сервере: 4</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621361195" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621361" nanoOfSecond="195081700"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621368080" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621368" nanoOfSecond="80674800"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621368087" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621368" nanoOfSecond="87673100"/>
+    <Message>получил request common.requests.Request@30cf60</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621368091" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621368" nanoOfSecond="91672700"/>
+    <Message>отправил response common.requests.Responce@ebb6851</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621372903" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621372" nanoOfSecond="903055000"/>
+    <Message>Пришел файл размера 185</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621372907" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621372" nanoOfSecond="907052100"/>
+    <Message>Клиент отключился: null</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621372910" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621372" nanoOfSecond="910054700"/>
+    <Message>[Ljava.lang.StackTraceElement;@7cbc3762</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621372915" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621372" nanoOfSecond="915052300"/>
+    <Message>Новое подключение клиента: /127.0.0.1:63456</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621372919" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621372" nanoOfSecond="919050900"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621372921" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621372" nanoOfSecond="921054700"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621372923" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621372" nanoOfSecond="923055400"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621372926" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621372" nanoOfSecond="926054700"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621372927" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621372" nanoOfSecond="927052400"/>
+    <Message>Отправил ID Person на сервере: 4</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621372929" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621372" nanoOfSecond="929050400"/>
+    <Message>Usage отправил</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621483141" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621483" nanoOfSecond="141133600"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621483265" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621483" nanoOfSecond="265174600"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621491291" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621491" nanoOfSecond="291913300"/>
+    <Message>Новое подключение клиента: /127.0.0.1:63375</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621491302" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621491" nanoOfSecond="302914300"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621491309" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621491" nanoOfSecond="309912100"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621491321" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621491" nanoOfSecond="321914300"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621491336" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621491" nanoOfSecond="336914500"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621491351" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621491" nanoOfSecond="351926800"/>
+    <Message>Отправил ID Person на сервере: 4</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621491364" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621491" nanoOfSecond="364450900"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621503092" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621503" nanoOfSecond="92561300"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621503100" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621503" nanoOfSecond="100560200"/>
+    <Message>получил request common.requests.Request@30cf60</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621503105" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621503" nanoOfSecond="105563700"/>
+    <Message>отправил response common.requests.Responce@ebb6851</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621505909" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621505" nanoOfSecond="909269400"/>
+    <Message>Пришел файл размера 185</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621505911" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621505" nanoOfSecond="911271400"/>
+    <Message>Клиент отключился: null</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621505914" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621505" nanoOfSecond="914798800"/>
+    <Message>[Ljava.lang.StackTraceElement;@7cbc3762</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621505918" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621505" nanoOfSecond="918812700"/>
+    <Message>Новое подключение клиента: /127.0.0.1:55798</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621505919" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621505" nanoOfSecond="919811200"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621505920" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621505" nanoOfSecond="920812900"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621505921" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621505" nanoOfSecond="921808700"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621505923" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621505" nanoOfSecond="923812000"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621505924" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621505" nanoOfSecond="924810600"/>
+    <Message>Отправил ID Person на сервере: 4</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621505926" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621505" nanoOfSecond="926811700"/>
+    <Message>Usage отправил</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621680755" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621680" nanoOfSecond="755871300"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621680878" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621680" nanoOfSecond="878929300"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621688675" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621688" nanoOfSecond="675963600"/>
+    <Message>Новое подключение клиента: /127.0.0.1:54113</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621688690" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621688" nanoOfSecond="690476700"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621688697" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621688" nanoOfSecond="697480300"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621688709" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621688" nanoOfSecond="709480700"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621688725" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621688" nanoOfSecond="725476900"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621688737" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621688" nanoOfSecond="737480400"/>
+    <Message>Отправил ID Person на сервере: 4</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621688748" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621688" nanoOfSecond="748478500"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621691216" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621691" nanoOfSecond="216162300"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621691222" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621691" nanoOfSecond="222165200"/>
+    <Message>получил request common.requests.Request@30cf60</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621691226" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621691" nanoOfSecond="226161300"/>
+    <Message>отправил response common.requests.Responce@ebb6851</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621693796" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621693" nanoOfSecond="796083700"/>
+    <Message>Пришел файл размера 185</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621693799" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621693" nanoOfSecond="799094700"/>
+    <Message>получил request common.requests.Request@4131611a</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621693801" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621693" nanoOfSecond="801081400"/>
+    <Message>отправил response common.requests.Responce@5b068087</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621698509" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621698" nanoOfSecond="509852900"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621698512" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621698" nanoOfSecond="512874600"/>
+    <Message>получил request common.requests.Request@35db1c</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621698538" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621698" nanoOfSecond="538847300"/>
+    <Message>отправил response common.requests.Responce@4566d049</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621772245" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621772" nanoOfSecond="245652000"/>
+    <Message>Пришел файл размера 942</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621772253" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621772" nanoOfSecond="253647600"/>
+    <Message>получил request common.requests.Request@178c0</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621772255" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621772" nanoOfSecond="255648400"/>
+    <Message>отправил response common.requests.Responce@3668d4</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621803947" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621803" nanoOfSecond="947440500"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621803951" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621803" nanoOfSecond="951435800"/>
+    <Message>получил request common.requests.Request@35db1c</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621803955" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621803" nanoOfSecond="955429100"/>
+    <Message>отправил response common.requests.Responce@3ecd267f</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621841156" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621841" nanoOfSecond="156821400"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621841159" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621841" nanoOfSecond="159846900"/>
+    <Message>получил request common.requests.Request@2fb93d</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621841165" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621841" nanoOfSecond="165344000"/>
+    <Message>Началась запись в файл data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621841169" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621841" nanoOfSecond="169340400"/>
+    <Message>отправил response common.requests.Responce@54e22bdd</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621844828" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621844" nanoOfSecond="828134200"/>
+    <Message>Новое подключение клиента: /127.0.0.1:52218</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621844844" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621844" nanoOfSecond="844139000"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621844846" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621844" nanoOfSecond="846134000"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621844847" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621844" nanoOfSecond="847132200"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621844850" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621844" nanoOfSecond="850134700"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621844851" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621844" nanoOfSecond="851133500"/>
+    <Message>Отправил ID Person на сервере: 5</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621844852" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621844" nanoOfSecond="852143400"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621847407" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621847" nanoOfSecond="407716300"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621847409" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621847" nanoOfSecond="409728700"/>
+    <Message>получил request common.requests.Request@35db1c</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777621847413" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777621847" nanoOfSecond="413717700"/>
+    <Message>отправил response common.requests.Responce@4a11eb84</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622254079" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622254" nanoOfSecond="79262800"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622254205" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622254" nanoOfSecond="205802300"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622260126" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622260" nanoOfSecond="126869500"/>
+    <Message>Новое подключение клиента: /127.0.0.1:61592</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622260139" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622260" nanoOfSecond="139868300"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622260147" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622260" nanoOfSecond="147865200"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622260159" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622260" nanoOfSecond="159864100"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622260175" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622260" nanoOfSecond="175877000"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622260188" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622260" nanoOfSecond="188001300"/>
+    <Message>Отправил ID Person на сервере: 5</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622260199" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622260" nanoOfSecond="199001700"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622264269" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622264" nanoOfSecond="269510100"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622264278" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622264" nanoOfSecond="278519900"/>
+    <Message>получил request common.requests.Request@35db1c</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622264305" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622264" nanoOfSecond="305561200"/>
+    <Message>отправил response common.requests.Responce@3d9f6567</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622276325" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622276" nanoOfSecond="325336200"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622276445" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622276" nanoOfSecond="445286500"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622279372" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622279" nanoOfSecond="372118400"/>
+    <Message>Новое подключение клиента: /127.0.0.1:61744</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622279375" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622279" nanoOfSecond="375120400"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622279384" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622279" nanoOfSecond="384120100"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622279396" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622279" nanoOfSecond="396117900"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622279412" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622279" nanoOfSecond="412635600"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622279422" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622279" nanoOfSecond="422646400"/>
+    <Message>Отправил ID Person на сервере: 5</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622279432" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622279" nanoOfSecond="432643500"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622392156" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622392" nanoOfSecond="156625800"/>
+    <Message>Клиент отключился: Connection reset</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622392159" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622392" nanoOfSecond="159624600"/>
+    <Message>[Ljava.lang.StackTraceElement;@71cf1b07</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622394355" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622394" nanoOfSecond="355417900"/>
+    <Message>Новое подключение клиента: /127.0.0.1:54184</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622394370" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622394" nanoOfSecond="370939700"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622394372" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622394" nanoOfSecond="372939900"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622394373" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622394" nanoOfSecond="373943300"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622394377" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622394" nanoOfSecond="377938400"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622394378" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622394" nanoOfSecond="378938700"/>
+    <Message>Отправил ID Person на сервере: 5</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622394380" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622394" nanoOfSecond="380940000"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622401756" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622401" nanoOfSecond="756119800"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622401762" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622401" nanoOfSecond="762115600"/>
+    <Message>получил request common.requests.Request@35db1c</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622401788" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622401" nanoOfSecond="788116600"/>
+    <Message>отправил response common.requests.Responce@6b7906b3</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622411421" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622411" nanoOfSecond="421002800"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622411424" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622411" nanoOfSecond="424014300"/>
+    <Message>получил request common.requests.Request@30cf60</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622411428" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622411" nanoOfSecond="428006200"/>
+    <Message>отправил response common.requests.Responce@256f8274</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622452995" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622452" nanoOfSecond="995689700"/>
+    <Message>Пришел файл размера 210</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622452998" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622452" nanoOfSecond="998707300"/>
+    <Message>получил request common.requests.Request@fb283e64</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622453003" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622453" nanoOfSecond="3691400"/>
+    <Message>отправил response common.requests.Responce@7ac2e39b</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622473891" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622473" nanoOfSecond="891264700"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622473894" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622473" nanoOfSecond="894283900"/>
+    <Message>получил request common.requests.Request@2fb93d</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622473899" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622473" nanoOfSecond="899276000"/>
+    <Message>Началась запись в файл data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622473904" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622473" nanoOfSecond="904273900"/>
+    <Message>отправил response common.requests.Responce@781f10f2</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622753893" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622753" nanoOfSecond="893391300"/>
+    <Message>Запустили сервер</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622754026" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622754" nanoOfSecond="26677800"/>
+    <Message>Старт основного цикла выполнения</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622760091" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622760" nanoOfSecond="91353900"/>
+    <Message>Новое подключение клиента: /127.0.0.1:56646</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622760107" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622760" nanoOfSecond="107364100"/>
+    <Message>Пришел файл размера 15</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622760116" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622760" nanoOfSecond="116891700"/>
+    <Message>Имя файла: data.csv</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622760129" thread="main" level="INFO" loggerName="server.managers.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622760" nanoOfSecond="129405300"/>
+    <Message>Началось считывание данных из файла</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622760148" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622760" nanoOfSecond="148407700"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622760162" thread="main" level="DEBUG" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622760" nanoOfSecond="162409400"/>
+    <Message>Отправил ID Person на сервере: 5</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622760175" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622760" nanoOfSecond="175406600"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622764384" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622764" nanoOfSecond="384388500"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622764391" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622764" nanoOfSecond="391386600"/>
+    <Message>получил request common.requests.Request@30cf60</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622764397" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622764" nanoOfSecond="397386300"/>
+    <Message>отправил response common.requests.Responce@ebb6851</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622773412" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622773" nanoOfSecond="412546400"/>
+    <Message>Пришел файл размера 185</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622773415" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622773" nanoOfSecond="415566400"/>
+    <Message>получил request common.requests.Request@4131611a</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622773418" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622773" nanoOfSecond="418546700"/>
+    <Message>отправил response common.requests.Responce@5b068087</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622784722" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622784" nanoOfSecond="722990800"/>
+    <Message>Пришел файл размера 185</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622784725" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622784" nanoOfSecond="725996100"/>
+    <Message>получил request common.requests.Request@7b854718</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622784727" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622784" nanoOfSecond="727992200"/>
+    <Message>отправил response common.requests.Responce@3a393455</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622793839" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622793" nanoOfSecond="839950500"/>
+    <Message>Пришел файл размера 210</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622793843" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622793" nanoOfSecond="843950400"/>
+    <Message>получил request common.requests.Request@fb283e64</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622793849" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622793" nanoOfSecond="849955000"/>
+    <Message>отправил response common.requests.Responce@78f5c518</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622801453" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622801" nanoOfSecond="453489300"/>
+    <Message>Пришел файл размера 182</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622801456" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622801" nanoOfSecond="456508400"/>
+    <Message>получил request common.requests.Request@35db1c</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777622801484" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777622801" nanoOfSecond="484005400"/>
+    <Message>отправил response common.requests.Responce@6bb2d00b</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777623473402" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777623473" nanoOfSecond="402181700"/>
+    <Message>Клиент отключился: Connection reset</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1777623473410" thread="main" level="INFO" loggerName="server.Connection.ConnectionManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1777623473" nanoOfSecond="410186400"/>
+    <Message>[Ljava.lang.StackTraceElement;@544820b7</Message>
+  </Event>
+</Events>
