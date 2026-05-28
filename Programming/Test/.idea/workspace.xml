@@ -10,68 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31c7845a-628c-4109-9929-012978134684" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/main/java/client/EstablishConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/Connection/DBConnectionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/client.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/logs/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/logs/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/out/artifacts/client_jar/client.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/server.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/client/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/client/ConnectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/client/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/client/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/client/readArguments/PersonRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/client/readArguments/PersonRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/client/readArguments/ValueFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/client/readArguments/ValueFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/common/exceptions/DisconnectFromServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/common/exceptions/DisconnectFromServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/common/mainpart/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/common/Mainpart/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/common/requests/Responce.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/common/requests/Responce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/Connection/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/Connection/Attach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/Connection/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/Connection/ConnectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/AddCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/AddCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/AddIfMaxCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/AddIfMaxCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/CountByLocationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/CountByLocationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/FieldDescendingEyeColorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/FieldDescendingEyeColorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/ShowCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/ShowCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/UpdateByIdCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/comands/UpdateByIdCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/managers/CollectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/managers/CollectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/main/java/server/managers/DumpManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/main/java/server/managers/DumpManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/client/ConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/client/ConnectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/client/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/client/Runner$ExitCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/client/Runner$ExitCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/client/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/client/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/common/exceptions/DisconnectFromServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/common/exceptions/DisconnectFromServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/common/mainpart/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/common/mainpart/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/common/requests/Responce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/common/requests/Responce.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/Connection/Attach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/Connection/Attach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/Connection/ConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/Connection/ConnectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/AddCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/AddCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/AddIfMaxCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/AddIfMaxCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/CountByLocationCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/CountByLocationCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/CountGreaterThanLocationCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/CountGreaterThanLocationCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/FieldDescendingEyeColorCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/FieldDescendingEyeColorCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/ShowCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/ShowCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/UpdateByIdCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/comands/UpdateByIdCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/managers/CollectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/managers/CollectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/server/managers/DumpManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/server/managers/DumpManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/my-project-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/my-project-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/server.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/server.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConnectionManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ОПД/lab6/lab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ОПД/lab6/lab.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ОПД/lab6/Отчет_ЛР6_опд.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ОПД/lab6/Отчет_ЛР6_опд.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="lab6" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -120,7 +65,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "lab6",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/my data/Learning/ITMO/Programming/Test",
@@ -140,7 +85,7 @@
   <component name="RunManager" selected="Application.TestDB">
     <configuration name="TestDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestDB" />
-      <module name="Test" />
+      <module name="TestDB" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,6 +96,17 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TestDB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TestDB" />
+      <option name="filePath" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -167,6 +123,15 @@
       <option name="presentableId" value="Default" />
       <updated>1772292579765</updated>
     </task>
+    <task id="LOCAL-00001" summary="28-05-2026">
+      <option name="closed" value="true" />
+      <created>1779961736923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779961736923</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +147,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="28-05-2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="28-05-2026" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
