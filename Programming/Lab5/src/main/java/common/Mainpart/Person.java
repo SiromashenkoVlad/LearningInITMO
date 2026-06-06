@@ -15,8 +15,7 @@ import java.util.Objects;
 
 
 public class Person implements Comparable<Person>, Serializable {
-    private static final long serialVersionUID = 3L;
-    private static int nextId = 1;
+    private static final long serialVersionUID = 5L;
 
     private final int id; //Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
     private String name; //Поле не может быть null, Строка не может быть пустой
@@ -27,6 +26,7 @@ public class Person implements Comparable<Person>, Serializable {
     private Color eyeColor; //Поле не может быть null
     private Country nationality; //Поле может быть null
     private Location location; //Поле может быть null
+    private String maker;
 
     public Person(String name, Coordinates coordinates, long height,
                   LocalDateTime birthday, Color eyeColor, Country nationality, Location location){
@@ -45,7 +45,7 @@ public class Person implements Comparable<Person>, Serializable {
         if (eyeColor == null) {
             throw new IllegalArgumentException("Поле eyecolor не может быть равно null");
         }
-        this.id = nextId++;
+        this.id = 0;
         this.name = name;
         this.coordinates = coordinates;
         this.creationDate = ZonedDateTime.now();
@@ -54,10 +54,11 @@ public class Person implements Comparable<Person>, Serializable {
         this.eyeColor = eyeColor;
         this.nationality = nationality;
         this.location = location;
+        this.maker = null;
     }
 
     public Person(int id, String name, Coordinates coordinates, ZonedDateTime creationDate,
-                  long height, LocalDateTime birthday, Color eyeColor, Country nationality, Location location) {
+                  long height, LocalDateTime birthday, Color eyeColor, Country nationality, Location location, String maker) {
         if (name == null || name.isEmpty()) {
             throw new IllegalArgumentException("Поле name не может быть равно null или быть пустым");
         }
@@ -86,18 +87,13 @@ public class Person implements Comparable<Person>, Serializable {
         this.eyeColor = eyeColor;
         this.nationality = nationality;
         this.location = location;
+        this.maker = maker;
+    }
 
-        if (id >= nextId) {
-            nextId = id + 1;
+    public void addMaker(String maker){
+        if (this.maker == null){
+            this.maker = maker;
         }
-    }
-
-    public static void setNextId(int nextId) {
-        Person.nextId = nextId;
-    }
-
-    public static int getNextId() {
-        return nextId;
     }
 
     public void update(Person p){
@@ -147,6 +143,10 @@ public class Person implements Comparable<Person>, Serializable {
         return location;
     }
 
+    public String getMaker() {
+        return maker;
+    }
+
     @Override
     public int compareTo(Person p){
         try{
@@ -189,6 +189,7 @@ public class Person implements Comparable<Person>, Serializable {
         info += "\n eyecolor: " + eyeColor;
         info += "\n nationality: " + nationality;
         info += "\n location: " + location;
+        info += "\n maker: " + maker;
         return info;
     }
 }

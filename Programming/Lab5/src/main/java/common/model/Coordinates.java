@@ -4,8 +4,6 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class Coordinates implements Serializable {
-    private static int nextId = 1;
-
     private final float x; //Максимальное значение поля: 951
     private final float y; //Значение поля должно быть больше -733
 

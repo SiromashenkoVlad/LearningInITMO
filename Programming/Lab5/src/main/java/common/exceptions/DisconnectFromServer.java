@@ -9,11 +9,6 @@ public class DisconnectFromServer extends RuntimeException {
         lastRequest = r;
     }
 
-    public DisconnectFromServer(String message) {
-        super(message);
-        lastRequest = null;
-    }
-
     public Request getLastRequest() {
         return lastRequest;
     }

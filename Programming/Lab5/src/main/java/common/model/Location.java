@@ -4,8 +4,6 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class Location implements Comparable<Location>, Serializable {
-    private static int nextId = 1;
-
     private final int x;
     private final Integer y; //Поле не может быть null
     private final int z;

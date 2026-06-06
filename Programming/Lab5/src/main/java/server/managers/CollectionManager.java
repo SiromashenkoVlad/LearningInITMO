@@ -1,7 +1,10 @@
 package server.managers;
 
 import common.Mainpart.Person;
+import server.db.DumpManager;
+import server.db.dao.PersonDao;
 
+import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.Collections;
 import java.util.List;
@@ -12,16 +15,9 @@ public class CollectionManager {
     private List<Person> collection = new Stack<>();
     private LocalDateTime lastInitTime;
     private LocalDateTime lastSaveTime;
-    private String filename;
 
-    public CollectionManager(String filename){
-        this.filename = filename;
-        collection = DumpManager.read(filename);
-        lastInitTime = LocalDateTime.now();
-        lastSaveTime = LocalDateTime.now();
-    }
-
-    public CollectionManager(){
+    public CollectionManager() throws SQLException {
+        collection = DumpManager.read();
         lastInitTime = LocalDateTime.now();
         lastSaveTime = LocalDateTime.now();
     }
@@ -38,42 +34,26 @@ public class CollectionManager {
         return lastSaveTime;
     }
 
-    public String getFilename() {
-        return filename;
+    public void add(Person p) throws SQLException {
+        PersonDao.getInstance().save(p);
+        collection = DumpManager.read();
+
     }
 
-    public int size(){
-        return collection.size();
+    public void updateById(int id, Person p) throws SQLException{
+        PersonDao.getInstance().update(id, p);
+        collection = DumpManager.read();
     }
 
-    public void add(Person p){
-        collection.add(p);
+    public void removeById(int id) throws SQLException {
+        System.out.println("collection manager");
+        PersonDao.getInstance().remove(id);
+        collection = DumpManager.read();
     }
 
-    public void updateById(int id, Person p){
-        for (Person person : collection) {
-            if (person.getId() == id){
-                person.update(p);
-                return;
-            }
-        }
-    }
-
-    public void removeById(int id){
-        for (Person person : collection) {
-            if (person.getId() == id){
-                collection.remove(person);
-                return;
-            }
-        }
-    }
-
-    public void clear(){
-        collection.clear();
-    }
-
-    public void save(){
-        DumpManager.write(filename, collection);
+    public void clear(String maker) throws SQLException{
+        PersonDao.clear(maker);
+        collection = DumpManager.read();
     }
 
     public Person getMax(){

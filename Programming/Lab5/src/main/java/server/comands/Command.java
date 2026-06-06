@@ -3,7 +3,6 @@ package server.comands;
 import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
-import server.managers.CollectionManager;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -34,6 +33,10 @@ public abstract class Command {
         return usage;
     }
 
+    public Argument getArgumentByIndex(int id){
+        return usage[id];
+    }
+
     public String usageString(){
         return Arrays.stream(usage).map(Argument::getName).collect(Collectors.joining(" "));
     }
@@ -47,7 +50,7 @@ public abstract class Command {
     public boolean equals(Object o) {
         if (this == o) { return true; }
         if (o == null || o.getClass() != this.getClass()) { return false; }
-        CommandCollection command = (CommandCollection) o;
+        CollectionCommand command = (CollectionCommand) o;
         return Objects.equals(this.name, command.getName()) &&
                 Objects.equals( this.description, command.getDescription());
     }

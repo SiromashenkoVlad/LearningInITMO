@@ -9,11 +9,11 @@ import common.model.Location;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ValueFactory {
+public final class ValueFactory {
 
-    private final Map<Class<?>, Reader> readers = new HashMap<>();
+    private static final Map<Class<?>, Reader> readers = new HashMap<>();
 
-    public ValueFactory(){
+    static {
         readers.put(String.class, new StringRead());
         readers.put(Integer.class, new IdRead());
         readers.put(Person.class, new PersonRead());
@@ -23,7 +23,9 @@ public class ValueFactory {
         readers.put(Location.class, new LocationRead());
     }
 
-    public Reader getReader(Class<?> type){
+    private ValueFactory(){}
+
+    public static Reader getReader(Class<?> type){
         return readers.get(type);
     }
 }

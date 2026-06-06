@@ -27,6 +27,7 @@
         <version>3.5.0</version>
         <executions>
           <execution>
+            <id>server</id>
             <phase>package</phase>
             <goals>
               <goal>shade</goal>
@@ -38,6 +39,36 @@
                 <transformer />
                 <transformer>
                   <mainClass>server.Main</mainClass>
+                  <manifestEntries>
+                    <Multi-Release>true</Multi-Release>
+                  </manifestEntries>
+                </transformer>
+              </transformers>
+              <filters>
+                <filter>
+                  <artifact>*:*</artifact>
+                  <excludes>
+                    <exclude>META-INF/*.SF</exclude>
+                    <exclude>META-INF/*.DSA</exclude>
+                    <exclude>META-INF/*.RSA</exclude>
+                  </excludes>
+                </filter>
+              </filters>
+            </configuration>
+          </execution>
+          <execution>
+            <id>client</id>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <finalName>client</finalName>
+              <transformers>
+                <transformer />
+                <transformer />
+                <transformer>
+                  <mainClass>client.Main</mainClass>
                   <manifestEntries>
                     <Multi-Release>true</Multi-Release>
                   </manifestEntries>
