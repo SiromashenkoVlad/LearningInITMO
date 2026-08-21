@@ -33,8 +33,8 @@ public abstract class Command {
         return usage;
     }
 
-    public Argument getArgumentByIndex(int id){
-        return usage[id];
+    public String getNameArgumentByIndex(int id){
+        return usage[id].getName();
     }
 
     public String usageString(){

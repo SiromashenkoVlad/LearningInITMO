@@ -3,6 +3,7 @@ package server.managers;
 import common.Mainpart.Person;
 import server.db.DumpManager;
 import server.db.dao.PersonDao;
+import server.db.dao.UserDao;
 
 import java.sql.SQLException;
 import java.time.LocalDateTime;
@@ -52,7 +53,14 @@ public class CollectionManager {
     }
 
     public void clear(String maker) throws SQLException{
-        PersonDao.clear(maker);
+        PersonDao personDao = PersonDao.getInstance();
+        personDao.clear(maker);
+        collection = DumpManager.read();
+    }
+
+    public void clear() throws SQLException{
+        PersonDao personDao = PersonDao.getInstance();
+        personDao.clear();
         collection = DumpManager.read();
     }
 

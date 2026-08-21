@@ -102,4 +102,16 @@ public final class CoordinateDao implements SaveDao<Coordinates, Integer>, ReadD
             LOGGER.info("Удалено Coordinates ids=" + ids);
         }
     }
+
+    public boolean clear(Connection conn) {
+        String query = "truncate table Coordinates";
+        try (Statement st = conn.createStatement()) {
+            st.executeUpdate(query);
+            LOGGER.info("Удалены Coordinates");
+            return true;
+        } catch (SQLException e) {
+            LOGGER.error("Ошибка выполнения запроса TRUNCATE в Coordinates", e);
+            return false;
+        }
+    }
 }

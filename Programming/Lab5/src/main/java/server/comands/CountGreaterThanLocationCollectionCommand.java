@@ -16,9 +16,10 @@ public class CountGreaterThanLocationCollectionCommand extends CollectionCommand
     @Override
     public Responce execute(Request r) {
         try{
+            String nameArgument = this.getNameArgumentByIndex(0);
+            Location loc = (Location) r.defineArgByName(nameArgument);
             long count = this.getCollectionManager().getCollection().stream().filter(
-                    p -> p.getLocation() != null).filter(p -> p.getLocation().compareTo(
-                                    (Location) r.getArgs().get(this.getUsage()[0].getName())) > 0).count();
+                    p -> p.getLocation() != null).filter(p -> p.getLocation().compareTo(loc) > 0).count();
             return new Responce(true, String.valueOf(count));
         } catch (Exception e){
             return new Responce(false, "Ошибка выполнения команды count_by_location");

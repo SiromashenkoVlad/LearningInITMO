@@ -12,6 +12,7 @@ import java.util.Map;
 
 public class WorkManager {
     private final Map<String, Command> commands = new HashMap<>();
+    private final Map<String, Command> userCommands = new HashMap<>();
     private final Map<String, Argument[]> usagesCommands = new HashMap<>();
     private final CollectionManager collectionManager;
     private final static Logger LOGGER = LogManager.getLogger(WorkManager.class);
@@ -51,7 +52,7 @@ public class WorkManager {
         this.addCommand("count_by_location", new CountByLocationCollectionCommand(collectionManager));
         this.addCommand("count_greater_than_location", new CountGreaterThanLocationCollectionCommand(collectionManager));
         this.addCommand("print_field_descending_eye_color", new FieldDescendingEyeColorCollectionCommand(collectionManager));
-        this.addCommand("help", new HelpCommand(commands));
+        this.addCommand("help", new HelpCommand(userCommands));
         this.addServCommand("log", new LoginCommand());
         this.addServCommand("reg", new RegisterCommand());
         LOGGER.info("Создали WorkManager");
@@ -59,6 +60,7 @@ public class WorkManager {
 
     private void addCommand(String name, Command command){
         this.commands.put(name, command);
+        this.userCommands.put(name, command);
         this.usagesCommands.put(name, command.getUsage());
     }
 

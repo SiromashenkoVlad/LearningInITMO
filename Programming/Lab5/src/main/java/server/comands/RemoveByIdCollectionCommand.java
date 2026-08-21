@@ -4,6 +4,7 @@ import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
 import server.db.dao.PersonDao;
+import server.db.dao.UserDao;
 import server.managers.CollectionManager;
 
 import java.util.Objects;
@@ -19,8 +20,12 @@ public class RemoveByIdCollectionCommand extends CollectionCommand {
         if (r.getCredentialsProvider() == null)
             return new Responce(false, "Вы не авторизовались для выполнения этого запроса");
         try {
-            if (!Objects.equals(r.getCredentialsProvider().getLogin(),
-                    PersonDao.readMaker((int) r.getArgs().get(this.getUsage()[0].getName())).get()))
+            PersonDao personDao = PersonDao.getInstance();
+            int id = (Integer) r.defineArgByName(this.getNameArgumentByIndex(0));
+            UserDao userDao = UserDao.getInstance();
+            String login = r.getCredentialsProvider().getLogin();
+            System.out.println(!userDao.readListAdmin().contains(login));
+            if (!Objects.equals(login, personDao.readMaker(id).get()) & !userDao.readListAdmin().contains(login))
                 return new Responce(false, "У вас нет прав на изменение этого элемента");
             this.getCollectionManager().removeById((int) r.getArgs().get(this.getUsage()[0].getName()));
             return new Responce(true, "");

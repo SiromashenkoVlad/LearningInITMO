@@ -14403,3 +14403,2060 @@
 </Events>
 </Events>
 </Events>
+</Events>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752593497" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752593" nanoOfSecond="497137300"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752593699" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752593" nanoOfSecond="699584400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752593705" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752593" nanoOfSecond="705562400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752593707" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752593" nanoOfSecond="707561500"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752593709" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752593" nanoOfSecond="709595200"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752593712" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752593" nanoOfSecond="712573700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752593727" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752593" nanoOfSecond="727710300"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752607106" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752607" nanoOfSecond="106307900"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752607271" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752607" nanoOfSecond="271724700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752607278" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752607" nanoOfSecond="278723900"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752607283" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752607" nanoOfSecond="283727200"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752607285" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752607" nanoOfSecond="285724400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752607288" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752607" nanoOfSecond="288724600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780752607307" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780752607" nanoOfSecond="307687900"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780753388511" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780753388" nanoOfSecond="511245700"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780753388668" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780753388" nanoOfSecond="668897300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780753388673" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780753388" nanoOfSecond="673900800"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780753388676" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780753388" nanoOfSecond="676900900"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780753388679" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780753388" nanoOfSecond="679900900"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780753388684" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780753388" nanoOfSecond="684910300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780753388702" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780753388" nanoOfSecond="702899300"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780753398394" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780753398" nanoOfSecond="394518900"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780753398397" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780753398" nanoOfSecond="397540800"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780753406984" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780753406" nanoOfSecond="984416800"/>
+    <Message>Добавлена строка в Users с login: admin</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754479739" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780754479" nanoOfSecond="739125300"/>
+    <Message>java.net.SocketException: Connection reset</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754483484" thread="Thread-3" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="38" threadPriority="5">
+    <Instant epochSecond="1780754483" nanoOfSecond="484303300"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754483485" thread="Thread-3" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="38" threadPriority="5">
+    <Instant epochSecond="1780754483" nanoOfSecond="485303800"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754486955" thread="Thread-3" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="38" threadPriority="5">
+    <Instant epochSecond="1780754486" nanoOfSecond="955904400"/>
+    <Message>java.net.SocketException: Connection reset</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754492864" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754492" nanoOfSecond="864243300"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754493016" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754493" nanoOfSecond="16190500"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754493019" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754493" nanoOfSecond="19201400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754493022" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754493" nanoOfSecond="22193000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754493023" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754493" nanoOfSecond="23195100"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754493025" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754493" nanoOfSecond="25190300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754493044" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754493" nanoOfSecond="44189800"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+</Events>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754508319" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754508" nanoOfSecond="319512500"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754508467" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754508" nanoOfSecond="467632300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754508470" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754508" nanoOfSecond="470628000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754508473" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754508" nanoOfSecond="473626200"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754508475" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754508" nanoOfSecond="475629000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754508477" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754508" nanoOfSecond="477631700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754508493" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780754508" nanoOfSecond="493623800"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754519810" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780754519" nanoOfSecond="810597300"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754519813" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780754519" nanoOfSecond="813117800"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754569520" thread="Thread-2" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780754569" nanoOfSecond="520055500"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754569523" thread="Thread-2" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780754569" nanoOfSecond="523052800"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754610903" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="38" threadPriority="5">
+    <Instant epochSecond="1780754610" nanoOfSecond="903356100"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754610908" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="38" threadPriority="5">
+    <Instant epochSecond="1780754610" nanoOfSecond="908359600"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754616404" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="38" threadPriority="5">
+    <Instant epochSecond="1780754616" nanoOfSecond="404199000"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780754616406" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="38" threadPriority="5">
+    <Instant epochSecond="1780754616" nanoOfSecond="406176100"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763017361" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763017" nanoOfSecond="361143400"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763017527" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763017" nanoOfSecond="527481900"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763017532" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763017" nanoOfSecond="532481600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763017535" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763017" nanoOfSecond="535483800"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763017537" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763017" nanoOfSecond="537483100"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763017540" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763017" nanoOfSecond="540494600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763017753" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763017" nanoOfSecond="753513600"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763151478" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763151" nanoOfSecond="478661800"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763151629" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763151" nanoOfSecond="629182200"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763151632" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763151" nanoOfSecond="632179300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763151634" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763151" nanoOfSecond="634179700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763151638" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763151" nanoOfSecond="638180400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763151640" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763151" nanoOfSecond="640180200"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763151656" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763151" nanoOfSecond="656179600"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763154407" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780763154" nanoOfSecond="407978500"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763154412" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780763154" nanoOfSecond="412982900"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763168906" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763168" nanoOfSecond="906777200"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763168912" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763168" nanoOfSecond="912772200"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207053" thread="ForkJoinPool-1-worker-1" level="ERROR" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="53765500"/>
+    <Message>Ошибка получения соединения</Message>
+    <Thrown commonElementCount="0" localizedMessage="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" message="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" name="org.postgresql.util.PSQLException">
+      <ExtendedStackTrace>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="receiveErrorResponse" file="QueryExecutorImpl.java" line="2904" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="processResults" file="QueryExecutorImpl.java" line="2589" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="execute" file="QueryExecutorImpl.java" line="431" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="executeInternal" file="PgStatement.java" line="534" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="execute" file="PgStatement.java" line="437" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeWithFlags" file="PgPreparedStatement.java" line="196" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeQuery" file="PgPreparedStatement.java" line="139" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.ProxyPreparedStatement" method="executeQuery" file="ProxyPreparedStatement.java" line="52" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.HikariProxyPreparedStatement" method="executeQuery" file="HikariProxyPreparedStatement.java" line="-1" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.db.dao.UserDao" method="readListAdmin" file="UserDao.java" line="95" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.comands.RemoveByIdCollectionCommand" method="execute" file="RemoveByIdCollectionCommand.java" line="27" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.managers.WorkManager" method="callCommand" file="WorkManager.java" line="70" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="23" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="10" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.RecursiveTask" method="exec" file="RecursiveTask.java" line="110" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinTask" method="doExec" file="ForkJoinTask.java" line="387" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool$WorkQueue" method="topLevelExec" file="ForkJoinPool.java" line="1310" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="scan" file="ForkJoinPool.java" line="1841" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="runWorker" file="ForkJoinPool.java" line="1806" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinWorkerThread" method="run" file="ForkJoinWorkerThread.java" line="188" exact="true" location="?" version="?"/>
+      </ExtendedStackTrace>
+    </Thrown>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207078" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="78169500"/>
+    <Message>autocommit false</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207081" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="81170300"/>
+    <Message>Считал id у локации и координат</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207090" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="90284700"/>
+    <Message>delete person</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207093" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.LocationDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="93285600"/>
+    <Message>Location id=33 удалён</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207096" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.CoordinateDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="96285000"/>
+    <Message>Coordinates id=10 удалены</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207099" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="99284900"/>
+    <Message>Person id=5 удалён</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207101" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="101287100"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207104" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="104285900"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207106" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="106287300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207108" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="108287600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763207109" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763207" nanoOfSecond="109285600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763602124" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780763602" nanoOfSecond="124213900"/>
+    <Message>java.net.SocketException: Connection reset</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763620126" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763620" nanoOfSecond="126822000"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763620259" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763620" nanoOfSecond="259154100"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763620262" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763620" nanoOfSecond="262133000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763620265" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763620" nanoOfSecond="265129800"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763620267" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763620" nanoOfSecond="267135500"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763620282" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780763620" nanoOfSecond="282138200"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763624679" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780763624" nanoOfSecond="679692700"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763624682" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780763624" nanoOfSecond="682699700"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763650646" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763650" nanoOfSecond="646725100"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763650652" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763650" nanoOfSecond="652737400"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763688101" thread="ForkJoinPool-1-worker-1" level="ERROR" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763688" nanoOfSecond="101913400"/>
+    <Message>Ошибка получения соединения</Message>
+    <Thrown commonElementCount="0" localizedMessage="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" message="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" name="org.postgresql.util.PSQLException">
+      <ExtendedStackTrace>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="receiveErrorResponse" file="QueryExecutorImpl.java" line="2904" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="processResults" file="QueryExecutorImpl.java" line="2589" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="execute" file="QueryExecutorImpl.java" line="431" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="executeInternal" file="PgStatement.java" line="534" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="execute" file="PgStatement.java" line="437" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeWithFlags" file="PgPreparedStatement.java" line="196" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeQuery" file="PgPreparedStatement.java" line="139" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.ProxyPreparedStatement" method="executeQuery" file="ProxyPreparedStatement.java" line="52" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.HikariProxyPreparedStatement" method="executeQuery" file="HikariProxyPreparedStatement.java" line="-1" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.db.dao.UserDao" method="readListAdmin" file="UserDao.java" line="95" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.comands.RemoveByIdCollectionCommand" method="execute" file="RemoveByIdCollectionCommand.java" line="27" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.managers.WorkManager" method="callCommand" file="WorkManager.java" line="70" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="23" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="10" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.RecursiveTask" method="exec" file="RecursiveTask.java" line="110" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinTask" method="doExec" file="ForkJoinTask.java" line="387" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool$WorkQueue" method="topLevelExec" file="ForkJoinPool.java" line="1310" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="scan" file="ForkJoinPool.java" line="1841" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="runWorker" file="ForkJoinPool.java" line="1806" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinWorkerThread" method="run" file="ForkJoinWorkerThread.java" line="188" exact="true" location="?" version="?"/>
+      </ExtendedStackTrace>
+    </Thrown>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704568" thread="ForkJoinPool-1-worker-1" level="ERROR" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="568882300"/>
+    <Message>Ошибка получения соединения</Message>
+    <Thrown commonElementCount="0" localizedMessage="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" message="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" name="org.postgresql.util.PSQLException">
+      <ExtendedStackTrace>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="receiveErrorResponse" file="QueryExecutorImpl.java" line="2904" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="processResults" file="QueryExecutorImpl.java" line="2589" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="execute" file="QueryExecutorImpl.java" line="431" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="executeInternal" file="PgStatement.java" line="534" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="execute" file="PgStatement.java" line="437" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeWithFlags" file="PgPreparedStatement.java" line="196" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeQuery" file="PgPreparedStatement.java" line="139" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.ProxyPreparedStatement" method="executeQuery" file="ProxyPreparedStatement.java" line="52" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.HikariProxyPreparedStatement" method="executeQuery" file="HikariProxyPreparedStatement.java" line="-1" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.db.dao.UserDao" method="readListAdmin" file="UserDao.java" line="95" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.comands.RemoveByIdCollectionCommand" method="execute" file="RemoveByIdCollectionCommand.java" line="27" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.managers.WorkManager" method="callCommand" file="WorkManager.java" line="70" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="23" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="10" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.RecursiveTask" method="exec" file="RecursiveTask.java" line="110" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinTask" method="doExec" file="ForkJoinTask.java" line="387" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool$WorkQueue" method="topLevelExec" file="ForkJoinPool.java" line="1310" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="scan" file="ForkJoinPool.java" line="1841" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="runWorker" file="ForkJoinPool.java" line="1806" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinWorkerThread" method="run" file="ForkJoinWorkerThread.java" line="188" exact="true" location="?" version="?"/>
+      </ExtendedStackTrace>
+    </Thrown>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704575" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="575882100"/>
+    <Message>autocommit false</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704579" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="579881000"/>
+    <Message>Считал id у локации и координат</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704581" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="581882800"/>
+    <Message>delete person</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704584" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.LocationDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="584879100"/>
+    <Message>Location id=39 удалён</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704586" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.CoordinateDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="586877700"/>
+    <Message>Coordinates id=16 удалены</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704597" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="597857100"/>
+    <Message>Person id=11 удалён</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704599" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="599830200"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704603" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="603831800"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704604" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="604830000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763704606" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763704" nanoOfSecond="606855400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763732651" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780763732" nanoOfSecond="651888300"/>
+    <Message>java.io.EOFException</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763734689" thread="Thread-10" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="45" threadPriority="5">
+    <Instant epochSecond="1780763734" nanoOfSecond="689575800"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763734691" thread="Thread-10" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="45" threadPriority="5">
+    <Instant epochSecond="1780763734" nanoOfSecond="691578900"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763740363" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763740" nanoOfSecond="363053600"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763740366" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763740" nanoOfSecond="366055500"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780763754624" thread="ForkJoinPool-1-worker-1" level="ERROR" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780763754" nanoOfSecond="624527600"/>
+    <Message>Ошибка получения соединения</Message>
+    <Thrown commonElementCount="0" localizedMessage="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" message="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" name="org.postgresql.util.PSQLException">
+      <ExtendedStackTrace>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="receiveErrorResponse" file="QueryExecutorImpl.java" line="2904" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="processResults" file="QueryExecutorImpl.java" line="2589" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="execute" file="QueryExecutorImpl.java" line="431" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="executeInternal" file="PgStatement.java" line="534" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="execute" file="PgStatement.java" line="437" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeWithFlags" file="PgPreparedStatement.java" line="196" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeQuery" file="PgPreparedStatement.java" line="139" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.ProxyPreparedStatement" method="executeQuery" file="ProxyPreparedStatement.java" line="52" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.HikariProxyPreparedStatement" method="executeQuery" file="HikariProxyPreparedStatement.java" line="-1" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.db.dao.UserDao" method="readListAdmin" file="UserDao.java" line="95" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.comands.RemoveByIdCollectionCommand" method="execute" file="RemoveByIdCollectionCommand.java" line="27" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.managers.WorkManager" method="callCommand" file="WorkManager.java" line="70" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="23" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="10" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.RecursiveTask" method="exec" file="RecursiveTask.java" line="110" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinTask" method="doExec" file="ForkJoinTask.java" line="387" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool$WorkQueue" method="topLevelExec" file="ForkJoinPool.java" line="1310" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="scan" file="ForkJoinPool.java" line="1841" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="runWorker" file="ForkJoinPool.java" line="1806" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinWorkerThread" method="run" file="ForkJoinWorkerThread.java" line="188" exact="true" location="?" version="?"/>
+      </ExtendedStackTrace>
+    </Thrown>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764005841" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764005" nanoOfSecond="841099100"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764005967" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764005" nanoOfSecond="967757400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764005971" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764005" nanoOfSecond="971767900"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764005974" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764005" nanoOfSecond="974768600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764005996" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764005" nanoOfSecond="996987600"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764012776" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764012" nanoOfSecond="776921200"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764012779" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764012" nanoOfSecond="779924500"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764017768" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764017" nanoOfSecond="768213800"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764017772" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764017" nanoOfSecond="772214200"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764023402" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764023" nanoOfSecond="402079600"/>
+    <Message>java.io.EOFException</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764025550" thread="Thread-4" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="39" threadPriority="5">
+    <Instant epochSecond="1780764025" nanoOfSecond="550018400"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764025552" thread="Thread-4" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="39" threadPriority="5">
+    <Instant epochSecond="1780764025" nanoOfSecond="552016600"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764031056" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764031" nanoOfSecond="56315500"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764031059" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764031" nanoOfSecond="59315900"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764044923" thread="ForkJoinPool-1-worker-1" level="ERROR" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764044" nanoOfSecond="923756800"/>
+    <Message>Ошибка получения соединения</Message>
+    <Thrown commonElementCount="0" localizedMessage="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" message="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" name="org.postgresql.util.PSQLException">
+      <ExtendedStackTrace>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="receiveErrorResponse" file="QueryExecutorImpl.java" line="2904" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="processResults" file="QueryExecutorImpl.java" line="2589" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="execute" file="QueryExecutorImpl.java" line="431" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="executeInternal" file="PgStatement.java" line="534" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="execute" file="PgStatement.java" line="437" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeWithFlags" file="PgPreparedStatement.java" line="196" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeQuery" file="PgPreparedStatement.java" line="139" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.ProxyPreparedStatement" method="executeQuery" file="ProxyPreparedStatement.java" line="52" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.HikariProxyPreparedStatement" method="executeQuery" file="HikariProxyPreparedStatement.java" line="-1" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.db.dao.UserDao" method="readListAdmin" file="UserDao.java" line="95" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.comands.RemoveByIdCollectionCommand" method="execute" file="RemoveByIdCollectionCommand.java" line="27" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.managers.WorkManager" method="callCommand" file="WorkManager.java" line="70" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="23" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="10" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.RecursiveTask" method="exec" file="RecursiveTask.java" line="110" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinTask" method="doExec" file="ForkJoinTask.java" line="387" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool$WorkQueue" method="topLevelExec" file="ForkJoinPool.java" line="1310" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="scan" file="ForkJoinPool.java" line="1841" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="runWorker" file="ForkJoinPool.java" line="1806" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinWorkerThread" method="run" file="ForkJoinWorkerThread.java" line="188" exact="true" location="?" version="?"/>
+      </ExtendedStackTrace>
+    </Thrown>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764044953" thread="ForkJoinPool-1-worker-1" level="ERROR" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764044" nanoOfSecond="953737200"/>
+    <Message>Ошибка получения соединения</Message>
+    <Thrown commonElementCount="0" localizedMessage="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" message="ОШИБКА: столбец &quot;login&quot; не существует&#xa;  Позиция: 8" name="org.postgresql.util.PSQLException">
+      <ExtendedStackTrace>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="receiveErrorResponse" file="QueryExecutorImpl.java" line="2904" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="processResults" file="QueryExecutorImpl.java" line="2589" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="execute" file="QueryExecutorImpl.java" line="431" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="executeInternal" file="PgStatement.java" line="534" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="execute" file="PgStatement.java" line="437" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeWithFlags" file="PgPreparedStatement.java" line="196" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeQuery" file="PgPreparedStatement.java" line="139" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.ProxyPreparedStatement" method="executeQuery" file="ProxyPreparedStatement.java" line="52" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.HikariProxyPreparedStatement" method="executeQuery" file="HikariProxyPreparedStatement.java" line="-1" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.db.dao.UserDao" method="readListAdmin" file="UserDao.java" line="95" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.comands.RemoveByIdCollectionCommand" method="execute" file="RemoveByIdCollectionCommand.java" line="28" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.managers.WorkManager" method="callCommand" file="WorkManager.java" line="70" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="23" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="10" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.RecursiveTask" method="exec" file="RecursiveTask.java" line="110" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinTask" method="doExec" file="ForkJoinTask.java" line="387" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool$WorkQueue" method="topLevelExec" file="ForkJoinPool.java" line="1310" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="scan" file="ForkJoinPool.java" line="1841" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="runWorker" file="ForkJoinPool.java" line="1806" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinWorkerThread" method="run" file="ForkJoinWorkerThread.java" line="188" exact="true" location="?" version="?"/>
+      </ExtendedStackTrace>
+    </Thrown>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764136013" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764136" nanoOfSecond="13686000"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764136170" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764136" nanoOfSecond="170404600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764136175" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764136" nanoOfSecond="175405000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764136178" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764136" nanoOfSecond="178405400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764136194" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764136" nanoOfSecond="194407700"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764143553" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764143" nanoOfSecond="553094600"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764143556" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764143" nanoOfSecond="556106600"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764148754" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764148" nanoOfSecond="754154600"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764156342" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764156" nanoOfSecond="342491500"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764156346" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764156" nanoOfSecond="346543200"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764165118" thread="ForkJoinPool-1-worker-1" level="ERROR" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764165" nanoOfSecond="118720600"/>
+    <Message>Ошибка получения соединения</Message>
+    <Thrown commonElementCount="0" localizedMessage="ОШИБКА: оператор не существует: boolean = integer&#xa;  Подсказка: Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.&#xa;  Позиция: 35" message="ОШИБКА: оператор не существует: boolean = integer&#xa;  Подсказка: Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.&#xa;  Позиция: 35" name="org.postgresql.util.PSQLException">
+      <ExtendedStackTrace>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="receiveErrorResponse" file="QueryExecutorImpl.java" line="2904" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="processResults" file="QueryExecutorImpl.java" line="2589" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="execute" file="QueryExecutorImpl.java" line="431" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="executeInternal" file="PgStatement.java" line="534" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="execute" file="PgStatement.java" line="437" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeWithFlags" file="PgPreparedStatement.java" line="196" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeQuery" file="PgPreparedStatement.java" line="139" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.ProxyPreparedStatement" method="executeQuery" file="ProxyPreparedStatement.java" line="52" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.HikariProxyPreparedStatement" method="executeQuery" file="HikariProxyPreparedStatement.java" line="-1" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.db.dao.UserDao" method="readListAdmin" file="UserDao.java" line="95" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.comands.RemoveByIdCollectionCommand" method="execute" file="RemoveByIdCollectionCommand.java" line="27" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.managers.WorkManager" method="callCommand" file="WorkManager.java" line="70" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="23" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="10" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.RecursiveTask" method="exec" file="RecursiveTask.java" line="110" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinTask" method="doExec" file="ForkJoinTask.java" line="387" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool$WorkQueue" method="topLevelExec" file="ForkJoinPool.java" line="1310" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="scan" file="ForkJoinPool.java" line="1841" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="runWorker" file="ForkJoinPool.java" line="1806" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinWorkerThread" method="run" file="ForkJoinWorkerThread.java" line="188" exact="true" location="?" version="?"/>
+      </ExtendedStackTrace>
+    </Thrown>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764165144" thread="ForkJoinPool-1-worker-1" level="ERROR" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764165" nanoOfSecond="144756000"/>
+    <Message>Ошибка получения соединения</Message>
+    <Thrown commonElementCount="0" localizedMessage="ОШИБКА: оператор не существует: boolean = integer&#xa;  Подсказка: Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.&#xa;  Позиция: 35" message="ОШИБКА: оператор не существует: boolean = integer&#xa;  Подсказка: Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.&#xa;  Позиция: 35" name="org.postgresql.util.PSQLException">
+      <ExtendedStackTrace>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="receiveErrorResponse" file="QueryExecutorImpl.java" line="2904" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="processResults" file="QueryExecutorImpl.java" line="2589" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.core.v3.QueryExecutorImpl" method="execute" file="QueryExecutorImpl.java" line="431" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="executeInternal" file="PgStatement.java" line="534" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgStatement" method="execute" file="PgStatement.java" line="437" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeWithFlags" file="PgPreparedStatement.java" line="196" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="org.postgresql.jdbc.PgPreparedStatement" method="executeQuery" file="PgPreparedStatement.java" line="139" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.ProxyPreparedStatement" method="executeQuery" file="ProxyPreparedStatement.java" line="52" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="com.zaxxer.hikari.pool.HikariProxyPreparedStatement" method="executeQuery" file="HikariProxyPreparedStatement.java" line="-1" exact="false" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.db.dao.UserDao" method="readListAdmin" file="UserDao.java" line="95" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.comands.RemoveByIdCollectionCommand" method="execute" file="RemoveByIdCollectionCommand.java" line="28" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.managers.WorkManager" method="callCommand" file="WorkManager.java" line="70" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="23" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem classLoaderName="app" class="server.сonnection.Task" method="compute" file="Task.java" line="10" exact="true" location="server.jar" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.RecursiveTask" method="exec" file="RecursiveTask.java" line="110" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinTask" method="doExec" file="ForkJoinTask.java" line="387" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool$WorkQueue" method="topLevelExec" file="ForkJoinPool.java" line="1310" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="scan" file="ForkJoinPool.java" line="1841" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinPool" method="runWorker" file="ForkJoinPool.java" line="1806" exact="true" location="?" version="?"/>
+        <ExtendedStackTraceItem module="java.base" moduleVersion="21.0.7" class="java.util.concurrent.ForkJoinWorkerThread" method="run" file="ForkJoinWorkerThread.java" line="188" exact="true" location="?" version="?"/>
+      </ExtendedStackTrace>
+    </Thrown>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764422173" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764422" nanoOfSecond="173053000"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764422325" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764422" nanoOfSecond="325563700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764422330" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764422" nanoOfSecond="330564700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764422333" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764422" nanoOfSecond="333563700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764422350" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764422" nanoOfSecond="350563700"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433654" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="654944000"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433660" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="660041600"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433703" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="703501700"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433708" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="708498000"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433720" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="720503500"/>
+    <Message>autocommit false</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433723" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="723502800"/>
+    <Message>Считал id у локации и координат</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433725" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="725500400"/>
+    <Message>delete person</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433727" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.LocationDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="727500300"/>
+    <Message>Location id=36 удалён</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433730" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.CoordinateDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="730503800"/>
+    <Message>Coordinates id=13 удалены</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433733" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="733511900"/>
+    <Message>Person id=8 удалён</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433734" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="734509800"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433737" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="737511600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764433738" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764433" nanoOfSecond="738509600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764446048" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764446" nanoOfSecond="48429600"/>
+    <Message>autocommit false</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764446052" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764446" nanoOfSecond="52433000"/>
+    <Message>Считал id у локации и координат</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764446054" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764446" nanoOfSecond="54430400"/>
+    <Message>delete person</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764446055" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.LocationDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764446" nanoOfSecond="55433400"/>
+    <Message>Location id=34 удалён</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764446056" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.CoordinateDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764446" nanoOfSecond="56429400"/>
+    <Message>Coordinates id=11 удалены</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764446066" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764446" nanoOfSecond="66457400"/>
+    <Message>Person id=6 удалён</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764446068" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764446" nanoOfSecond="68457100"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764446071" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764446" nanoOfSecond="71452700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764454903" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764454" nanoOfSecond="903037100"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764454909" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764454" nanoOfSecond="909038700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764573036" thread="ForkJoinPool-1-worker-2" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="44" threadPriority="5">
+    <Instant epochSecond="1780764573" nanoOfSecond="36138600"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764573041" thread="ForkJoinPool-1-worker-2" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="44" threadPriority="5">
+    <Instant epochSecond="1780764573" nanoOfSecond="41166000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764613939" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764613" nanoOfSecond="939246300"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764614092" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764614" nanoOfSecond="92695700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764614110" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764614" nanoOfSecond="110700900"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764626902" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764626" nanoOfSecond="902679300"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764626905" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764626" nanoOfSecond="905689400"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764626952" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764626" nanoOfSecond="952735900"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764626957" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764626" nanoOfSecond="957733300"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764626986" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764626" nanoOfSecond="986511800"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764626993" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764626" nanoOfSecond="993152600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764741088" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764741" nanoOfSecond="88456600"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764741211" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764741" nanoOfSecond="211760400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764741226" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764741" nanoOfSecond="226793300"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764753529" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764753" nanoOfSecond="529920900"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764753531" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764753" nanoOfSecond="531886900"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764753573" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764753" nanoOfSecond="573897000"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764753578" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764753" nanoOfSecond="578893400"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764753609" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764753" nanoOfSecond="609616800"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764753614" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764753" nanoOfSecond="614619500"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764844461" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764844" nanoOfSecond="461476000"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764844638" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764844" nanoOfSecond="638197000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764844663" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1780764844" nanoOfSecond="663212700"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764856980" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764856" nanoOfSecond="980032300"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764856985" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780764856" nanoOfSecond="985047100"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764857028" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764857" nanoOfSecond="28033100"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764857033" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764857" nanoOfSecond="33033900"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764857074" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764857" nanoOfSecond="74092800"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780764857079" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1780764857" nanoOfSecond="79088700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1780765542995" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1780765542" nanoOfSecond="995057200"/>
+    <Message>java.net.SocketException: Connection reset</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094673366" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781094673" nanoOfSecond="366149700"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094673532" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781094673" nanoOfSecond="532085500"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094673545" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781094673" nanoOfSecond="545086500"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094677781" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781094677" nanoOfSecond="781250600"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094677784" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781094677" nanoOfSecond="784249200"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094684907" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094684" nanoOfSecond="907547000"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094684911" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094684" nanoOfSecond="911545500"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094705177" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094705" nanoOfSecond="177235300"/>
+    <Message>autocommit false</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094705179" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094705" nanoOfSecond="179234100"/>
+    <Message>Считал id у локации и координат</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094705186" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094705" nanoOfSecond="186245400"/>
+    <Message>delete person</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094705189" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.LocationDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094705" nanoOfSecond="189244800"/>
+    <Message>Location id=32 удалён</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094705192" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.CoordinateDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094705" nanoOfSecond="192243800"/>
+    <Message>Coordinates id=9 удалены</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094705195" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094705" nanoOfSecond="195244800"/>
+    <Message>Person id=4 удалён</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094705197" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094705" nanoOfSecond="197246100"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094741672" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094741" nanoOfSecond="672457600"/>
+    <Message>Начало записи</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094741685" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094741" nanoOfSecond="685464800"/>
+    <Message>Записал локацию</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094741690" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094741" nanoOfSecond="690465400"/>
+    <Message>Записал координату</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094741698" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094741" nanoOfSecond="698487900"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094741701" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094741" nanoOfSecond="701490400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094785274" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781094785" nanoOfSecond="274695600"/>
+    <Message>java.io.EOFException</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094788222" thread="Thread-9" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="44" threadPriority="5">
+    <Instant epochSecond="1781094788" nanoOfSecond="222525200"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094788224" thread="Thread-9" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="44" threadPriority="5">
+    <Instant epochSecond="1781094788" nanoOfSecond="224524900"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094793484" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094793" nanoOfSecond="484967700"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094793486" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094793" nanoOfSecond="486971400"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094831037" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094831" nanoOfSecond="37457000"/>
+    <Message>Начало записи</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094831038" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094831" nanoOfSecond="38457600"/>
+    <Message>Записал локацию</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094831041" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094831" nanoOfSecond="41458200"/>
+    <Message>Записал координату</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094831044" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094831" nanoOfSecond="44457200"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094831047" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094831" nanoOfSecond="47454400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094831049" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781094831" nanoOfSecond="49459800"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094902910" thread="Thread-9" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="44" threadPriority="5">
+    <Instant epochSecond="1781094902" nanoOfSecond="910227100"/>
+    <Message>java.io.EOFException</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094905032" thread="Thread-16" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="52" threadPriority="5">
+    <Instant epochSecond="1781094905" nanoOfSecond="32070900"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094905034" thread="Thread-16" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="52" threadPriority="5">
+    <Instant epochSecond="1781094905" nanoOfSecond="34069700"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094919011" thread="ForkJoinPool-1-worker-2" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="50" threadPriority="5">
+    <Instant epochSecond="1781094919" nanoOfSecond="11644500"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094919014" thread="ForkJoinPool-1-worker-2" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="50" threadPriority="5">
+    <Instant epochSecond="1781094919" nanoOfSecond="14649100"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094926179" thread="ForkJoinPool-1-worker-2" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="50" threadPriority="5">
+    <Instant epochSecond="1781094926" nanoOfSecond="179489300"/>
+    <Message>Удалены Person и связанные сущности maker=kukold</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094926180" thread="ForkJoinPool-1-worker-2" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="50" threadPriority="5">
+    <Instant epochSecond="1781094926" nanoOfSecond="180489600"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094926182" thread="ForkJoinPool-1-worker-2" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="50" threadPriority="5">
+    <Instant epochSecond="1781094926" nanoOfSecond="182488700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781094926184" thread="ForkJoinPool-1-worker-2" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="50" threadPriority="5">
+    <Instant epochSecond="1781094926" nanoOfSecond="184489800"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095642197" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="58" threadPriority="5">
+    <Instant epochSecond="1781095642" nanoOfSecond="197547500"/>
+    <Message>Начало записи</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095642200" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="58" threadPriority="5">
+    <Instant epochSecond="1781095642" nanoOfSecond="200545000"/>
+    <Message>Записал локацию</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095642201" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="58" threadPriority="5">
+    <Instant epochSecond="1781095642" nanoOfSecond="201542100"/>
+    <Message>Записал координату</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095642210" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="58" threadPriority="5">
+    <Instant epochSecond="1781095642" nanoOfSecond="210256400"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095642216" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="58" threadPriority="5">
+    <Instant epochSecond="1781095642" nanoOfSecond="216724800"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095642217" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="58" threadPriority="5">
+    <Instant epochSecond="1781095642" nanoOfSecond="217725200"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095642219" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="58" threadPriority="5">
+    <Instant epochSecond="1781095642" nanoOfSecond="219725800"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095764259" thread="ForkJoinPool-1-worker-4" level="INFO" loggerName="server.db.dao.LocationDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095764" nanoOfSecond="259881900"/>
+    <Message>Удалено Location ids=[42]</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095764262" thread="ForkJoinPool-1-worker-4" level="INFO" loggerName="server.db.dao.CoordinateDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095764" nanoOfSecond="262882100"/>
+    <Message>Удалено Coordinates ids=[19]</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095764264" thread="ForkJoinPool-1-worker-4" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095764" nanoOfSecond="264883000"/>
+    <Message>Удалены Person и связанные сущности maker=kukold</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095764265" thread="ForkJoinPool-1-worker-4" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095764" nanoOfSecond="265881700"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095764267" thread="ForkJoinPool-1-worker-4" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095764" nanoOfSecond="267878800"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095764269" thread="ForkJoinPool-1-worker-4" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095764" nanoOfSecond="269881400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095771869" thread="Thread-16" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="52" threadPriority="5">
+    <Instant epochSecond="1781095771" nanoOfSecond="869487500"/>
+    <Message>java.io.EOFException</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095775561" thread="Thread-27" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="65" threadPriority="5">
+    <Instant epochSecond="1781095775" nanoOfSecond="561953200"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095775562" thread="Thread-27" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="65" threadPriority="5">
+    <Instant epochSecond="1781095775" nanoOfSecond="562960500"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095781886" thread="ForkJoinPool-1-worker-4" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095781" nanoOfSecond="886768500"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095781889" thread="ForkJoinPool-1-worker-4" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095781" nanoOfSecond="889785300"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095784346" thread="ForkJoinPool-1-worker-4" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095784" nanoOfSecond="346638500"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095784349" thread="ForkJoinPool-1-worker-4" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095784" nanoOfSecond="349639800"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781095784351" thread="ForkJoinPool-1-worker-4" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="61" threadPriority="5">
+    <Instant epochSecond="1781095784" nanoOfSecond="351639600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096122376" thread="Thread-27" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="65" threadPriority="5">
+    <Instant epochSecond="1781096122" nanoOfSecond="376160300"/>
+    <Message>java.net.SocketException: Connection reset</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096251266" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781096251" nanoOfSecond="266782600"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096251404" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781096251" nanoOfSecond="404779300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096251407" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781096251" nanoOfSecond="407785100"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096251423" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781096251" nanoOfSecond="423783900"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096255776" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781096255" nanoOfSecond="776935800"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096255779" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781096255" nanoOfSecond="779959500"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096260124" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781096260" nanoOfSecond="124986800"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096260128" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781096260" nanoOfSecond="128983200"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096269661" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781096269" nanoOfSecond="661222500"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096269666" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781096269" nanoOfSecond="666222200"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781096269668" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781096269" nanoOfSecond="668235600"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098196230" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781098196" nanoOfSecond="230818300"/>
+    <Message>java.net.SocketException: Connection reset</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098213028" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781098213" nanoOfSecond="28436800"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098213168" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781098213" nanoOfSecond="168965700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098213172" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781098213" nanoOfSecond="172963200"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098213187" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781098213" nanoOfSecond="187962100"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098217921" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781098217" nanoOfSecond="921273800"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098217924" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781098217" nanoOfSecond="924274100"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098225956" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781098225" nanoOfSecond="956496000"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098225959" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781098225" nanoOfSecond="959496200"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098234408" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781098234" nanoOfSecond="408438800"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098234412" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781098234" nanoOfSecond="412440200"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098234414" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781098234" nanoOfSecond="414440700"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781098891329" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781098891" nanoOfSecond="329943400"/>
+    <Message>java.net.SocketException: Connection reset</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099182940" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781099182" nanoOfSecond="940881000"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099183083" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781099183" nanoOfSecond="83247300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099183087" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781099183" nanoOfSecond="87248400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099183102" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781099183" nanoOfSecond="102250900"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099188937" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781099188" nanoOfSecond="937465600"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099188940" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781099188" nanoOfSecond="940464400"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099195257" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781099195" nanoOfSecond="257897800"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099195260" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781099195" nanoOfSecond="260905400"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099198207" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781099198" nanoOfSecond="207643100"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099198211" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781099198" nanoOfSecond="211641300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781099198213" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781099198" nanoOfSecond="213646000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100085376" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781100085" nanoOfSecond="376173500"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100085520" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781100085" nanoOfSecond="520708300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100085523" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781100085" nanoOfSecond="523703300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100085534" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781100085" nanoOfSecond="534705500"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100092695" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781100092" nanoOfSecond="695006400"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100092698" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781100092" nanoOfSecond="698001500"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100104095" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781100104" nanoOfSecond="95999100"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100104098" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781100104" nanoOfSecond="98998000"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100108880" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.LocationDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781100108" nanoOfSecond="880623900"/>
+    <Message>Удалены Location</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100108885" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.CoordinateDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781100108" nanoOfSecond="885629800"/>
+    <Message>Удалены Coordinates</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100108889" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781100108" nanoOfSecond="889627600"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100108893" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781100108" nanoOfSecond="893626000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781100108895" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781100108" nanoOfSecond="895626500"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101702838" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781101702" nanoOfSecond="838205600"/>
+    <Message>java.net.SocketException: Connection reset</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101719547" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781101719" nanoOfSecond="547034900"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101719691" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781101719" nanoOfSecond="691043300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101719694" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781101719" nanoOfSecond="694047000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101719708" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781101719" nanoOfSecond="708043100"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101729181" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781101729" nanoOfSecond="181578100"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101729184" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781101729" nanoOfSecond="184579000"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101758242" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781101758" nanoOfSecond="242316900"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101758245" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781101758" nanoOfSecond="245321200"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101769872" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781101769" nanoOfSecond="872518100"/>
+    <Message>Person truncate выполнено успешно</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101769879" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.LocationDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781101769" nanoOfSecond="879518000"/>
+    <Message>Удалены Location</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101769886" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.CoordinateDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781101769" nanoOfSecond="886517400"/>
+    <Message>Удалены Coordinates</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101769892" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781101769" nanoOfSecond="892517600"/>
+    <Message>Удалены Person</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781101769893" thread="ForkJoinPool-1-worker-1" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781101769" nanoOfSecond="893519600"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781102169704" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781102169" nanoOfSecond="704848200"/>
+    <Message>java.io.EOFException</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104503152" thread="Thread-8" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="60" threadPriority="5">
+    <Instant epochSecond="1781104503" nanoOfSecond="152261800"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104503154" thread="Thread-8" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="60" threadPriority="5">
+    <Instant epochSecond="1781104503" nanoOfSecond="154258900"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104509766" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104509" nanoOfSecond="766127000"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104509769" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104509" nanoOfSecond="769126700"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104533335" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104533" nanoOfSecond="335694400"/>
+    <Message>Начало записи</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104533347" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104533" nanoOfSecond="347118700"/>
+    <Message>Записал локацию</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104533351" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104533" nanoOfSecond="351113700"/>
+    <Message>Записал координату</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104533357" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104533" nanoOfSecond="357116500"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104533360" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104533" nanoOfSecond="360117000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104557987" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104557" nanoOfSecond="987090900"/>
+    <Message>Начало записи</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104557989" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104557" nanoOfSecond="989089700"/>
+    <Message>Записал локацию</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104557990" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104557" nanoOfSecond="990096900"/>
+    <Message>Записал координату</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104557994" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104557" nanoOfSecond="994088600"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104557996" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104557" nanoOfSecond="996090000"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104557998" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104557" nanoOfSecond="998091100"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104564764" thread="Thread-8" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="60" threadPriority="5">
+    <Instant epochSecond="1781104564" nanoOfSecond="764849200"/>
+    <Message>java.io.EOFException</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104567467" thread="Thread-17" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="71" threadPriority="5">
+    <Instant epochSecond="1781104567" nanoOfSecond="467048300"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104567468" thread="Thread-17" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="71" threadPriority="5">
+    <Instant epochSecond="1781104567" nanoOfSecond="468049900"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104572642" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104572" nanoOfSecond="642494100"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104579526" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104579" nanoOfSecond="526235200"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104579529" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104579" nanoOfSecond="529235800"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104583727" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104583" nanoOfSecond="727565400"/>
+    <Message>Удалены Person и связанные сущности maker=kukold</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104583728" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104583" nanoOfSecond="728563300"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104583731" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104583" nanoOfSecond="731563400"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104583733" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104583" nanoOfSecond="733565300"/>
+    <Message>Данные успешно считаны</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104590232" thread="Thread-17" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="71" threadPriority="5">
+    <Instant epochSecond="1781104590" nanoOfSecond="232744000"/>
+    <Message>java.io.EOFException</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104595439" thread="Thread-24" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="78" threadPriority="5">
+    <Instant epochSecond="1781104595" nanoOfSecond="439332400"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104595440" thread="Thread-24" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="78" threadPriority="5">
+    <Instant epochSecond="1781104595" nanoOfSecond="440332600"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104601158" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104601" nanoOfSecond="158803000"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104601160" thread="ForkJoinPool-1-worker-3" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104601" nanoOfSecond="160805700"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104605441" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.dao.LocationDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104605" nanoOfSecond="441778700"/>
+    <Message>Удалено Location ids=[43, 44]</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104605443" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.dao.CoordinateDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104605" nanoOfSecond="443796100"/>
+    <Message>Удалено Coordinates ids=[20, 21]</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104605444" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.dao.PersonDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104605" nanoOfSecond="444778500"/>
+    <Message>Удалены Person и связанные сущности maker=dante</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781104605445" thread="ForkJoinPool-1-worker-3" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="62" threadPriority="5">
+    <Instant epochSecond="1781104605" nanoOfSecond="445778100"/>
+    <Message>Начало считывания</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781342999768" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781342999" nanoOfSecond="768597500"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781342999980" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781342999" nanoOfSecond="980080200"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343072126" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781343072" nanoOfSecond="126896200"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343072288" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781343072" nanoOfSecond="288257900"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343074050" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781343074" nanoOfSecond="50189400"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343074052" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781343074" nanoOfSecond="52187700"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343083954" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781343083" nanoOfSecond="954962600"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343083958" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781343083" nanoOfSecond="958972100"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343557524" thread="main" level="INFO" loggerName="server.db.DumpManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781343557" nanoOfSecond="524214300"/>
+    <Message>Начало считывания</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343557687" thread="main" level="INFO" loggerName="server.managers.WorkManager" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1781343557" nanoOfSecond="687391100"/>
+    <Message>Создали WorkManager</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343603759" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781343603" nanoOfSecond="759900200"/>
+    <Message>Клиент подключился: /127.0.0.1</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343603762" thread="Thread-0" level="INFO" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781343603" nanoOfSecond="762894000"/>
+    <Message>Usage отправил</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343603799" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781343603" nanoOfSecond="799895900"/>
+    <Message>Нашелся ли юзер по последнему запросу: true</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781343603803" thread="ForkJoinPool-1-worker-1" level="DEBUG" loggerName="server.db.dao.UserDao" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="36" threadPriority="5">
+    <Instant epochSecond="1781343603" nanoOfSecond="803898000"/>
+    <Message>Юзер c определенным паролем по последнему запросу был найден</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1781355766585" thread="Thread-0" level="ERROR" loggerName="server.сonnection.ClientHandler" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="34" threadPriority="5">
+    <Instant epochSecond="1781355766" nanoOfSecond="585184300"/>
+    <Message>java.net.SocketException: Connection reset</Message>
+  </Event>
+</Events>

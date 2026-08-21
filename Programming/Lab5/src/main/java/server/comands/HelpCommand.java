@@ -16,8 +16,10 @@ public class HelpCommand extends Command {
 
     @Override
     public Responce execute(Request r){
-        try{
+        try {
             Thread.sleep(5000);
+        } catch (InterruptedException e){}
+        try{
             StringBuilder answer = new StringBuilder();
             for (Command command : commands.values()){
                 answer.append("\n").append(command.getName()).append(" ").append(command.usageString()).append(" - ").append(command.getDescription());

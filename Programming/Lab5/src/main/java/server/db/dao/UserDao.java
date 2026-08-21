@@ -3,12 +3,13 @@ package server.db.dao;
 import common.userData.CredentialsProvider;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import server.db.DataSource;
 import server.db.HashPassword;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Optional;
 
 public final class UserDao implements SaveDao<CredentialsProvider, Optional<String>> {
@@ -54,10 +55,10 @@ public final class UserDao implements SaveDao<CredentialsProvider, Optional<Stri
             pr.setString(1, cp.getLogin());
             ResultSet rs =  pr.executeQuery();
             boolean answer = rs.next();
+            LOGGER.debug("Нашелся ли юзер по последнему запросу: " + answer);
             if (!answer){
                 return false;
             }
-            LOGGER.debug("Нашелся ли юзер по последнему запросу: " + answer);
             return answer;
         } catch (SQLException e){
             LOGGER.error(e);
@@ -84,6 +85,23 @@ public final class UserDao implements SaveDao<CredentialsProvider, Optional<Stri
         } catch (SQLException e){
             LOGGER.error(e);
             return false;
+        }
+    }
+
+    public HashSet<String> readListAdmin(){
+        String query = "Select name from Users where role = true";
+        try (Connection conn = DataSource.getConnection();
+             PreparedStatement ps = conn.prepareStatement(query)){
+            ResultSet rs = ps.executeQuery();
+            HashSet<String> list = new HashSet<>();
+            while (rs.next()){
+                String login = rs.getString("name");
+                list.add(login);
+            }
+            return list;
+        }  catch (SQLException e) {
+            LOGGER.error("Ошибка получения соединения", e);
+            return new HashSet<>();
         }
     }
 }

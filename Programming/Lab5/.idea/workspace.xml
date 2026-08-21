@@ -9,112 +9,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6185bfa3-3d37-4c95-bb8f-0b547f7aace0" name="Changes" comment="25-04-2026 worked serv nio and client io">
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/auth/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/auth/Authorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/auth/CredentialReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/connection/RetryPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/network/AuthenticatedRequestSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/network/BaseRequestSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/network/RequestSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/session/SessionInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/userData/CredentialsProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/comands/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/comands/RegisterCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/db/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/db/DumpManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/db/HashPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/CoordinateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/LocationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/ReadDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/SaveDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/сonnection/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/сonnection/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/DataSource.java" afterDir="false" />
+    <list default="true" id="6185bfa3-3d37-4c95-bb8f-0b547f7aace0" name="Changes" comment="06-06-2026 worked serv 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logs/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/connection/ConnectionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/client/EstablishConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/EstablishConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/readArguments/ValueFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/readArguments/ValueFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/readArguments/ValueReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/readArguments/ValueReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/Mainpart/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Mainpart/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/exceptions/DisconnectFromServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/exceptions/DisconnectFromServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/model/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/model/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/model/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/model/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/requests/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/requests/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/Connection/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/сonnection/Attach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/Connection/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/сonnection/ConnectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/Connection/DBConnectionManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/AddCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/AddCollectionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/AddIfMaxCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/AddIfMaxCollectionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/ClearCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/ClearCollectionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/AddCollectionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/AddCollectionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/AddIfMaxCollectionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/AddIfMaxCollectionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/ClearCollectionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/ClearCollectionCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/CommandCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/CollectionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/CountByLocationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/CountByLocationCollectionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/CountGreaterThanLocationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/CountGreaterThanLocationCollectionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/ExitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/FieldDescendingEyeColorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/FieldDescendingEyeColorCollectionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/CountByLocationCollectionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/CountByLocationCollectionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/CountGreaterThanLocationCollectionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/CountGreaterThanLocationCollectionCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/HelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/InfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/InfoCollectionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/RemoveByIdCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/RemoveByIdCollectionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/ReorderCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/ReorderCollectionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/SaveCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/ShowCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/ShowCollectionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/ShuffleCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/ShuffleCollectionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/UpdateByIdCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/UpdateByIdCollectionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/RemoveByIdCollectionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/RemoveByIdCollectionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/comands/UpdateByIdCollectionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/comands/UpdateByIdCollectionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/db/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/db/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/db/dao/CoordinateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/CoordinateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/db/dao/LocationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/LocationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/db/dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/db/dao/ReadDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/ReadDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/db/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/db/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/managers/CollectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/managers/CollectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/managers/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/managers/Communicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/managers/DumpManager.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/managers/WorkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/managers/WorkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/ConnectionManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/Runner$ExitCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/exceptions/DisconnectFromServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/exceptions/DisconnectFromServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/mainpart/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/mainpart/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/model/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/model/Coordinates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/model/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/model/Location.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/common/requests/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/requests/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/Connection/Attach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/Connection/ConnectionManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/AddCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/AddIfMaxCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/ClearCommand.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/server/comands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/comands/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/CommandCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/CountByLocationCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/CountGreaterThanLocationCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/ExitCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/comands/ExitCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/FieldDescendingEyeColorCommand.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/server/comands/HelpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/comands/HelpCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/InfoCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/RemoveByIdCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/ReorderCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/SaveCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/ShowCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/ShuffleCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/comands/UpdateByIdCommand.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/server/managers/CollectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/managers/CollectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/managers/Communicator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/managers/Communicator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/managers/DumpManager.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/server/managers/WorkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/managers/WorkManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/my-project-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-project-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/server.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/server.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test/src/TestDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/src/TestDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Вышалг/Лекции/6_groups.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Вышалг/Лекции/6_groups.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Дискретная_математика/2_сем/Лекции/6_planar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Дискретная_математика/2_сем/Лекции/7_digraph.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +98,7 @@
     &quot;Application.HashPassword.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.client.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.client.jar.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -222,14 +149,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="client.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/client.jar" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.client.Main" />
+      <item itemvalue="JAR Application.client.jar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.client.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.client.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -309,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777125398440</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="06-06-2026 worked serv 7">
+      <option name="closed" value="true" />
+      <created>1780750566942</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1780750566942</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +275,7 @@
     <MESSAGE value="19-04-2026" />
     <MESSAGE value="23-04-2026 worked serv nio and client io" />
     <MESSAGE value="25-04-2026 worked serv nio and client io" />
-    <option name="LAST_COMMIT_MESSAGE" value="25-04-2026 worked serv nio and client io" />
+    <MESSAGE value="06-06-2026 worked serv 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="06-06-2026 worked serv 7" />
   </component>
 </project>

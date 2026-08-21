@@ -15,7 +15,7 @@ public class AddIfMaxCollectionCommand extends CollectionCommand {
 
     public Responce execute(Request r){
         try {
-            String nameArgument = this.getArgumentByIndex(0).getName();
+            String nameArgument = this.getNameArgumentByIndex(0);
             Person p = (Person) r.defineArgByName(nameArgument);
             Person mxpers = this.getCollectionManager().getMax();
             if (mxpers.getId() < p.getId()){

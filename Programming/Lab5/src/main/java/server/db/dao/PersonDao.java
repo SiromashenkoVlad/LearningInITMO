@@ -116,7 +116,7 @@ public final class PersonDao implements SaveDao<Person, Integer>, ReadDao<Person
         return Optional.empty();
     }
 
-    public static Optional<String> readMaker(int id){
+    public Optional<String> readMaker(int id){
         String query = "Select maker from Person where id = ?";
         try (Connection conn = DataSource.getConnection();
         PreparedStatement ps = conn.prepareStatement(query)){
@@ -226,7 +226,7 @@ public final class PersonDao implements SaveDao<Person, Integer>, ReadDao<Person
         }
     }
 
-    public static boolean clear(String maker) {
+    public boolean clear(String maker) {
         String selectQuery = "SELECT location_id, coordinates_id FROM Person WHERE maker = ?";
         String deleteQuery = "DELETE FROM Person WHERE maker = ?";
         try (Connection conn = DataSource.getConnection()) {
@@ -263,6 +263,45 @@ public final class PersonDao implements SaveDao<Person, Integer>, ReadDao<Person
             }
         } catch (SQLException e) {
             LOGGER.error("Ошибка получения соединения", e);
+            return false;
+        }
+    }
+
+    public boolean clear(){
+        String query = "truncate Person";
+        try (Connection conn = DataSource.getConnection()) {
+            conn.setAutoCommit(false);
+            System.out.println(1);
+            try {
+                if(!clear(conn) | !LocationDao.getInstance().clear(conn) |
+                        !CoordinateDao.getInstance().clear(conn)){
+                    System.out.println(2);
+                    return false;
+                }
+                conn.commit();
+                System.out.println(3);
+
+                LOGGER.info("Удалены Person");
+                return true;
+            } catch (SQLException e) {
+                conn.rollback();
+                LOGGER.error("Ошибка очищения Person", e);
+                return false;
+            }
+        } catch (SQLException e) {
+            LOGGER.error("Ошибка получения соединения", e);
+            return false;
+        }
+    }
+
+    public boolean clear(Connection conn){
+        String query = "truncate Person";
+        try (Statement st = conn.createStatement()) {
+            st.executeUpdate(query);
+            LOGGER.info("Person truncate выполнено успешно");
+            return true;
+        } catch (SQLException e) {
+            LOGGER.error("Ошибка truncate Person");
             return false;
         }
     }

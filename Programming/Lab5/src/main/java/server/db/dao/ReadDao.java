@@ -8,6 +8,7 @@ import java.util.Optional;
 
 public interface ReadDao<T, R>{
     Optional<T> read(R element);
+    boolean clear(Connection conn);
     static Connection getConnection() throws SQLException {
         return DataSource.getConnection();
     }

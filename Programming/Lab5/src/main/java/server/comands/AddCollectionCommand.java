@@ -15,7 +15,8 @@ public class AddCollectionCommand extends CollectionCommand {
     @Override
     public Responce execute(Request r){
         try {
-            Person p = (Person)r.getArgs().get(this.getUsage()[0].getName());
+            String nameArgument = this.getNameArgumentByIndex(0);
+            Person p = (Person) r.defineArgByName(nameArgument);
             p.addMaker(r.getCredentialsProvider().getLogin());
             this.getCollectionManager().add(p);
             return new Responce(true, "");

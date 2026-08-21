@@ -19,10 +19,10 @@ public class CountByLocationCollectionCommand extends CollectionCommand {
     @Override
     public Responce execute(Request r) {
         try{
+            String nameArgument = this.getNameArgumentByIndex(0);
+            Location loc = (Location) r.defineArgByName(nameArgument);
             long count = this.getCollectionManager().getCollection()
-                    .stream()
-                    .filter(p -> Objects.equals(p.getLocation(),
-                            (Location) r.getArgs().get(this.getUsage()[0].getName()))).count();
+                    .stream().filter(p -> Objects.equals(p.getLocation(), loc)).count();
 
             return new Responce(true, String.valueOf(count));
         } catch (Exception e){

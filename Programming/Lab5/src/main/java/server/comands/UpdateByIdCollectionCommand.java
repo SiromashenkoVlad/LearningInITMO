@@ -5,6 +5,7 @@ import common.requests.Argument;
 import common.requests.Request;
 import common.requests.Responce;
 import server.db.dao.PersonDao;
+import server.db.dao.UserDao;
 import server.managers.CollectionManager;
 
 import java.util.Objects;
@@ -18,12 +19,14 @@ public class UpdateByIdCollectionCommand extends CollectionCommand {
     @Override
     public Responce execute(Request r){
         try{
-            System.out.println("Запрос на обновление");
-            if (!Objects.equals(r.getCredentialsProvider().getLogin(), PersonDao.readMaker(
-                    (int) r.getArgs().get(this.getUsage()[0].getName())).get()))
+            int id = (Integer) r.defineArgByName(this.getNameArgumentByIndex(0));
+            Person p = (Person) r.defineArgByName(this.getNameArgumentByIndex(1));
+            PersonDao personDao = PersonDao.getInstance();
+            String login = r.getCredentialsProvider().getLogin();
+            UserDao userDao = UserDao.getInstance();
+            if (!Objects.equals(login, personDao.readMaker(id).get()) & !userDao.readListAdmin().contains(login))
                 return new Responce(false, "У вас нет прав на изменение этого элемента");
-            getCollectionManager().updateById((int)r.getArgs().get(this.getUsage()[0].getName()),
-                    (Person) r.getArgs().get(this.getUsage()[1].getName()));
+            getCollectionManager().updateById(id, p);
             return new Responce(true, "");
         } catch (Exception e){
             return new Responce(false, "Ошибка выполнения команды update id");

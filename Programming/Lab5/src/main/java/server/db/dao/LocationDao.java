@@ -102,14 +102,24 @@ public final class LocationDao implements SaveDao<Location, Integer>, ReadDao<Lo
 
     public void removeBatch(List<Integer> ids, Connection conn) throws SQLException {
         if (ids.isEmpty()) return;
-
-        // строим "DELETE FROM Location WHERE id = ANY(?)"
         Array array = conn.createArrayOf("integer", ids.toArray());
         try (PreparedStatement pr = conn.prepareStatement(
                 "DELETE FROM Location WHERE id = ANY(?)")) {
             pr.setArray(1, array);
             pr.executeUpdate();
             LOGGER.info("Удалено Location ids=" + ids);
+        }
+    }
+
+    public boolean clear(Connection conn){
+        String query = "truncate Location";
+        try (Statement st = conn.createStatement()){
+            st.executeUpdate(query);
+            LOGGER.info("Удалены Location");
+            return true;
+        } catch (SQLException e) {
+            LOGGER.error("Ошибка удаления очищения Location", e);
+            return false;
         }
     }
 }
