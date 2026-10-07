@@ -1,0 +1,7 @@
+[project]
+name = "first-lab"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "unittest-xml-reporting>=4.0.0",
+]

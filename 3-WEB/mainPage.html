@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Лабораторная работа №1</title>
+
+    <style>
+      #cns {
+        background: wheat;
+        border: 1px solid black;
+      }
+      canvas{
+        background: pink;
+      }
+
+      header > ul {
+        font-family: "sans-serif";
+        font-size: medium;
+        color: black;
+      }
+      td label{
+        font-family : "Cousine Nerd Font Mono", "monospace";
+      }
+      input[type="text"]{
+        padding: 1%;
+        margin: 1%;
+        font-family: cursive;
+      }
+      header::before{
+        content: "Lab1";
+        font-weight: bold;
+        font-size: large;
+      }
+      #resultTable{
+        padding: 2px;
+      }
+    </style>
+  </head>
+  <header>
+    <ul>
+      <li>ФИО студента: Сиромашенко Владислав Романович</li>
+      <li>Группа: P3209</li>
+      <li>Номер варианта: 12650</li>
+    </ul>
+  </header>
+
+  <body>
+    <table class="main">
+      <canvas id="cns" width="500" height="500"></canvas>
+
+      <form id="form" method="POST">
+        <tr>
+          <td>
+            <label> Введите координату X: <input type="text" maxlength="15" id="inputX" name="labelX" placeholder="Число принадлежит [-3;3]" required> </label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label> Введите координату Y: <input type="text" maxlength="15" name="labelY" placeholder="Число принадлежит [-5;5]" required> </label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label> Выберите значение R: </label>
+            <select name="selectR" required>
+              <option>1</option>
+              <option>1.5</option>
+              <option>2</option>
+              <option>2.5</option>
+              <option>3</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit">Отправить заявку</button>
+          </td>
+        </tr>
+      </form>
+      <table id="resultTable" border=1>
+        <thead>
+          <tr>
+            <td>Значение X</td>
+            <td>Значение Y</td>
+            <td>Значение R</td>
+            <td>Дата</td>
+            <td>Время</td>
+            <td>Итог</td>
+          </tr>
+        </thead>
+      </table>
+    </table>
+    <script src="rawCanvas.js"></script>
+    <script src="apply.js"></script>
+  </body>
+</html>
