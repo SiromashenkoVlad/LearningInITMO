@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="2-lab:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25167ffb-ea83-4c4b-bd5f-a79ce63326d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../3-ComputerArchitecture/3lab/risk-iv/acc32-upper_case_cstr.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3-ComputerArchitecture/3lab/risk-iv/acc32-upper_case_cstr.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3-ComputerArchitecture/3lab/risk-iv/links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../3-ComputerArchitecture/3lab/risk-iv/links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3-ComputerArchitecture/3lab/risk-iv/sum_word_pstream.s" beforeDir="false" afterPath="$PROJECT_DIR$/../../3-ComputerArchitecture/3lab/risk-iv/sum_word_pstream.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3-ComputerArchitecture/wrench" beforeDir="false" afterPath="$PROJECT_DIR$/../../3-ComputerArchitecture/wrench" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3-Prog-lang/first-lab/assignment-1-io-library" beforeDir="false" afterPath="$PROJECT_DIR$/../../3-Prog-lang/first-lab/assignment-1-io-library" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3-Prog-lang/first-lab/forkdir/assignment-1-io-library" beforeDir="false" afterPath="$PROJECT_DIR$/../../3-Prog-lang/first-lab/forkdir/assignment-1-io-library" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apply.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../internet-v26.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_Полное_Руководство_Дэвид_Флэнаган.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mainPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rawCanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/client/Interrogator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/client/Interrogator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/client/console/StandartConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/client/console/StandartConsole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/client/readArguments/IdRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/client/readArguments/IdRead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/client/readArguments/StringRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/client/readArguments/StringRead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/enums/WorkMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/enums/WorkMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/exceptions/DisconnectFromServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/exceptions/DisconnectFromServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/exceptions/IncorrectDataInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/exceptions/IncorrectDataInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/mainpart/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/model/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/model/Coordinates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/model/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/model/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/requests/Argument.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/requests/Argument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/requests/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/requests/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/requests/Responce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/common/requests/Responce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/comands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/comands/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/comands/ExitCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/comands/ExitCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/comands/HelpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/comands/HelpCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/managers/CollectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/managers/CollectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/managers/Communicator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/managers/Communicator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/managers/WorkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programming/Lab5/target/classes/server/managers/WorkManager.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LNXG04GnMR5hpdvf0TB2aisKtG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/Vladislav/my_data/Work/main_rep/LearningInITMO/3-WEB/2-lab/fastcgi-lib.jar&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/Vladislav/my_data/Work/main_rep/LearningInITMO/3-WEB/2-lab/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/untitled" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Test" />
+      <module name="2-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25167ffb-ea83-4c4b-bd5f-a79ce63326d1" name="Changes" comment="" />
+      <created>1793295401326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793295401326</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,1 +1,13 @@
 https://wrench.edu.swampbuds.me/report/a8571e91-dcdd-48d6-8ba5-466153f49b74
+
+Свежая версия вренча:
+https://wrench.edu.swampbuds.me/report/80182bc0-65a8-40ef-9de4-098cbda3f0b9
+
+Версия с процедурами и со стеком:
+https://wrench.edu.swampbuds.me/report/b753d8ae-c0ea-473f-943f-2405ed667c41
+
+Поправил стэк:
+https://wrench.edu.swampbuds.me/report/f62bdbc3-ceea-4bc6-8383-69bce0dada07
+
+Обновили вренч, переделанная программа под новую версию:
+https://wrench.edu.swampbuds.me/report/5876ccea-39c0-4391-bf7c-0734cf43ae3f

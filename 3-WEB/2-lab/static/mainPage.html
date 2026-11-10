@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Лабораторная работа №2</title>
+
+    <meta charset="utf-8">
+    <style>
+      #cns {
+        background: wheat;
+        border: 1px solid black;
+      }
+      canvas{
+        background: pink;
+      }
+
+      header > ul {
+        font-family: "sans-serif";
+        font-size: medium;
+        color: black;
+      }
+      td label{
+        font-family : "Cousine Nerd Font Mono", "monospace";
+      }
+      input[type="text"]{
+        padding: 1%;
+        margin: 1%;
+        font-family: cursive;
+      }
+      header::before{
+        content: "Lab2";
+        font-weight: bold;
+        font-size: large;
+      }
+      #resultTable{
+        padding: 2px;
+      }
+    </style>
+  </head>
+  <header>
+    <ul>
+      <li>ФИО студента: Сиромашенко Владислав Романович</li>
+      <li>Группа: P3209</li>
+      <li>Номер варианта: 320965</li>
+    </ul>
+  </header>
+
+  <body>
+    <table class="main">
+      <canvas id="cns" width="500" height="500"></canvas>
+
+      <form id="form" method="POST">
+        <tr>
+          <td>
+            <label> Выберите значение X: </label>
+            <input name="labelX" type="radio" value="-5" id="radioX-5" required>
+              <label>-5</label>
+            </input>
+            <input name="labelX" type="radio" value="-4" id="radioX-4" required>
+              <label>-4</label>
+            </input>
+            <input name="labelX" type="radio" value="-3" id="radioX-3" required>
+              <label>-3</label>
+            </input>
+
+            <input name="labelX" type="radio" value="-2" id="radioX-2" required>
+              <label>-2</label>
+            </input>
+              <input name="labelX" type="radio" value="-1" id="radioX-1" required>
+            <label>-1</label>
+            </input>
+            <input name="labelX" type="radio" value="0" id="radioX0" required>
+            <label>0</label>
+            </input>
+            <input name="labelX" type="radio" value="1" id="radioX1" required>
+            <label>1</label>
+            </input>
+            <input name="labelX" type="radio" value="2" id="radioX2" required>
+            <label>2</label>
+            </input>
+            <input name="labelX" type="radio" value="3" id="radioX3" required>
+            <label>3</label>
+            </input>
+
+<!--              <option>-4</option>-->
+<!--              <option>-3</option>-->
+<!--              <option>-2</option>-->
+<!--              <option>-1</option>-->
+<!--              <option>0</option>-->
+<!--              <option>1</option>-->
+<!--              <option>2</option>-->
+<!--              <option>3</option>-->
+            </input>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label> Введите координату Y: <input type="text" name="labelY" placeholder="Число принадлежит (-3;5)" required> </label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label> Выберите значение R: </label>
+            <input name="selectR" type="radio" value="1" id="inputR1"required>
+              <label>1</label>
+            </input>
+            <input name="selectR" type="radio" value="1.5" id="inputR1_5"required>
+              <label>1.5</label>
+            </input>
+            <input name="selectR" type="radio" value="2" id="inputR2"required>
+              <label>2</label>
+            </input>
+            <input name="selectR" type="radio" value="2.5" id="inputR2_5"required>
+              <label>2.5</label>
+            </input>
+            <input name="selectR" type="radio" value="3" checked id="inputR3"required>
+              <label>3</label>
+            </input>
+<!--              <option>1</option>-->
+<!--              <option>1.5</option>-->
+<!--              <option>2</option>-->
+<!--              <option>2.5</option>-->
+<!--              <option>3</option>-->
+            </input>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit">Отправить заявку</button>
+          </td>
+        </tr>
+      </form>
+      <table id="resultTable" border=1>
+        <thead>
+          <tr>
+            <td>Значение X</td>
+            <td>Значение Y</td>
+            <td>Значение R</td>
+            <td>Дата</td>
+            <td>Время</td>
+            <td>Итог</td>
+          </tr>
+        </thead>
+      </table>
+    </table>
+    <script src="rawCanvas.js"></script>
+    <script src="apply.js"></script>
+  </body>
+</html>
